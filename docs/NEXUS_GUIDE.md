@@ -31,7 +31,7 @@ Skin Studio comes as **two files**, both on the Nexus page's **Files** tab, and 
 
 **1. Install the in-game mod (main file)**
 
-- **With Vortex:** click **Mod Manager Download** on the main file and deploy. Then check that the three `!!SkinLive_9999999_P` files (`.pak`, `.ucas`, `.utoc`) are in `~mods`.
+- **With Vortex:** click **Mod Manager Download** on the main file and deploy. Vortex puts the three `!!SkinLive_9999999_P` files (`.pak`, `.ucas`, `.utoc`) in a subfolder of `~mods`. From there another UI mod (Project Galacta, for one) can load ahead of it and F8 does nothing, so Skin Studio copies them to the top of `~mods` when you open the app with the game closed. Open the app once after any Vortex install or update, before you play.
 - **By hand:** open the game's `~mods` folder (on Steam: right-click Marvel Rivals > Manage > Browse local files, then open `MarvelGame\Marvel\Content\Paks\~mods`; create `~mods` if it does not exist). Unzip the `SkinStudio-InGame` download into it, so the three `!!SkinLive_9999999_P` files sit directly in `~mods`.
 
 **2. Install the app (second file)**
@@ -120,7 +120,7 @@ Live preview is only visible on your own screen and only while Skin Studio runs.
 **F8 does nothing.**
 1. Is Skin Studio open? The panel is drawn by the app on your PC (the second file on the Files tab), so with nothing running F8 shows nothing. Open the app, then press F8 again; presses made before the app was running are thrown away.
 2. Are you in a match with a hero on the field? The lobby has no hero to edit.
-3. Are the three `!!SkinLive_9999999_P` files still in `~mods`? A Vortex redeploy can remove them.
+3. Are the three `!!SkinLive_9999999_P` files still in `~mods`? A Vortex redeploy can remove them. Are they directly in `~mods`, not only in a Vortex subfolder? Close the game and open Skin Studio, and it copies them up.
 4. Did a game patch just come out? See below.
 
 **The game crashes at launch after a patch.** This mod includes a small Blueprint, which a game update can break. Remove the three `!!SkinLive_9999999_P` files from `~mods` and wait for an updated version. Skins you built with Skin Studio are texture-only and are not affected. Also check other mods: older Blueprint, VFX and per-map mods are a common crash cause after an update.
@@ -138,7 +138,7 @@ Live preview is only visible on your own screen and only while Skin Studio runs.
 ## Uninstall
 
 1. Close Skin Studio and Marvel Rivals.
-2. From `~mods`, delete the three `!!SkinLive_9999999_P` files (or remove the mod in Vortex).
+2. From `~mods`, delete the three `!!SkinLive_9999999_P` files, and also remove the mod in Vortex if you installed it that way (Skin Studio may have copied the files to the top of `~mods`, which Vortex does not remove).
 3. Delete `%LOCALAPPDATA%\SkinStudio`. Copy its `designs` folder somewhere first if you want to keep your designs.
 4. Delete **Skin Studio** from the Start menu, and the Startup shortcut if you made one.
 

@@ -3483,6 +3483,8 @@ $frm.Add_Shown({
     if ($env:RS_SS_SMOKE) { return }     # never launch a watcher from a test render
     # the in-game helper, in case Windows did not start it at sign-in
     try { if (LS-StartHelper) { Write-Host 'started the in-game helper' } } catch {}
+    # the in-game mod must load ahead of other mods (see livestate.ps1)
+    try { $m = LS-EnsureLiveModAtRoot $SS_Paks; if ($m) { Write-Host $m; Set-Status ('In-game mod: ' + $m) } } catch {}
     if (Test-Path -LiteralPath $script:LiveFlag) {
         Start-LiveWatcher
         Set-Status 'Live preview resumed (it was on when the studio last closed) - save a design, then F6 in game.'

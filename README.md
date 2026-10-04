@@ -10,7 +10,7 @@ Skin Studio is two downloads, and you need both:
 To install:
 
 1. Close Marvel Rivals.
-2. Install the in-game mod with Vortex, or unzip it into the game's `MarvelGame\Marvel\Content\Paks\~mods` folder (on Steam: right-click Marvel Rivals > Manage > Browse local files; create `~mods` if it isn't there). The three `!!SkinLive_9999999_P` files should sit directly in `~mods`.
+2. Install the in-game mod with Vortex, or unzip it into the game's `MarvelGame\Marvel\Content\Paks\~mods` folder (on Steam: right-click Marvel Rivals > Manage > Browse local files; create `~mods` if it isn't there). The three `!!SkinLive_9999999_P` files should sit directly in `~mods`, so they load ahead of other UI mods such as Project Galacta. If Vortex puts them in a subfolder, Skin Studio copies them to the top of `~mods` the next time it opens with the game closed, so open the app once before you play.
 3. Unzip the app anywhere outside the game folder and double-click `SkinStudio\Start Skin Studio.bat` once. It installs to `%LOCALAPPDATA%\SkinStudio` and adds Skin Studio to the Start menu.
 4. **Open Skin Studio before you launch the game**, then press **F8** in a match for the panel. The panel is drawn by the app, so it only works while the app is running.
 

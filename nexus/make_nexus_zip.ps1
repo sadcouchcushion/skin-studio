@@ -59,7 +59,12 @@ $top = @(Get-ChildItem -LiteralPath $root -File | Where-Object {
     $_.Name -notlike '*.bak*' -and $_.Extension -in '.ps1', '.cs', '.json', '.txt', '.bat' -and
     $_.Name -notin 'build-vuistyle.ps1', 'Try In-Game Panel.bat', 'game_paks.txt' })
 foreach ($f in $top) { Copy-Item -LiteralPath $f.FullName -Destination $app }
-Copy-Tree (Join-Path $root 'ingame')   (Join-Path $app 'ingame')
+# ingame\: only what the app runs. The rest of ingame\ builds the !!SkinLive
+# mod in Unreal on the dev PC (ue_drive.ps1 drives the editor's mouse, keys and
+# screen, which Defender's ML rules call Trojan:Script/Wacatac) - not shipped
+$ingameRuntime = @('helper.ps1', 'livestate.ps1', 'panel_server.ps1', 'livepak.ps1', 'SkinPanel.cs')
+New-Item -ItemType Directory -Force -Path (Join-Path $app 'ingame') | Out-Null
+foreach ($f in $ingameRuntime) { Copy-Item -LiteralPath (Join-Path $root "ingame\$f") -Destination (Join-Path $app 'ingame') }
 Copy-Tree (Join-Path $root 'viewer')   (Join-Path $app 'viewer')
 Copy-Tree (Join-Path $root 'branding') (Join-Path $app 'branding') @('build-branding.ps1')
 Copy-Tree (Join-Path $root 'colortool\bin\Release\net8.0') (Join-Path $app 'colortool\bin\Release\net8.0')
