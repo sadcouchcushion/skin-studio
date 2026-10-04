@@ -14,7 +14,10 @@
 #   powershell -File nexus\make_nexus_zip.ps1 -Version 1.0.1
 param(
     [Parameter(Mandatory)][string]$Version,
-    [string]$Out = (Join-Path $env:USERPROFILE 'Downloads')
+    [string]$Out = (Join-Path $env:USERPROFILE 'Downloads'),
+    # folder holding the !!SkinLive files to ship, when they are not in ~mods
+    # right now (e.g. an unzipped earlier SkinStudio-InGame zip)
+    [string]$LiveFrom = ''
 )
 $ErrorActionPreference = 'Stop'
 $root  = Split-Path $PSScriptRoot -Parent
@@ -67,6 +70,16 @@ Copy-Tree (Join-Path $SS_Tools 'rrcli')    (Join-Path $app 'tools\rrcli')
 # ddstools: only python\ and src\ are used (the app runs src\main.py itself); its
 # own .bat front-ends, web shortcut and compiled .pyc caches are left out
 Copy-Tree (Join-Path $SS_Tools 'ddstools') (Join-Path $app 'tools\ddstools') @('*.bat', '*.url', '*.pyc') @('__pycache__')
+# no zip inside the zip (Nexus quarantines nested archives): the embedded
+# Python's standard library ships unpacked as python\Lib, which Python finds
+# on its own when python310.zip is not there
+$py = Join-Path $app 'tools\ddstools\python'
+Expand-Archive -LiteralPath (Join-Path $py 'python310.zip') -DestinationPath (Join-Path $py 'Lib')
+Remove-Item -LiteralPath (Join-Path $py 'python310.zip')
+# the stdlib's one .bat (a macOS ctypes helper) is never used here
+Get-ChildItem -LiteralPath (Join-Path $py 'Lib') -Recurse -File -Filter '*.bat' | Remove-Item -Force
+$nested = @(Get-ChildItem -LiteralPath $appStage -Recurse -File | Where-Object { $_.Extension -in '.zip', '.7z', '.rar' })
+if ($nested.Count) { throw ("archives inside the app download: " + ($nested.FullName -join ', ')) }
 Copy-Item -LiteralPath (Join-Path $SS_Tools 'retoc.exe') -Destination (Join-Path $app 'tools')
 Set-Content -LiteralPath (Join-Path $app 'VERSION.txt') -Value $Version -Encoding ASCII
 
@@ -101,7 +114,7 @@ if ($bad.Count) { throw ("mountable files in the app download: " + ($bad.FullNam
 
 # --- in-game mod download: the three files at the zip root, exactly as installed now ---
 # (straight in ~mods, or in the subfolder Vortex deploys it to; there must be exactly one)
-$mods = Join-Path $SS_Paks '~mods'
+$mods = if ($LiveFrom) { $LiveFrom } else { Join-Path $SS_Paks '~mods' }
 $live = @(Get-ChildItem -LiteralPath $mods -Recurse -File -Filter '!!SkinLive_9999999_P.pak')
 if ($live.Count -ne 1) { throw ("expected one !!SkinLive_9999999_P.pak under $mods, found {0}: {1}" -f $live.Count, ($live.FullName -join ', ')) }
 foreach ($ext in 'pak', 'ucas', 'utoc') {

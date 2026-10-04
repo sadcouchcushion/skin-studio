@@ -11,6 +11,7 @@ Skin Studio is plain PowerShell, C# and JavaScript plus a few open-source moddin
 | `Add-Type` compiling C# at run time | Used by some script malware. | The C# is the readable `SkinArt.cs`, `ingame/SkinPanel.cs` and `viewer/ViewArt.cs` in this repository (image and window code). |
 | Unsigned `.exe` files | Unsigned programs with few downloads get "generic" or machine-learning detections (names like `Wacatac`, `Generic.ML`, `Malicious (score…)`). | `retoc.exe` and `retoc-rivals-cli.exe` are open-source Rust tools, copied unchanged (see BUILDING.md for sources and hashes). `SkinColorTool.exe` is built from `colortool/` and, since 1.0.3, carries product, company, version and icon details. |
 | `oo2core_9_win64.dll` | The Oodle decompressor that Unreal games ship; rarely seen outside games. | Unchanged, needed to read the game's files. |
+| A zip inside the zip (`python310.zip`, the embedded Python's standard library) | Nexus quarantines nested archives automatically. | Since 1.0.3 it ships unpacked as `tools/ddstools/python/Lib`, and the build refuses to make a download with an archive inside. |
 | Extra `.bat`, `.url` and `.pyc` files from ddstools | Script and shortcut files inside archives raise heuristic scores. | Left out of the download since 1.0.3; the app runs ddstools' `main.py` directly. |
 
 `SkinStudio/SHA256SUMS.txt` in the app zip has the hash of every file, so a detection can be matched to one file.

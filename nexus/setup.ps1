@@ -29,10 +29,19 @@ $oldVer = if (Test-Path -LiteralPath (Join-Path $dst 'VERSION.txt')) { (Get-Cont
 if ($newVer -ne $oldVer) {
     $running = @(Get-CimInstance Win32_Process -Filter "Name='powershell.exe'" -ErrorAction SilentlyContinue |
         Where-Object { $_.CommandLine -and $_.CommandLine -like ('*' + $dst + '*') })
+    # the in-game helper (ingame\helper.ps1, no window) stays up after the app
+    # closes; with the game closed it is only waiting, so stop it and say so
+    $gameUp = [bool](Get-Process -Name 'Marvel-Win64-Shipping', 'MarvelRivals' -ErrorAction SilentlyContinue)
+    $helpers = @($running | Where-Object { $_.CommandLine -like '*\ingame\helper.ps1*' })
+    if ($helpers.Count -and -not $gameUp) {
+        foreach ($h in $helpers) { Stop-Process -Id $h.ProcessId -Force -ErrorAction SilentlyContinue }
+        Say ('Stopped the Skin Studio in-game helper from the old install ({0} process).' -f $helpers.Count)
+        $running = @($running | Where-Object { $_.CommandLine -notlike '*\ingame\helper.ps1*' })
+    }
     if ($running.Count) {
-        Say 'Skin Studio (or its in-game helper) is running from the old install.'
+        Say 'Skin Studio (or its in-game helper) is running from the old install:'
+        foreach ($r in $running) { Say ('  process {0}: {1}' -f $r.ProcessId, $r.CommandLine) }
         Say 'Close Skin Studio and Marvel Rivals, then run Start Skin Studio again.'
-        Read-Host 'Press Enter to close'
         exit 1
     }
     Say ("Installing Skin Studio {0} to {1} ..." -f $newVer, $dst)
