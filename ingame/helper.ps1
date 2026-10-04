@@ -326,9 +326,16 @@ HLog ('helper up (pid {0}) - watching for Rivals' -f $PID)
 $lastStart = [DateTime]::MinValue
 $fails = 0
 $wasUp = $false
+$lastModCheck = [DateTime]::MinValue
 while ($true) {
     $up = LS-GameUp
     if ($up -ne $wasUp) { HLog $(if ($up) { 'Rivals is running' } else { 'Rivals closed' }); $wasUp = $up; if ($up) { Write-HelperFlag } }
+    # a Vortex install or update can land the in-game mod in a folder that
+    # loads after other mods: check about once a minute while the game is closed
+    if (-not $up -and ([DateTime]::Now - $lastModCheck).TotalSeconds -ge 60) {
+        $lastModCheck = [DateTime]::Now
+        try { $m = LS-EnsureLiveModAtRoot; if ($m) { HLog $m } } catch {}
+    }
     Test-BuildRequests
     Test-Protect
     Test-DesignSync

@@ -50,6 +50,17 @@ if ($newVer -ne $oldVer) {
     # work, output) are not in app\ and are left alone
     & robocopy.exe $src $dst /E /NFL /NDL /NJH /NJS /NP | Out-Null
     if ($LASTEXITCODE -ge 8) { throw "copy failed (robocopy exit $LASTEXITCODE)" }
+    # files older versions installed that the app no longer ships (Unreal build
+    # tools, ddstools front-ends, the zipped Python library): /E leaves them, so
+    # remove them by name
+    $retired = @('build_live_mod.ps1', 'check_paste.ps1', 'compare_class.ps1', 'gen_graphs.ps1', 'panel_sim.ps1',
+            'paste_probe.ps1', 'patch_hud_calls.ps1', 'patch_live_calls.ps1', 'ue_drive.ps1', 'zenparse.ps1' | ForEach-Object { "ingame\$_" }) +
+        @('_0_check_version.bat', '_1_export_as_tga.bat', '_2_set_asset_path.bat', '_3_inject.bat', '_copy.bat', '_parse.bat', 'README.url', 'python\python310.zip' |
+            ForEach-Object { "tools\ddstools\$_" })
+    foreach ($r in $retired) {
+        $p = Join-Path $dst $r
+        if (Test-Path -LiteralPath $p) { Remove-Item -LiteralPath $p -Force -ErrorAction SilentlyContinue }
+    }
     foreach ($sub in 'designs', 'images', 'output', 'work', 'cache') { New-Item -ItemType Directory -Force -Path (Join-Path $dst $sub) | Out-Null }
 }
 

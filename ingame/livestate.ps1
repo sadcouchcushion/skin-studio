@@ -60,6 +60,43 @@ function LS-GameUp {
     [bool](Get-Process -Name $names -ErrorAction SilentlyContinue)
 }
 
+# The in-game mod has to load ahead of other mods. !!SkinLive and Project
+# Galacta both replace WBP_UIDPanel, and only one copy is used. Loose at the
+# top of ~mods, "!!SkinLive" wins. Vortex puts each mod in a load-order folder
+# (AAA-, AAB-, ...), and from one that sorts after Galacta's, Galacta wins and F8
+# does nothing (seen 2026-10-04: AAU- after AAP-, and no SkinLiveInit.sav).
+# So when the only copy is in a subfolder, or the subfolder copy is
+# different, copy it to the top of ~mods. Only while the game is closed (its
+# files are locked when running). Returns a line for the log, or '' when there
+# is nothing to do.
+function LS-EnsureLiveModAtRoot([string]$paks = '') {
+    if (-not $paks) {
+        $cfg = Join-Path $script:LS_Root 'game_paks.txt'
+        if ([IO.File]::Exists($cfg)) { $paks = ([IO.File]::ReadAllText($cfg)).Trim() }
+    }
+    $mods = if ($paks) { Join-Path $paks '~mods' } else { '' }
+    if (-not $mods -or -not [IO.Directory]::Exists($mods) -or (LS-GameUp)) { return '' }
+    $name = '!!SkinLive_9999999_P'
+    $root = Join-Path $mods ($name + '.utoc')
+    $nested = @(Get-ChildItem -LiteralPath $mods -Recurse -File -Filter ($name + '.utoc') -ErrorAction SilentlyContinue |
+        Where-Object { $_.DirectoryName -ine $mods } | Sort-Object LastWriteTimeUtc -Descending)
+    if (-not $nested.Count) { return '' }
+    $src = $nested[0].DirectoryName
+    $same = $true
+    foreach ($ext in 'pak', 'ucas', 'utoc') {
+        $a = Join-Path $src ('{0}.{1}' -f $name, $ext); $b = Join-Path $mods ('{0}.{1}' -f $name, $ext)
+        if (-not [IO.File]::Exists($a)) { return ('in-game mod in {0} is missing its .{1} file' -f $src, $ext) }
+        if (-not [IO.File]::Exists($b) -or (Get-FileHash -LiteralPath $a).Hash -ne (Get-FileHash -LiteralPath $b).Hash) { $same = $false }
+    }
+    if ($same) { return '' }
+    try {
+        foreach ($ext in 'pak', 'ucas', 'utoc') {
+            Copy-Item -LiteralPath (Join-Path $src ('{0}.{1}' -f $name, $ext)) -Destination $mods -Force
+        }
+    } catch { return ('could not copy the in-game mod to the top of ~mods: ' + $_.Exception.Message) }
+    'copied the in-game mod from {0} to the top of ~mods, so it loads ahead of other mods' -f (Split-Path $src -Leaf)
+}
+
 # the in-game helper (ingame\helper.ps1): running? start it (no window)
 $script:LS_HelperMutex = 'Local\ChicorySkinStudioHelper'
 function LS-HelperAlive {
