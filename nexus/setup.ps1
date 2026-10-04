@@ -1,8 +1,8 @@
-# setup.ps1 - runs from the Nexus download inside the game's ~mods folder.
+# setup.ps1 - runs from the unzipped app download (SkinStudio-App-<ver>.zip).
 # Copies the app (app\) to %LOCALAPPDATA%\SkinStudio, tells it where the game
 # is, makes a Start menu shortcut and starts Skin Studio. The app's cache,
 # work files and built paks then live in AppData: anything with a .pak/.utoc
-# inside ~mods gets mounted by the game, so the app must not run from here.
+# inside ~mods gets mounted by the game, so the app must not run from there.
 # Re-running it after a new download updates the app and keeps designs/cache.
 param([switch]$NoLaunch)
 $ErrorActionPreference = 'Stop'
@@ -48,7 +48,7 @@ if ($paks) {
     [IO.File]::WriteAllText((Join-Path $dst 'game_paks.txt'), $paks)
     Say ("Game found: {0}" -f $paks)
 } elseif (-not (Test-Path -LiteralPath (Join-Path $dst 'game_paks.txt'))) {
-    Say 'This folder is not inside the game''s ~mods folder, so Skin Studio will look for the game in your Steam and Epic libraries.'
+    Say 'Skin Studio will find Marvel Rivals in your Steam or Epic library when it opens.'
 }
 
 $lnkDir = Join-Path $env:APPDATA 'Microsoft\Windows\Start Menu\Programs'
