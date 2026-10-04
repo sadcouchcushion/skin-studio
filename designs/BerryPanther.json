@@ -1,0 +1,179 @@
+﻿{
+    "modName":  "BerryPanther",
+    "displayName":  "Berry Panther",
+    "hero":  "1026",
+    "skin":  "1026001",
+    "chromaSkins":  [
+
+                    ],
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1026\\1026001\\Textures\\T_1026001_Weapon_02_D.png":  [
+                                                                                                                {
+                                                                                                                    "strength":  1,
+                                                                                                                    "protectSkin":  true,
+                                                                                                                    "color":  "#40177E",
+                                                                                                                    "gradDir":  "v",
+                                                                                                                    "satMul":  1,
+                                                                                                                    "hueShift":  0,
+                                                                                                                    "color2":  "#DF9BAD",
+                                                                                                                    "mode":  "gradpaint",
+                                                                                                                    "color3":  "#9EBD94",
+                                                                                                                    "lightMul":  1,
+                                                                                                                    "color4":  "#78C8DC"
+                                                                                                                }
+                                                                                                            ],
+                "Marvel\\Content\\Marvel\\Characters\\1026\\1026001\\Textures\\T_1026001_Head_S.png":  [
+                                                                                                           {
+                                                                                                               "strength":  1,
+                                                                                                               "protectSkin":  true,
+                                                                                                               "color":  "#40177E",
+                                                                                                               "gradDir":  "v",
+                                                                                                               "satMul":  1,
+                                                                                                               "hueShift":  0,
+                                                                                                               "color2":  "#DF9BAD",
+                                                                                                               "mode":  "gradpaint",
+                                                                                                               "color3":  "#9EBD94",
+                                                                                                               "lightMul":  1,
+                                                                                                               "color4":  "#78C8DC"
+                                                                                                           }
+                                                                                                       ],
+                "Marvel\\Content\\Marvel\\Characters\\1026\\1026001\\Textures\\T_1026001_Head_D.png":  [
+                                                                                                           {
+                                                                                                               "strength":  1,
+                                                                                                               "protectSkin":  true,
+                                                                                                               "color":  "#40177E",
+                                                                                                               "gradDir":  "v",
+                                                                                                               "satMul":  1,
+                                                                                                               "hueShift":  0,
+                                                                                                               "color2":  "#DF9BAD",
+                                                                                                               "mode":  "gradpaint",
+                                                                                                               "color3":  "#9EBD94",
+                                                                                                               "lightMul":  1,
+                                                                                                               "color4":  "#78C8DC"
+                                                                                                           }
+                                                                                                       ],
+                "Marvel\\Content\\Marvel\\Characters\\1026\\1026001\\Textures\\T_1026001_Body_01_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "protectSkin":  true,
+                                                                                                                  "color":  "#40177E",
+                                                                                                                  "gradDir":  "v",
+                                                                                                                  "satMul":  1,
+                                                                                                                  "hueShift":  0,
+                                                                                                                  "color2":  "#DF9BAD",
+                                                                                                                  "mode":  "gradpaint",
+                                                                                                                  "color3":  "#9EBD94",
+                                                                                                                  "lightMul":  1,
+                                                                                                                  "color4":  "#78C8DC"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1026\\1026001\\Textures\\T_1026001_Weapon_01_D.png":  [
+                                                                                                                {
+                                                                                                                    "strength":  1,
+                                                                                                                    "protectSkin":  true,
+                                                                                                                    "color":  "#40177E",
+                                                                                                                    "gradDir":  "v",
+                                                                                                                    "satMul":  1,
+                                                                                                                    "hueShift":  0,
+                                                                                                                    "color2":  "#DF9BAD",
+                                                                                                                    "mode":  "gradpaint",
+                                                                                                                    "color3":  "#9EBD94",
+                                                                                                                    "lightMul":  1,
+                                                                                                                    "color4":  "#78C8DC"
+                                                                                                                }
+                                                                                                            ],
+                "Marvel\\Content\\Marvel\\Characters\\1026\\1026001\\Slots\\Accessories\\3810260001\\Texture\\T_Slot_381026_0001_Equip_01_D.png":  [
+                                                                                                                                                       {
+                                                                                                                                                           "strength":  1,
+                                                                                                                                                           "protectSkin":  true,
+                                                                                                                                                           "color":  "#40177E",
+                                                                                                                                                           "gradDir":  "v",
+                                                                                                                                                           "satMul":  1,
+                                                                                                                                                           "hueShift":  0,
+                                                                                                                                                           "color2":  "#FF0346",
+                                                                                                                                                           "mode":  "gradpaint",
+                                                                                                                                                           "color3":  "#9EBD94",
+                                                                                                                                                           "lightMul":  1,
+                                                                                                                                                           "color4":  "#78C8DC"
+                                                                                                                                                       }
+                                                                                                                                                   ],
+                "Marvel\\Content\\Marvel\\Characters\\1026\\1026001\\Textures\\T_1026001_Body_01_S.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "protectSkin":  true,
+                                                                                                                  "color":  "#40177E",
+                                                                                                                  "gradDir":  "v",
+                                                                                                                  "satMul":  1,
+                                                                                                                  "hueShift":  0,
+                                                                                                                  "color2":  "#DF9BAD",
+                                                                                                                  "mode":  "gradpaint",
+                                                                                                                  "color3":  "#9EBD94",
+                                                                                                                  "lightMul":  1,
+                                                                                                                  "color4":  "#78C8DC"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1026\\1026001\\Textures\\T_1026001_Equip_S.png":  [
+                                                                                                            {
+                                                                                                                "strength":  1,
+                                                                                                                "protectSkin":  true,
+                                                                                                                "color":  "#40177E",
+                                                                                                                "gradDir":  "v",
+                                                                                                                "satMul":  1,
+                                                                                                                "hueShift":  0,
+                                                                                                                "color2":  "#DF9BAD",
+                                                                                                                "mode":  "gradpaint",
+                                                                                                                "color3":  "#9EBD94",
+                                                                                                                "lightMul":  1,
+                                                                                                                "color4":  "#78C8DC"
+                                                                                                            }
+                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1026\\1026001\\Textures\\Merge_Texture\\T_1026001_LOD2_S.png":  [
+                                                                                                                          {
+                                                                                                                              "strength":  1,
+                                                                                                                              "protectSkin":  true,
+                                                                                                                              "color":  "#40177E",
+                                                                                                                              "gradDir":  "v",
+                                                                                                                              "satMul":  1,
+                                                                                                                              "hueShift":  0,
+                                                                                                                              "color2":  "#DF9BAD",
+                                                                                                                              "mode":  "gradpaint",
+                                                                                                                              "color3":  "#9EBD94",
+                                                                                                                              "lightMul":  1,
+                                                                                                                              "color4":  "#78C8DC"
+                                                                                                                          }
+                                                                                                                      ],
+                "Marvel\\Content\\Marvel\\Characters\\1026\\1026001\\Textures\\Merge_Texture\\T_1026001_LOD2_D.png":  [
+                                                                                                                          {
+                                                                                                                              "strength":  1,
+                                                                                                                              "protectSkin":  true,
+                                                                                                                              "color":  "#40177E",
+                                                                                                                              "gradDir":  "v",
+                                                                                                                              "satMul":  1,
+                                                                                                                              "hueShift":  0,
+                                                                                                                              "color2":  "#DF9BAD",
+                                                                                                                              "mode":  "gradpaint",
+                                                                                                                              "color3":  "#9EBD94",
+                                                                                                                              "lightMul":  1,
+                                                                                                                              "color4":  "#78C8DC"
+                                                                                                                          }
+                                                                                                                      ],
+                "Marvel\\Content\\Marvel\\Characters\\1026\\1026001\\Textures\\T_1026001_Equip_D.png":  [
+                                                                                                            {
+                                                                                                                "strength":  1,
+                                                                                                                "protectSkin":  true,
+                                                                                                                "color":  "#40177E",
+                                                                                                                "gradDir":  "v",
+                                                                                                                "satMul":  1,
+                                                                                                                "hueShift":  0,
+                                                                                                                "color2":  "#DF9BAD",
+                                                                                                                "mode":  "gradpaint",
+                                                                                                                "color3":  "#9EBD94",
+                                                                                                                "lightMul":  1,
+                                                                                                                "color4":  "#78C8DC"
+                                                                                                            }
+                                                                                                        ]
+            },
+    "colorOps":  {
+
+                 }
+}

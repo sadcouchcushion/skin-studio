@@ -1,0 +1,39 @@
+﻿{
+    "modName":  "ChocoSUe",
+    "displayName":  "Choco SUe",
+    "hero":  "1050",
+    "skin":  "1050301",
+    "chromaSkins":  [
+
+                    ],
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050301\\Weapons\\Hat\\Textures\\T_WP_1050301_Hat_D.png":  [
+                                                                                                                           {
+                                                                                                                               "strength":  0.92,
+                                                                                                                               "satMul":  1,
+                                                                                                                               "color":  "#1D0C03",
+                                                                                                                               "hueShift":  0,
+                                                                                                                               "lightMul":  1,
+                                                                                                                               "protectSkin":  true,
+                                                                                                                               "mode":  "paint"
+                                                                                                                           }
+                                                                                                                       ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050301\\Textures\\T_1050301_Equip_01_D.png":  [
+                                                                                                               {
+                                                                                                                   "strength":  0.92,
+                                                                                                                   "file":  "C:\\rs\\SkinStudio\\work\\edit\\1050301\\T_1050301_Equip_01_D.png",
+                                                                                                                   "mode":  "replace"
+                                                                                                               }
+                                                                                                           ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050301\\Textures\\T_1050301_Equip_02_D.png":  [
+                                                                                                               {
+                                                                                                                   "strength":  0.92,
+                                                                                                                   "file":  "C:\\rs\\SkinStudio\\work\\edit\\1050301\\T_1050301_Equip_02_D.png",
+                                                                                                                   "mode":  "replace"
+                                                                                                               }
+                                                                                                           ]
+            },
+    "colorOps":  {
+
+                 }
+}

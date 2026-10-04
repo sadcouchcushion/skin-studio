@@ -1,0 +1,125 @@
+{
+    "modName":  "rusty",
+    "displayName":  "rusty",
+    "hero":  "1034",
+    "skin":  "1034504",
+    "chromaSkins":  [
+
+                    ],
+    "madeInGame":  true,
+    "ops":  {
+
+            },
+    "colorOps":  {
+                     "Marvel/Content/Marvel/Characters/1034/1034504/Materials/Lobby/MI_1034504_Body_03.uasset":  [
+                                                                                                                     {
+                                                                                                                         "export":  0,
+                                                                                                                         "ordinal":  0,
+                                                                                                                         "name":  "BaseTint",
+                                                                                                                         "r":  0.871367,
+                                                                                                                         "g":  0.254152,
+                                                                                                                         "b":  0.017642
+                                                                                                                     }
+                                                                                                                 ],
+                     "Marvel/Content/Marvel/Characters/1034/1034504/Materials/MI_1034504_Body_03.uasset":  [
+                                                                                                               {
+                                                                                                                   "export":  0,
+                                                                                                                   "ordinal":  0,
+                                                                                                                   "name":  "BaseTint",
+                                                                                                                   "r":  0.871367,
+                                                                                                                   "g":  0.254152,
+                                                                                                                   "b":  0.017642
+                                                                                                               }
+                                                                                                           ],
+                     "Marvel/Content/Marvel/Characters/1034/1034504/Materials/Lobby/MI_1034504_Body_01.uasset":  [
+                                                                                                                     {
+                                                                                                                         "export":  0,
+                                                                                                                         "ordinal":  0,
+                                                                                                                         "name":  "BaseTint",
+                                                                                                                         "r":  0.871367,
+                                                                                                                         "g":  0.254152,
+                                                                                                                         "b":  0.017642
+                                                                                                                     }
+                                                                                                                 ],
+                     "Marvel/Content/Marvel/Characters/1034/1034504/Materials/MI_1034504_Body_01.uasset":  [
+                                                                                                               {
+                                                                                                                   "export":  0,
+                                                                                                                   "ordinal":  0,
+                                                                                                                   "name":  "BaseTint",
+                                                                                                                   "r":  0.871367,
+                                                                                                                   "g":  0.254152,
+                                                                                                                   "b":  0.017642
+                                                                                                               }
+                                                                                                           ],
+                     "Marvel/Content/Marvel/Characters/1034/1034504/Materials/Lobby/MI_1034504_Head.uasset":  [
+                                                                                                                  {
+                                                                                                                      "export":  0,
+                                                                                                                      "ordinal":  0,
+                                                                                                                      "name":  "BaseTint",
+                                                                                                                      "r":  0.871367,
+                                                                                                                      "g":  0.254152,
+                                                                                                                      "b":  0.017642
+                                                                                                                  }
+                                                                                                              ],
+                     "Marvel/Content/Marvel/Characters/1034/1034504/Materials/MI_1034504_Head.uasset":  [
+                                                                                                            {
+                                                                                                                "export":  0,
+                                                                                                                "ordinal":  0,
+                                                                                                                "name":  "BaseTint",
+                                                                                                                "r":  0.871367,
+                                                                                                                "g":  0.254152,
+                                                                                                                "b":  0.017642
+                                                                                                            }
+                                                                                                        ],
+                     "Marvel/Content/Marvel/Characters/1034/1034504/Materials/Lobby/MI_1034504_Body_02.uasset":  [
+                                                                                                                     {
+                                                                                                                         "export":  0,
+                                                                                                                         "ordinal":  0,
+                                                                                                                         "name":  "BaseTint",
+                                                                                                                         "r":  0.871367,
+                                                                                                                         "g":  0.254152,
+                                                                                                                         "b":  0.017642
+                                                                                                                     }
+                                                                                                                 ],
+                     "Marvel/Content/Marvel/Characters/1034/1034504/Materials/MI_1034504_Body_02.uasset":  [
+                                                                                                               {
+                                                                                                                   "export":  0,
+                                                                                                                   "ordinal":  0,
+                                                                                                                   "name":  "BaseTint",
+                                                                                                                   "r":  0.871367,
+                                                                                                                   "g":  0.254152,
+                                                                                                                   "b":  0.017642
+                                                                                                               }
+                                                                                                           ],
+                     "Marvel/Content/Marvel/Characters/1034/1034504/Weapons/Railgun/Materials/MI_1034504_Railgun_L.uasset":  [
+                                                                                                                                 {
+                                                                                                                                     "export":  0,
+                                                                                                                                     "ordinal":  0,
+                                                                                                                                     "name":  "BaseTint",
+                                                                                                                                     "r":  0.871367,
+                                                                                                                                     "g":  0.254152,
+                                                                                                                                     "b":  0.017642
+                                                                                                                                 }
+                                                                                                                             ],
+                     "Marvel/Content/Marvel/Characters/1034/1034504/Weapons/Railgun/Materials/MI_1034504_Railgun_R.uasset":  [
+                                                                                                                                 {
+                                                                                                                                     "export":  0,
+                                                                                                                                     "ordinal":  0,
+                                                                                                                                     "name":  "BaseTint",
+                                                                                                                                     "r":  0.871367,
+                                                                                                                                     "g":  0.254152,
+                                                                                                                                     "b":  0.017642
+                                                                                                                                 }
+                                                                                                                             ],
+                     "Marvel/Content/Marvel/Characters/1034/1034504/Weapons/FloatingGun/Materials/MI_1034504_FloatingGun_02.uasset":  [
+                                                                                                                                          {
+                                                                                                                                              "export":  0,
+                                                                                                                                              "ordinal":  0,
+                                                                                                                                              "name":  "BaseTint",
+                                                                                                                                              "r":  0.871367,
+                                                                                                                                              "g":  0.254152,
+                                                                                                                                              "b":  0.017642
+                                                                                                                                          }
+                                                                                                                                      ]
+                 }
+}

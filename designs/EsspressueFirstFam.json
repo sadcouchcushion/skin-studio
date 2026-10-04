@@ -1,0 +1,72 @@
+﻿{
+    "modName":  "EsspressueFirstFam",
+    "displayName":  "Esspressue First Fam",
+    "hero":  "1050",
+    "skin":  "1050100",
+    "chromaSkins":  [
+
+                    ],
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050100\\Textures\\T_1050100_Body_02_S.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "satMul":  1,
+                                                                                                                  "color":  "#2E1607",
+                                                                                                                  "hueShift":  0,
+                                                                                                                  "lightMul":  1,
+                                                                                                                  "protectSkin":  true,
+                                                                                                                  "mode":  "tint"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050100\\Textures\\T_1050100_Body_02_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "file":  "C:\\rs\\SkinStudio\\work\\edit\\1050001\\T_1050001_Body_02_D.png",
+                                                                                                                  "mode":  "replace"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050100\\Textures\\T_1050100_Body_01_S.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "satMul":  1,
+                                                                                                                  "color":  "#2E1607",
+                                                                                                                  "hueShift":  0,
+                                                                                                                  "lightMul":  1,
+                                                                                                                  "protectSkin":  true,
+                                                                                                                  "mode":  "tint"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050100\\Textures\\T_1050100_Equip_D.png":  [
+                                                                                                            {
+                                                                                                                "strength":  1,
+                                                                                                                "satMul":  1,
+                                                                                                                "color":  "#2E1607",
+                                                                                                                "hueShift":  0,
+                                                                                                                "lightMul":  1,
+                                                                                                                "protectSkin":  true,
+                                                                                                                "mode":  "tint"
+                                                                                                            }
+                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050100\\Textures\\T_1050100_Equip_S.png":  [
+                                                                                                            {
+                                                                                                                "strength":  1,
+                                                                                                                "satMul":  1,
+                                                                                                                "color":  "#2E1607",
+                                                                                                                "hueShift":  0,
+                                                                                                                "lightMul":  1,
+                                                                                                                "protectSkin":  true,
+                                                                                                                "mode":  "tint"
+                                                                                                            }
+                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050100\\Textures\\T_1050100_Body_01_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "file":  "C:\\rs\\SkinStudio\\work\\edit\\1050001\\T_1050001_Body_01_D.png",
+                                                                                                                  "mode":  "replace"
+                                                                                                              }
+                                                                                                          ]
+            },
+    "colorOps":  {
+
+                 }
+}

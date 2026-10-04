@@ -1,0 +1,233 @@
+﻿{
+    "modName":  "CozyCD",
+    "displayName":  "Cozy C\u0026D",
+    "hero":  "1025",
+    "skin":  "1025502",
+    "chromaSkins":  [
+                        "1025503"
+                    ],
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025502\\Textures\\10251\\T_1025502_10251_Equip_03_D.png":  [
+                                                                                                                            {
+                                                                                                                                "mode":  "tint",
+                                                                                                                                "hueShift":  0,
+                                                                                                                                "color":  "#251605",
+                                                                                                                                "strength":  0.72,
+                                                                                                                                "protectSkin":  false,
+                                                                                                                                "lightMul":  1,
+                                                                                                                                "satMul":  1
+                                                                                                                            }
+                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025502\\Weapons\\HoverToFull\\Sofa\\Textures\\T_WP_1025502_Sofa001_D.png":  [
+                                                                                                                                             {
+                                                                                                                                                 "strength":  0.72,
+                                                                                                                                                 "protectSkin":  false,
+                                                                                                                                                 "color":  "#251605",
+                                                                                                                                                 "gradDir":  "v",
+                                                                                                                                                 "satMul":  1,
+                                                                                                                                                 "hueShift":  0,
+                                                                                                                                                 "color2":  "#150A02",
+                                                                                                                                                 "mode":  "gradpaint",
+                                                                                                                                                 "color3":  "#9EBD94",
+                                                                                                                                                 "lightMul":  1,
+                                                                                                                                                 "color4":  "#78C8DC"
+                                                                                                                                             }
+                                                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025502\\Textures\\10250\\T_1025502_10250_Hair_D.png":  [
+                                                                                                                        {
+                                                                                                                            "strength":  0.72,
+                                                                                                                            "protectSkin":  false,
+                                                                                                                            "color":  "#251605",
+                                                                                                                            "gradDir":  "v",
+                                                                                                                            "satMul":  1,
+                                                                                                                            "hueShift":  0,
+                                                                                                                            "color2":  "#150A02",
+                                                                                                                            "mode":  "gradpaint",
+                                                                                                                            "color3":  "#9EBD94",
+                                                                                                                            "lightMul":  1,
+                                                                                                                            "color4":  "#78C8DC"
+                                                                                                                        }
+                                                                                                                    ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025502\\Textures\\10251\\T_1025502_10251_Equip_02_D.png":  [
+                                                                                                                            {
+                                                                                                                                "mode":  "tint",
+                                                                                                                                "hueShift":  0,
+                                                                                                                                "color":  "#251605",
+                                                                                                                                "strength":  0.72,
+                                                                                                                                "protectSkin":  false,
+                                                                                                                                "lightMul":  1,
+                                                                                                                                "satMul":  1
+                                                                                                                            }
+                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025502\\Weapons\\MVP\\Pillow\\Textures\\T_WP_10255022100_Pillow001_D.png":  [
+                                                                                                                                             {
+                                                                                                                                                 "strength":  0.72,
+                                                                                                                                                 "protectSkin":  false,
+                                                                                                                                                 "color":  "#251605",
+                                                                                                                                                 "gradDir":  "v",
+                                                                                                                                                 "satMul":  1,
+                                                                                                                                                 "hueShift":  0,
+                                                                                                                                                 "color2":  "#150A02",
+                                                                                                                                                 "mode":  "gradpaint",
+                                                                                                                                                 "color3":  "#9EBD94",
+                                                                                                                                                 "lightMul":  1,
+                                                                                                                                                 "color4":  "#78C8DC"
+                                                                                                                                             }
+                                                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025502\\Textures\\10250\\T_1025502_10250_Hair_01_D.png":  [
+                                                                                                                           {
+                                                                                                                               "strength":  0.72,
+                                                                                                                               "protectSkin":  false,
+                                                                                                                               "color":  "#251605",
+                                                                                                                               "gradDir":  "v",
+                                                                                                                               "satMul":  1,
+                                                                                                                               "hueShift":  0,
+                                                                                                                               "color2":  "#150A02",
+                                                                                                                               "mode":  "gradpaint",
+                                                                                                                               "color3":  "#9EBD94",
+                                                                                                                               "lightMul":  1,
+                                                                                                                               "color4":  "#78C8DC"
+                                                                                                                           }
+                                                                                                                       ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025502\\Textures\\10251\\T_1025502_10251_Equip_01_D.png":  [
+                                                                                                                            {
+                                                                                                                                "mode":  "tint",
+                                                                                                                                "hueShift":  0,
+                                                                                                                                "color":  "#251605",
+                                                                                                                                "strength":  0.72,
+                                                                                                                                "protectSkin":  false,
+                                                                                                                                "lightMul":  1,
+                                                                                                                                "satMul":  1
+                                                                                                                            }
+                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025502\\Textures\\10250\\T_1025502_10250_Equip_03_D.png":  [
+                                                                                                                            {
+                                                                                                                                "strength":  0.72,
+                                                                                                                                "satMul":  1,
+                                                                                                                                "color":  "#251605",
+                                                                                                                                "hueShift":  0,
+                                                                                                                                "lightMul":  1,
+                                                                                                                                "protectSkin":  false,
+                                                                                                                                "mode":  "tint"
+                                                                                                                            }
+                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025502\\Weapons\\HoverToFull\\Sofa\\Textures\\T_WP_1025502_Sofa002_D.png":  [
+                                                                                                                                             {
+                                                                                                                                                 "strength":  0.72,
+                                                                                                                                                 "protectSkin":  false,
+                                                                                                                                                 "color":  "#251605",
+                                                                                                                                                 "gradDir":  "v",
+                                                                                                                                                 "satMul":  1,
+                                                                                                                                                 "hueShift":  0,
+                                                                                                                                                 "color2":  "#150A02",
+                                                                                                                                                 "mode":  "gradpaint",
+                                                                                                                                                 "color3":  "#9EBD94",
+                                                                                                                                                 "lightMul":  1,
+                                                                                                                                                 "color4":  "#78C8DC"
+                                                                                                                                             }
+                                                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025503\\Textures\\10250\\T_1025503_10250_Equip_01_D.png":  [
+                                                                                                                            {
+                                                                                                                                "mode":  "tint",
+                                                                                                                                "hueShift":  0,
+                                                                                                                                "color":  "#251605",
+                                                                                                                                "strength":  0.72,
+                                                                                                                                "protectSkin":  false,
+                                                                                                                                "lightMul":  1,
+                                                                                                                                "satMul":  1
+                                                                                                                            }
+                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025502\\Textures\\10250\\T_1025502_10250_Equip_02_D.png":  [
+                                                                                                                            {
+                                                                                                                                "strength":  0.72,
+                                                                                                                                "satMul":  1,
+                                                                                                                                "color":  "#251605",
+                                                                                                                                "hueShift":  0,
+                                                                                                                                "lightMul":  1,
+                                                                                                                                "protectSkin":  false,
+                                                                                                                                "mode":  "tint"
+                                                                                                                            }
+                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025502\\Textures\\10250\\T_1025502_10250_Equip_01_D.png":  [
+                                                                                                                            {
+                                                                                                                                "strength":  0.72,
+                                                                                                                                "satMul":  1,
+                                                                                                                                "color":  "#251605",
+                                                                                                                                "hueShift":  0,
+                                                                                                                                "lightMul":  1,
+                                                                                                                                "protectSkin":  false,
+                                                                                                                                "mode":  "tint"
+                                                                                                                            }
+                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025503\\Textures\\10250\\T_1025503_10250_Hair_D.png":  [
+                                                                                                                        {
+                                                                                                                            "mode":  "gradpaint",
+                                                                                                                            "gradDir":  "v",
+                                                                                                                            "hueShift":  0,
+                                                                                                                            "color":  "#251605",
+                                                                                                                            "strength":  0.72,
+                                                                                                                            "color3":  "#9EBD94",
+                                                                                                                            "protectSkin":  false,
+                                                                                                                            "lightMul":  1,
+                                                                                                                            "satMul":  1,
+                                                                                                                            "color4":  "#78C8DC",
+                                                                                                                            "color2":  "#150A02"
+                                                                                                                        }
+                                                                                                                    ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025502\\Textures\\10251\\T_1025502_10251_Hair_01_D.png":  [
+                                                                                                                           {
+                                                                                                                               "mode":  "gradpaint",
+                                                                                                                               "gradDir":  "v",
+                                                                                                                               "hueShift":  0,
+                                                                                                                               "color":  "#251605",
+                                                                                                                               "strength":  0.72,
+                                                                                                                               "color3":  "#9EBD94",
+                                                                                                                               "protectSkin":  false,
+                                                                                                                               "lightMul":  1,
+                                                                                                                               "satMul":  1,
+                                                                                                                               "color4":  "#78C8DC",
+                                                                                                                               "color2":  "#150A02"
+                                                                                                                           }
+                                                                                                                       ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025503\\Textures\\10250\\T_1025503_10250_Equip_02_D.png":  [
+                                                                                                                            {
+                                                                                                                                "mode":  "tint",
+                                                                                                                                "hueShift":  0,
+                                                                                                                                "color":  "#251605",
+                                                                                                                                "strength":  0.72,
+                                                                                                                                "protectSkin":  false,
+                                                                                                                                "lightMul":  1,
+                                                                                                                                "satMul":  1
+                                                                                                                            }
+                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025503\\Textures\\10250\\T_1025503_10250_Equip_03_D.png":  [
+                                                                                                                            {
+                                                                                                                                "mode":  "tint",
+                                                                                                                                "hueShift":  0,
+                                                                                                                                "color":  "#251605",
+                                                                                                                                "strength":  0.72,
+                                                                                                                                "protectSkin":  false,
+                                                                                                                                "lightMul":  1,
+                                                                                                                                "satMul":  1
+                                                                                                                            }
+                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025503\\Textures\\10250\\T_1025503_10250_Hair_01_D.png":  [
+                                                                                                                           {
+                                                                                                                               "mode":  "gradpaint",
+                                                                                                                               "gradDir":  "v",
+                                                                                                                               "hueShift":  0,
+                                                                                                                               "color":  "#251605",
+                                                                                                                               "strength":  0.72,
+                                                                                                                               "color3":  "#9EBD94",
+                                                                                                                               "protectSkin":  false,
+                                                                                                                               "lightMul":  1,
+                                                                                                                               "satMul":  1,
+                                                                                                                               "color4":  "#78C8DC",
+                                                                                                                               "color2":  "#150A02"
+                                                                                                                           }
+                                                                                                                       ]
+            },
+    "colorOps":  {
+
+                 }
+}

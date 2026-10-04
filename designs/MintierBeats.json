@@ -1,0 +1,438 @@
+﻿{
+    "modName":  "MintierBeats",
+    "displayName":  "Mintier Beats",
+    "hero":  "1031",
+    "skin":  "1031301",
+    "chromaSkins":  [
+                        "1031304"
+                    ],
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031304\\Texture\\T_1031304_Equip_04_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "file":  "C:\\rs\\SkinStudio\\work\\chroma\\1031301\\T_1031301_Equip_04_D.png",
+                                                                                                                  "mode":  "replace"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031301\\Texture\\T_1031301_Hair_D.png":  [
+                                                                                                          {
+                                                                                                              "strength":  1,
+                                                                                                              "satMul":  1,
+                                                                                                              "color":  "#359B21",
+                                                                                                              "hueShift":  0,
+                                                                                                              "lightMul":  1,
+                                                                                                              "protectSkin":  true,
+                                                                                                              "mode":  "tint"
+                                                                                                          }
+                                                                                                      ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031304\\Texture\\T_1031304_Equip_01_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "file":  "C:\\rs\\SkinStudio\\work\\chroma\\1031301\\T_1031301_Equip_01_D.png",
+                                                                                                                  "mode":  "replace"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031304\\Texture\\T_1031304_Hair_01_E.png":  [
+                                                                                                             {
+                                                                                                                 "strength":  1,
+                                                                                                                 "file":  "C:\\rs\\SkinStudio\\work\\chroma\\1031301\\T_1031301_Hair_01_E.png",
+                                                                                                                 "mode":  "replace"
+                                                                                                             }
+                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031304\\Texture\\T_1031304_Hair_D.png":  [
+                                                                                                          {
+                                                                                                              "strength":  1,
+                                                                                                              "file":  "C:\\rs\\SkinStudio\\work\\chroma\\1031301\\T_1031301_Hair_D.png",
+                                                                                                              "mode":  "replace"
+                                                                                                          }
+                                                                                                      ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031304\\Texture\\T_1031304_Equip_04_S.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "file":  "C:\\rs\\SkinStudio\\work\\chroma\\1031301\\T_1031301_Equip_04_S.png",
+                                                                                                                  "mode":  "replace"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031304\\Texture\\T_1031304_Equip_02_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "file":  "C:\\rs\\SkinStudio\\work\\chroma\\1031301\\T_1031301_Equip_02_D.png",
+                                                                                                                  "mode":  "replace"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031304\\Texture\\T_1031304_Hair_01_AO.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "file":  "C:\\rs\\SkinStudio\\cache\\1031301\\png\\src\\Marvel\\Content\\Marvel\\Characters\\1031\\1031301\\Texture\\T_1031301_Hair_01_AO.png",
+                                                                                                                  "mode":  "replace"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031301\\Texture\\T_1031301_Eyes_02_D.png":  [
+                                                                                                             {
+                                                                                                                 "strength":  1,
+                                                                                                                 "satMul":  1,
+                                                                                                                 "color":  "#359B21",
+                                                                                                                 "hueShift":  0,
+                                                                                                                 "lightMul":  1,
+                                                                                                                 "protectSkin":  true,
+                                                                                                                 "mode":  "tint"
+                                                                                                             }
+                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031301\\Texture\\T_1031301_Equip_04_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "file":  "C:\\rs\\SkinStudio\\work\\edit\\1031301\\T_1031301_Equip_04_D.png",
+                                                                                                                  "mode":  "replace"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031304\\Texture\\T_1031304_Eyes_02_D.png":  [
+                                                                                                             {
+                                                                                                                 "strength":  1,
+                                                                                                                 "file":  "C:\\rs\\SkinStudio\\work\\chroma\\1031301\\T_1031301_Eyes_02_D.png",
+                                                                                                                 "mode":  "replace"
+                                                                                                             }
+                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031301\\Texture\\T_1031301_Equip_01_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "file":  "C:\\rs\\SkinStudio\\work\\edit\\1031301\\T_1031301_Equip_01_D.png",
+                                                                                                                  "mode":  "replace"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031304\\Texture\\T_1031304_Equip_03_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "file":  "C:\\rs\\SkinStudio\\work\\chroma\\1031301\\T_1031301_Equip_03_D.png",
+                                                                                                                  "mode":  "replace"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031304\\Texture\\Merge_Texture\\T_1031304_LOD2_S.png":  [
+                                                                                                                         {
+                                                                                                                             "strength":  1,
+                                                                                                                             "file":  "C:\\rs\\SkinStudio\\work\\chroma\\1031301\\T_1031301_LOD2_S.png",
+                                                                                                                             "mode":  "replace"
+                                                                                                                         }
+                                                                                                                     ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031301\\Texture\\Merge_Texture\\T_1031301_LOD2_D.png":  [
+                                                                                                                         {
+                                                                                                                             "strength":  1,
+                                                                                                                             "satMul":  1,
+                                                                                                                             "color":  "#359B21",
+                                                                                                                             "hueShift":  0,
+                                                                                                                             "lightMul":  1,
+                                                                                                                             "protectSkin":  true,
+                                                                                                                             "mode":  "tint"
+                                                                                                                         }
+                                                                                                                     ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031301\\Texture\\T_1031301_Eyes_01_D.png":  [
+                                                                                                             {
+                                                                                                                 "strength":  1,
+                                                                                                                 "satMul":  1,
+                                                                                                                 "color":  "#359B21",
+                                                                                                                 "hueShift":  0,
+                                                                                                                 "lightMul":  1,
+                                                                                                                 "protectSkin":  true,
+                                                                                                                 "mode":  "tint"
+                                                                                                             }
+                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031301\\Texture\\Merge_Texture\\T_1031301_LOD2_S.png":  [
+                                                                                                                         {
+                                                                                                                             "strength":  1,
+                                                                                                                             "protectSkin":  true,
+                                                                                                                             "color":  "#359B21",
+                                                                                                                             "gradDir":  "v",
+                                                                                                                             "satMul":  1,
+                                                                                                                             "hueShift":  0,
+                                                                                                                             "color2":  "#307818",
+                                                                                                                             "mode":  "gradtint",
+                                                                                                                             "color3":  "#9EBD94",
+                                                                                                                             "lightMul":  1,
+                                                                                                                             "color4":  "#78C8DC"
+                                                                                                                         }
+                                                                                                                     ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031304\\Texture\\T_1031304_Eyes_01_D.png":  [
+                                                                                                             {
+                                                                                                                 "strength":  1,
+                                                                                                                 "file":  "C:\\rs\\SkinStudio\\work\\chroma\\1031301\\T_1031301_Eyes_01_D.png",
+                                                                                                                 "mode":  "replace"
+                                                                                                             }
+                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031304\\Texture\\T_1031304_Head_D.png":  [
+                                                                                                          {
+                                                                                                              "strength":  1,
+                                                                                                              "file":  "C:\\rs\\SkinStudio\\cache\\1031301\\png\\src\\Marvel\\Content\\Marvel\\Characters\\1031\\1031301\\Texture\\T_1031301_Head_D.png",
+                                                                                                              "mode":  "replace"
+                                                                                                          }
+                                                                                                      ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031304\\Texture\\T_1031304_Head_S.png":  [
+                                                                                                          {
+                                                                                                              "strength":  1,
+                                                                                                              "file":  "C:\\rs\\SkinStudio\\cache\\1031301\\png\\src\\Marvel\\Content\\Marvel\\Characters\\1031\\1031301\\Texture\\T_1031301_Head_S.png",
+                                                                                                              "mode":  "replace"
+                                                                                                          }
+                                                                                                      ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031301\\Texture\\T_1031301_Equip_01_S.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "protectSkin":  true,
+                                                                                                                  "color":  "#359B21",
+                                                                                                                  "gradDir":  "v",
+                                                                                                                  "satMul":  1,
+                                                                                                                  "hueShift":  0,
+                                                                                                                  "color2":  "#307818",
+                                                                                                                  "mode":  "gradtint",
+                                                                                                                  "color3":  "#9EBD94",
+                                                                                                                  "lightMul":  1,
+                                                                                                                  "color4":  "#78C8DC"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031304\\Texture\\Merge_Texture\\T_1031304_LOD2_D.png":  [
+                                                                                                                         {
+                                                                                                                             "strength":  1,
+                                                                                                                             "file":  "C:\\rs\\SkinStudio\\work\\chroma\\1031301\\T_1031301_LOD2_D.png",
+                                                                                                                             "mode":  "replace"
+                                                                                                                         }
+                                                                                                                     ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031301\\Weapons\\MVP\\Microphone\\Textures\\T_WP_1031301_Microphone_D.png":  [
+                                                                                                                                              {
+                                                                                                                                                  "strength":  1,
+                                                                                                                                                  "protectSkin":  true,
+                                                                                                                                                  "color":  "#359B21",
+                                                                                                                                                  "gradDir":  "v",
+                                                                                                                                                  "satMul":  1,
+                                                                                                                                                  "hueShift":  0,
+                                                                                                                                                  "color2":  "#307818",
+                                                                                                                                                  "mode":  "gradtint",
+                                                                                                                                                  "color3":  "#9EBD94",
+                                                                                                                                                  "lightMul":  1,
+                                                                                                                                                  "color4":  "#78C8DC"
+                                                                                                                                              }
+                                                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031301\\Texture\\T_1031301_Equip_02_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  0.48,
+                                                                                                                  "satMul":  1,
+                                                                                                                  "color":  "#359B21",
+                                                                                                                  "hueShift":  0,
+                                                                                                                  "lightMul":  1,
+                                                                                                                  "protectSkin":  true,
+                                                                                                                  "mode":  "tint"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031301\\Texture\\T_1031301_Hair_01_E.png":  [
+                                                                                                             {
+                                                                                                                 "strength":  1,
+                                                                                                                 "satMul":  1,
+                                                                                                                 "color":  "#359B21",
+                                                                                                                 "hueShift":  0,
+                                                                                                                 "lightMul":  1,
+                                                                                                                 "protectSkin":  true,
+                                                                                                                 "mode":  "tint"
+                                                                                                             }
+                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031301\\Texture\\T_1031301_Equip_04_S.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "protectSkin":  true,
+                                                                                                                  "color":  "#359B21",
+                                                                                                                  "gradDir":  "v",
+                                                                                                                  "satMul":  1,
+                                                                                                                  "hueShift":  0,
+                                                                                                                  "color2":  "#307818",
+                                                                                                                  "mode":  "gradtint",
+                                                                                                                  "color3":  "#9EBD94",
+                                                                                                                  "lightMul":  1,
+                                                                                                                  "color4":  "#78C8DC"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031304\\Texture\\T_1031304_Equip_01_S.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "file":  "C:\\rs\\SkinStudio\\work\\chroma\\1031301\\T_1031301_Equip_01_S.png",
+                                                                                                                  "mode":  "replace"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031301\\Texture\\T_1031301_Equip_03_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "file":  "C:\\rs\\SkinStudio\\work\\edit\\1031301\\T_1031301_Equip_03_D.png",
+                                                                                                                  "mode":  "replace"
+                                                                                                              }
+                                                                                                          ]
+            },
+    "colorOps":  {
+                     "Marvel/Content/Marvel/Characters/1031/1031304/Materials/Lobby/MI_1031304_Equip_02.uasset":  [
+                                                                                                                      {
+                                                                                                                          "r":  0.37786829017321216,
+                                                                                                                          "name":  "RampColor",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.3578864198740721,
+                                                                                                                          "ordinal":  5,
+                                                                                                                          "g":  0.41957599366277126,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.37786829017321216,
+                                                                                                                          "name":  "FXLobby_LightColor",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.3578864198740721,
+                                                                                                                          "ordinal":  4,
+                                                                                                                          "g":  0.41957599366277126,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.37786829017321216,
+                                                                                                                          "name":  "SubSurface",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.3578864198740721,
+                                                                                                                          "ordinal":  6,
+                                                                                                                          "g":  0.41957599366277126,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1031/1031304/Materials/Lobby/MI_1031304_Equip_05.uasset":  [
+                                                                                                                      {
+                                                                                                                          "r":  0.37786829017321216,
+                                                                                                                          "name":  "FXLobby_LightColor",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.3578864198740721,
+                                                                                                                          "ordinal":  4,
+                                                                                                                          "g":  0.41957599366277126,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.37786829017321216,
+                                                                                                                          "name":  "SubSurface",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.3578864198740721,
+                                                                                                                          "ordinal":  6,
+                                                                                                                          "g":  0.41957599366277126,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1031/1031304/Materials/Lobby/MI_1031304_Eyes_01.uasset":  [
+                                                                                                                     {
+                                                                                                                         "r":  0.15586803677663602,
+                                                                                                                         "name":  "ScleraTint",
+                                                                                                                         "export":  0,
+                                                                                                                         "b":  0.11324934516802936,
+                                                                                                                         "ordinal":  2,
+                                                                                                                         "g":  0.36641374775978536,
+                                                                                                                         "viaChroma":  true
+                                                                                                                     }
+                                                                                                                 ],
+                     "Marvel/Content/Marvel/Characters/1031/1031304/Materials/Lobby/MI_1031304_Eyes_02.uasset":  [
+                                                                                                                     {
+                                                                                                                         "r":  0.16589836583632911,
+                                                                                                                         "name":  "ScleraTint",
+                                                                                                                         "export":  0,
+                                                                                                                         "b":  0.14365157636878439,
+                                                                                                                         "ordinal":  2,
+                                                                                                                         "g":  0.27778184286153623,
+                                                                                                                         "viaChroma":  true
+                                                                                                                     }
+                                                                                                                 ],
+                     "Marvel/Content/Marvel/Characters/1031/1031304/Materials/Lobby/MI_1031304_Head.uasset":  [
+                                                                                                                  {
+                                                                                                                      "r":  0.25373205869038429,
+                                                                                                                      "name":  "BackRimColor",
+                                                                                                                      "export":  0,
+                                                                                                                      "b":  0.22090733984856958,
+                                                                                                                      "ordinal":  2,
+                                                                                                                      "g":  0.24267790411773582,
+                                                                                                                      "viaChroma":  true
+                                                                                                                  }
+                                                                                                              ],
+                     "Marvel/Content/Marvel/Characters/1031/1031304/Materials/MI_1031304_Equip_01.uasset":  [
+                                                                                                                {
+                                                                                                                    "r":  0.25077490480121428,
+                                                                                                                    "name":  "Moon",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.22668317666586779,
+                                                                                                                    "ordinal":  20,
+                                                                                                                    "g":  0.34501726448841191,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.25077490480121428,
+                                                                                                                    "name":  "Star",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.22668317666586779,
+                                                                                                                    "ordinal":  21,
+                                                                                                                    "g":  0.34501726448841191,
+                                                                                                                    "viaChroma":  true
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1031/1031304/Materials/MI_1031304_Equip_02.uasset":  [
+                                                                                                                {
+                                                                                                                    "r":  0.37786829017321216,
+                                                                                                                    "name":  "RampColor",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.3578864198740721,
+                                                                                                                    "ordinal":  5,
+                                                                                                                    "g":  0.41957599366277126,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.37786829017321216,
+                                                                                                                    "name":  "FXLobby_LightColor",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.3578864198740721,
+                                                                                                                    "ordinal":  4,
+                                                                                                                    "g":  0.41957599366277126,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.37786829017321216,
+                                                                                                                    "name":  "SubSurface",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.3578864198740721,
+                                                                                                                    "ordinal":  6,
+                                                                                                                    "g":  0.41957599366277126,
+                                                                                                                    "viaChroma":  true
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1031/1031304/Materials/MI_1031304_Equip_05.uasset":  [
+                                                                                                                {
+                                                                                                                    "r":  0.37786829017321216,
+                                                                                                                    "name":  "FXLobby_LightColor",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.3578864198740721,
+                                                                                                                    "ordinal":  4,
+                                                                                                                    "g":  0.41957599366277126,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.37786829017321216,
+                                                                                                                    "name":  "SubSurface",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.3578864198740721,
+                                                                                                                    "ordinal":  6,
+                                                                                                                    "g":  0.41957599366277126,
+                                                                                                                    "viaChroma":  true
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1031/1031304/Materials/MI_1031304_Eyes_01.uasset":  [
+                                                                                                               {
+                                                                                                                   "r":  0.15586803677663602,
+                                                                                                                   "name":  "ScleraTint",
+                                                                                                                   "export":  0,
+                                                                                                                   "b":  0.11324934516802936,
+                                                                                                                   "ordinal":  2,
+                                                                                                                   "g":  0.36641374775978536,
+                                                                                                                   "viaChroma":  true
+                                                                                                               }
+                                                                                                           ],
+                     "Marvel/Content/Marvel/Characters/1031/1031304/Materials/MI_1031304_Eyes_02.uasset":  [
+                                                                                                               {
+                                                                                                                   "r":  0.16589836583632911,
+                                                                                                                   "name":  "ScleraTint",
+                                                                                                                   "export":  0,
+                                                                                                                   "b":  0.14365157636878439,
+                                                                                                                   "ordinal":  2,
+                                                                                                                   "g":  0.27778184286153623,
+                                                                                                                   "viaChroma":  true
+                                                                                                               }
+                                                                                                           ]
+                 }
+}

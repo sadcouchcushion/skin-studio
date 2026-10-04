@@ -1,0 +1,45 @@
+# Generated / per-machine data
+cache/
+work/
+output/
+images/
+imports/
+blender/fmodel_out/
+blender/tex/
+__pycache__/
+
+# .NET build output
+bin/
+obj/
+
+# Unreal (in case a project lands here)
+Intermediate/
+Saved/
+DerivedDataCache/
+Binaries/
+.vs/
+
+# Backups made while editing
+*.bak
+*.bak-*
+
+# Binaries, game files and large assets
+*.dll
+*.exe
+*.pdb
+*.zip
+*.pak
+*.ucas
+*.utoc
+*.usmap
+*.uasset
+*.uexp
+*.glb
+*.hdr
+blender/**/*.png
+
+# Logs and caches
+*.log
+*.pyc
+*.stamp
+*.cache

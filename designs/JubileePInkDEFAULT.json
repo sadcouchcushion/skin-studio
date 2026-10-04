@@ -1,0 +1,68 @@
+﻿{
+    "modName":  "JubileePInkDEFAULT",
+    "displayName":  "Jubilee PInk DEFAULT",
+    "hero":  "1064",
+    "skin":  "1064101",
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1064\\1064101\\Textures\\T_1064101_Body_D.png":  [
+                                                                                                           {
+                                                                                                               "mode":  "gradpaint",
+                                                                                                               "gradDir":  "v",
+                                                                                                               "hueShift":  0,
+                                                                                                               "color":  "#FF8ED5",
+                                                                                                               "strength":  0.7,
+                                                                                                               "color3":  "#B9A7E6",
+                                                                                                               "protectSkin":  true,
+                                                                                                               "lightMul":  1,
+                                                                                                               "satMul":  1,
+                                                                                                               "color4":  "#78C8DC",
+                                                                                                               "color2":  "#FFAAC8"
+                                                                                                           }
+                                                                                                       ],
+                "Marvel\\Content\\Marvel\\Characters\\1064\\1064101\\Textures\\T_1064101_Equip_02_D.png":  [
+                                                                                                               {
+                                                                                                                   "mode":  "gradpaint",
+                                                                                                                   "gradDir":  "v",
+                                                                                                                   "hueShift":  0,
+                                                                                                                   "color":  "#FF8ED5",
+                                                                                                                   "strength":  0.7,
+                                                                                                                   "color3":  "#B9A7E6",
+                                                                                                                   "protectSkin":  true,
+                                                                                                                   "lightMul":  1,
+                                                                                                                   "satMul":  1,
+                                                                                                                   "color4":  "#78C8DC",
+                                                                                                                   "color2":  "#FFAAC8"
+                                                                                                               }
+                                                                                                           ],
+                "Marvel\\Content\\Marvel\\Characters\\1064\\1064101\\Textures\\T_1064101_Equip_01_D.png":  [
+                                                                                                               {
+                                                                                                                   "strength":  0.7,
+                                                                                                                   "protectSkin":  false,
+                                                                                                                   "color":  "#FF8ED5",
+                                                                                                                   "gradDir":  "v",
+                                                                                                                   "satMul":  1,
+                                                                                                                   "hueShift":  0,
+                                                                                                                   "color2":  "#FFAAC8",
+                                                                                                                   "mode":  "gradtint",
+                                                                                                                   "color3":  "#B9A7E6",
+                                                                                                                   "lightMul":  1,
+                                                                                                                   "color4":  "#78C8DC"
+                                                                                                               }
+                                                                                                           ],
+                "Marvel\\Content\\Marvel\\Characters\\1064\\1064101\\Textures\\T_1064101_Equip_03_D.png":  [
+                                                                                                               {
+                                                                                                                   "mode":  "gradpaint",
+                                                                                                                   "gradDir":  "v",
+                                                                                                                   "hueShift":  0,
+                                                                                                                   "color":  "#FF8ED5",
+                                                                                                                   "strength":  0.7,
+                                                                                                                   "color3":  "#B9A7E6",
+                                                                                                                   "protectSkin":  true,
+                                                                                                                   "lightMul":  1,
+                                                                                                                   "satMul":  1,
+                                                                                                                   "color4":  "#78C8DC",
+                                                                                                                   "color2":  "#FFAAC8"
+                                                                                                               }
+                                                                                                           ]
+            }
+}

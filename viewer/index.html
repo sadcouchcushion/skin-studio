@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Skin Studio 3D</title>
+<style>
+  :root { --bg: #1d211e; --fg: #dfe7df; --dim: #8f9c90; --acc: #9cc2a0; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--fg);
+               font: 12px/1.4 "Segoe UI", system-ui, sans-serif; overflow: hidden; user-select: none; }
+  #view { position: fixed; inset: 0; }
+  #hud { position: fixed; left: 10px; bottom: 8px; color: var(--dim); pointer-events: none; }
+  #status { position: fixed; left: 50%; top: 45%; transform: translate(-50%, -50%);
+            color: var(--acc); font-size: 14px; text-align: center; pointer-events: none; }
+  #bar { position: fixed; right: 8px; top: 8px; display: flex; gap: 6px; }
+  #bar button { background: #2a302b; color: var(--fg); border: 1px solid #3c453d; border-radius: 4px;
+                padding: 4px 9px; font: inherit; cursor: pointer; }
+  #bar button:hover { border-color: var(--acc); }
+  #bar button.on { border-color: var(--acc); color: var(--acc); }
+</style>
+<script type="importmap">
+{ "imports": {
+    "three": "./three/three.module.min.js",
+    "three/addons/": "./three/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="view"></div>
+<div id="status">loading...</div>
+<div id="bar">
+  <button id="bFront" title="Front view (F)">Front</button>
+  <button id="bBack" title="Back view (B)">Back</button>
+  <button id="bSpin" title="Turntable (T)">Spin</button>
+  <button id="bBg" title="Light / dark background">Bg</button>
+</div>
+<div id="hud"></div>
+<script type="module" src="viewer.js"></script>
+</body>
+</html>

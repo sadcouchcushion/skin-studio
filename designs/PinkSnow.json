@@ -1,0 +1,319 @@
+{
+    "modName":  "PinkSnow",
+    "displayName":  "Pink Snow",
+    "hero":  "1031",
+    "skin":  "1031001",
+    "chromaSkins":  [
+
+                    ],
+    "madeInGame":  true,
+    "ops":  {
+
+            },
+    "colorOps":  {
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/Lobby/MI_1031001_Hair_02.uasset":  [
+                                                                                                                     {
+                                                                                                                         "export":  0,
+                                                                                                                         "ordinal":  0,
+                                                                                                                         "name":  "BaseTint",
+                                                                                                                         "r":  1,
+                                                                                                                         "g":  1,
+                                                                                                                         "b":  1
+                                                                                                                     }
+                                                                                                                 ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Hair_02.uasset":  [
+                                                                                                               {
+                                                                                                                   "export":  0,
+                                                                                                                   "ordinal":  0,
+                                                                                                                   "name":  "BaseTint",
+                                                                                                                   "r":  1,
+                                                                                                                   "g":  1,
+                                                                                                                   "b":  1
+                                                                                                               }
+                                                                                                           ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/Lobby/MI_1031001_Hair_01.uasset":  [
+                                                                                                                     {
+                                                                                                                         "export":  0,
+                                                                                                                         "ordinal":  0,
+                                                                                                                         "name":  "BaseTint",
+                                                                                                                         "r":  0.028426,
+                                                                                                                         "g":  0.215861,
+                                                                                                                         "b":  0.846873
+                                                                                                                     }
+                                                                                                                 ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Hair_01.uasset":  [
+                                                                                                               {
+                                                                                                                   "export":  0,
+                                                                                                                   "ordinal":  0,
+                                                                                                                   "name":  "BaseTint",
+                                                                                                                   "r":  0.028426,
+                                                                                                                   "g":  0.215861,
+                                                                                                                   "b":  0.846873
+                                                                                                               }
+                                                                                                           ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/Lobby/MI_1031001_Hair_03.uasset":  [
+                                                                                                                     {
+                                                                                                                         "export":  0,
+                                                                                                                         "ordinal":  0,
+                                                                                                                         "name":  "BaseTint",
+                                                                                                                         "r":  0.028426,
+                                                                                                                         "g":  0.215861,
+                                                                                                                         "b":  0.846873
+                                                                                                                     }
+                                                                                                                 ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Hair_03.uasset":  [
+                                                                                                               {
+                                                                                                                   "export":  0,
+                                                                                                                   "ordinal":  0,
+                                                                                                                   "name":  "BaseTint",
+                                                                                                                   "r":  0.028426,
+                                                                                                                   "g":  0.215861,
+                                                                                                                   "b":  0.846873
+                                                                                                               }
+                                                                                                           ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/Lobby/MI_1031001_Head.uasset":  [
+                                                                                                                  {
+                                                                                                                      "export":  0,
+                                                                                                                      "ordinal":  0,
+                                                                                                                      "name":  "BaseTint",
+                                                                                                                      "r":  0.95,
+                                                                                                                      "g":  0.95,
+                                                                                                                      "b":  0.95
+                                                                                                                  }
+                                                                                                              ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Head.uasset":  [
+                                                                                                            {
+                                                                                                                "export":  0,
+                                                                                                                "ordinal":  0,
+                                                                                                                "name":  "BaseTint",
+                                                                                                                "r":  0.95,
+                                                                                                                "g":  0.95,
+                                                                                                                "b":  0.95
+                                                                                                            }
+                                                                                                        ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/Lobby/MI_1031001_Tooth.uasset":  [
+                                                                                                                   {
+                                                                                                                       "export":  0,
+                                                                                                                       "ordinal":  0,
+                                                                                                                       "name":  "BaseTint",
+                                                                                                                       "r":  0.875,
+                                                                                                                       "g":  0.875,
+                                                                                                                       "b":  0.875
+                                                                                                                   }
+                                                                                                               ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Tooth.uasset":  [
+                                                                                                             {
+                                                                                                                 "export":  0,
+                                                                                                                 "ordinal":  0,
+                                                                                                                 "name":  "BaseTint",
+                                                                                                                 "r":  0.875,
+                                                                                                                 "g":  0.875,
+                                                                                                                 "b":  0.875
+                                                                                                             }
+                                                                                                         ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/Lobby/MI_1031001_Equip_02.uasset":  [
+                                                                                                                      {
+                                                                                                                          "export":  0,
+                                                                                                                          "ordinal":  0,
+                                                                                                                          "name":  "BaseTint",
+                                                                                                                          "r":  0.270498,
+                                                                                                                          "g":  0.057805,
+                                                                                                                          "b":  0.417885
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "export":  0,
+                                                                                                                          "ordinal":  1,
+                                                                                                                          "name":  "EmissiveColor",
+                                                                                                                          "r":  0.270498,
+                                                                                                                          "g":  0.057805,
+                                                                                                                          "b":  0.417885
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Equip_02.uasset":  [
+                                                                                                                {
+                                                                                                                    "export":  0,
+                                                                                                                    "ordinal":  0,
+                                                                                                                    "name":  "BaseTint",
+                                                                                                                    "r":  0.270498,
+                                                                                                                    "g":  0.057805,
+                                                                                                                    "b":  0.417885
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "export":  0,
+                                                                                                                    "ordinal":  1,
+                                                                                                                    "name":  "EmissiveColor",
+                                                                                                                    "r":  0.270498,
+                                                                                                                    "g":  0.057805,
+                                                                                                                    "b":  0.417885
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "export":  0,
+                                                                                                                    "ordinal":  2,
+                                                                                                                    "name":  "BackRimColor",
+                                                                                                                    "r":  0.270498,
+                                                                                                                    "g":  0.057805,
+                                                                                                                    "b":  0.417885
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/Lobby/MI_1031001_Equip_05.uasset":  [
+                                                                                                                      {
+                                                                                                                          "export":  0,
+                                                                                                                          "ordinal":  0,
+                                                                                                                          "name":  "BaseTint",
+                                                                                                                          "r":  0.270498,
+                                                                                                                          "g":  0.057805,
+                                                                                                                          "b":  0.417885
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "export":  0,
+                                                                                                                          "ordinal":  1,
+                                                                                                                          "name":  "ExtraSpecularTint",
+                                                                                                                          "r":  0.270498,
+                                                                                                                          "g":  0.057805,
+                                                                                                                          "b":  0.417885
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Equip_05.uasset":  [
+                                                                                                                {
+                                                                                                                    "export":  0,
+                                                                                                                    "ordinal":  0,
+                                                                                                                    "name":  "BaseTint",
+                                                                                                                    "r":  0.270498,
+                                                                                                                    "g":  0.057805,
+                                                                                                                    "b":  0.417885
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "export":  0,
+                                                                                                                    "ordinal":  1,
+                                                                                                                    "name":  "ExtraSpecularTint",
+                                                                                                                    "r":  0.270498,
+                                                                                                                    "g":  0.057805,
+                                                                                                                    "b":  0.417885
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "export":  0,
+                                                                                                                    "ordinal":  2,
+                                                                                                                    "name":  "BackRimColor",
+                                                                                                                    "r":  0.270498,
+                                                                                                                    "g":  0.057805,
+                                                                                                                    "b":  0.417885
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/Lobby/MI_1031001_Equip_01.uasset":  [
+                                                                                                                      {
+                                                                                                                          "export":  0,
+                                                                                                                          "ordinal":  0,
+                                                                                                                          "name":  "BaseTint",
+                                                                                                                          "r":  0.270498,
+                                                                                                                          "g":  0.057805,
+                                                                                                                          "b":  0.417885
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Equip_01.uasset":  [
+                                                                                                                {
+                                                                                                                    "export":  0,
+                                                                                                                    "ordinal":  0,
+                                                                                                                    "name":  "BaseTint",
+                                                                                                                    "r":  0.270498,
+                                                                                                                    "g":  0.057805,
+                                                                                                                    "b":  0.417885
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "export":  0,
+                                                                                                                    "ordinal":  1,
+                                                                                                                    "name":  "BackRimColor",
+                                                                                                                    "r":  0.270498,
+                                                                                                                    "g":  0.057805,
+                                                                                                                    "b":  0.417885
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/Lobby/MI_1031001_Equip_03.uasset":  [
+                                                                                                                      {
+                                                                                                                          "export":  0,
+                                                                                                                          "ordinal":  0,
+                                                                                                                          "name":  "BaseTint",
+                                                                                                                          "r":  0.270498,
+                                                                                                                          "g":  0.057805,
+                                                                                                                          "b":  0.417885
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/Lobby/MI_1031001_Equip_04.uasset":  [
+                                                                                                                      {
+                                                                                                                          "export":  0,
+                                                                                                                          "ordinal":  0,
+                                                                                                                          "name":  "BaseTint",
+                                                                                                                          "r":  0.270498,
+                                                                                                                          "g":  0.057805,
+                                                                                                                          "b":  0.417885
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Equip_04.uasset":  [
+                                                                                                                {
+                                                                                                                    "export":  0,
+                                                                                                                    "ordinal":  0,
+                                                                                                                    "name":  "BaseTint",
+                                                                                                                    "r":  0.270498,
+                                                                                                                    "g":  0.057805,
+                                                                                                                    "b":  0.417885
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "export":  0,
+                                                                                                                    "ordinal":  1,
+                                                                                                                    "name":  "BackRimColor",
+                                                                                                                    "r":  0.270498,
+                                                                                                                    "g":  0.057805,
+                                                                                                                    "b":  0.417885
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Equip_03.uasset":  [
+                                                                                                                {
+                                                                                                                    "export":  0,
+                                                                                                                    "ordinal":  0,
+                                                                                                                    "name":  "BackRimColor",
+                                                                                                                    "r":  0.270498,
+                                                                                                                    "g":  0.057805,
+                                                                                                                    "b":  0.417885
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/Lobby/MI_1031001_Equip_06.uasset":  [
+                                                                                                                      {
+                                                                                                                          "export":  0,
+                                                                                                                          "ordinal":  5,
+                                                                                                                          "name":  "RimLightColor",
+                                                                                                                          "r":  0.270498,
+                                                                                                                          "g":  0.057805,
+                                                                                                                          "b":  0.417885
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Equip_06.uasset":  [
+                                                                                                                {
+                                                                                                                    "export":  0,
+                                                                                                                    "ordinal":  5,
+                                                                                                                    "name":  "RimLightColor",
+                                                                                                                    "r":  0.270498,
+                                                                                                                    "g":  0.057805,
+                                                                                                                    "b":  0.417885
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/Lobby/MI_1031001_Equip_07.uasset":  [
+                                                                                                                      {
+                                                                                                                          "export":  0,
+                                                                                                                          "ordinal":  5,
+                                                                                                                          "name":  "RimLightColor",
+                                                                                                                          "r":  0.270498,
+                                                                                                                          "g":  0.057805,
+                                                                                                                          "b":  0.417885
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Equip_07.uasset":  [
+                                                                                                                {
+                                                                                                                    "export":  0,
+                                                                                                                    "ordinal":  5,
+                                                                                                                    "name":  "RimLightColor",
+                                                                                                                    "r":  0.270498,
+                                                                                                                    "g":  0.057805,
+                                                                                                                    "b":  0.417885
+                                                                                                                }
+                                                                                                            ]
+                 }
+}

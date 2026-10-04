@@ -1,0 +1,192 @@
+﻿{
+    "modName":  "bluespider",
+    "displayName":  "blue spider",
+    "hero":  "1036",
+    "skin":  "1036301",
+    "chromaSkins":  [
+
+                    ],
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1036\\1036301\\Textures\\T_1036301_Equip_03_D.png":  [
+                                                                                                               {
+                                                                                                                   "strength":  1,
+                                                                                                                   "satMul":  1,
+                                                                                                                   "color":  "#171A05",
+                                                                                                                   "hueShift":  0,
+                                                                                                                   "lightMul":  1,
+                                                                                                                   "protectSkin":  true,
+                                                                                                                   "mode":  "paint"
+                                                                                                               }
+                                                                                                           ]
+            },
+    "colorOps":  {
+                     "Marvel/Content/Marvel/Characters/1036/1036301/Materials/Lobby/MI_1036301_Equip_02.uasset":  [
+                                                                                                                      {
+                                                                                                                          "r":  0.028426,
+                                                                                                                          "name":  "BaseTint",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.846873,
+                                                                                                                          "ordinal":  3,
+                                                                                                                          "g":  0.215861
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1036/1036301/Materials/Lobby/MI_1036301_Equip_03.uasset":  [
+                                                                                                                      {
+                                                                                                                          "r":  0.028426,
+                                                                                                                          "name":  "BaseTint",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.846873,
+                                                                                                                          "ordinal":  5,
+                                                                                                                          "g":  0.215861
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1036/1036301/Materials/Lobby/MI_1036301_Equip_04.uasset":  [
+                                                                                                                      {
+                                                                                                                          "r":  0.028426,
+                                                                                                                          "name":  "BaseTint",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.846873,
+                                                                                                                          "ordinal":  3,
+                                                                                                                          "g":  0.215861
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.028426,
+                                                                                                                          "name":  "ExtraSpecularTint",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.846873,
+                                                                                                                          "ordinal":  4,
+                                                                                                                          "g":  0.215861
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1036/1036301/Materials/Lobby/MI_1036301_Equip_06.uasset":  [
+                                                                                                                      {
+                                                                                                                          "r":  0.028426,
+                                                                                                                          "name":  "BaseTint",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.846873,
+                                                                                                                          "ordinal":  3,
+                                                                                                                          "g":  0.215861
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.846873,
+                                                                                                                          "name":  "ExtraSpecularTint",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.846873,
+                                                                                                                          "ordinal":  4,
+                                                                                                                          "g":  0.846873
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1036/1036301/Materials/Lobby/MI_1036301_Equip_07.uasset":  [
+                                                                                                                      {
+                                                                                                                          "r":  0.028426,
+                                                                                                                          "name":  "ExtraSpecularTint",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.846873,
+                                                                                                                          "ordinal":  1,
+                                                                                                                          "g":  0.215861
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.028426,
+                                                                                                                          "name":  "BaseTint",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.846873,
+                                                                                                                          "ordinal":  0,
+                                                                                                                          "g":  0.215861
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1036/1036301/Materials/Lobby/MI_1036301_Hair_01.uasset":  [
+                                                                                                                     {
+                                                                                                                         "r":  1,
+                                                                                                                         "name":  "BaseTint",
+                                                                                                                         "export":  0,
+                                                                                                                         "b":  0.5,
+                                                                                                                         "ordinal":  0,
+                                                                                                                         "g":  0.5
+                                                                                                                     }
+                                                                                                                 ],
+                     "Marvel/Content/Marvel/Characters/1036/1036301/Materials/MI_1036301_Equip_02.uasset":  [
+                                                                                                                {
+                                                                                                                    "r":  0.028426,
+                                                                                                                    "name":  "BaseTint",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.846873,
+                                                                                                                    "ordinal":  3,
+                                                                                                                    "g":  0.215861
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1036/1036301/Materials/MI_1036301_Equip_03.uasset":  [
+                                                                                                                {
+                                                                                                                    "r":  0.028426,
+                                                                                                                    "name":  "BaseTint",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.846873,
+                                                                                                                    "ordinal":  5,
+                                                                                                                    "g":  0.215861
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1036/1036301/Materials/MI_1036301_Equip_04.uasset":  [
+                                                                                                                {
+                                                                                                                    "r":  0.028426,
+                                                                                                                    "name":  "BaseTint",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.846873,
+                                                                                                                    "ordinal":  3,
+                                                                                                                    "g":  0.215861
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.028426,
+                                                                                                                    "name":  "ExtraSpecularTint",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.846873,
+                                                                                                                    "ordinal":  4,
+                                                                                                                    "g":  0.215861
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1036/1036301/Materials/MI_1036301_Equip_06.uasset":  [
+                                                                                                                {
+                                                                                                                    "r":  0.028426,
+                                                                                                                    "name":  "BaseTint",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.846873,
+                                                                                                                    "ordinal":  3,
+                                                                                                                    "g":  0.215861
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.846873,
+                                                                                                                    "name":  "ExtraSpecularTint",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.846873,
+                                                                                                                    "ordinal":  4,
+                                                                                                                    "g":  0.846873
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1036/1036301/Materials/MI_1036301_Equip_07.uasset":  [
+                                                                                                                {
+                                                                                                                    "r":  0.028426,
+                                                                                                                    "name":  "BaseTint",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.846873,
+                                                                                                                    "ordinal":  3,
+                                                                                                                    "g":  0.215861
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.028426,
+                                                                                                                    "name":  "ExtraSpecularTint",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.846873,
+                                                                                                                    "ordinal":  4,
+                                                                                                                    "g":  0.215861
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1036/1036301/Materials/MI_1036301_Hair_01.uasset":  [
+                                                                                                               {
+                                                                                                                   "r":  1,
+                                                                                                                   "name":  "BaseTint",
+                                                                                                                   "export":  0,
+                                                                                                                   "b":  0.5,
+                                                                                                                   "ordinal":  0,
+                                                                                                                   "g":  0.5
+                                                                                                               }
+                                                                                                           ]
+                 }
+}

@@ -1,0 +1,372 @@
+﻿{
+    "modName":  "BrownFox2",
+    "displayName":  "Brown Fox2",
+    "hero":  "1060",
+    "skin":  "1060500",
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10601\\T_1060500_SpiritualFox_Hair04_D.png":  [
+                                                                                                                                 {
+                                                                                                                                     "mode":  "tint",
+                                                                                                                                     "hueShift":  0,
+                                                                                                                                     "color":  "#291711",
+                                                                                                                                     "strength":  1,
+                                                                                                                                     "protectSkin":  false,
+                                                                                                                                     "lightMul":  1,
+                                                                                                                                     "satMul":  1
+                                                                                                                                 }
+                                                                                                                             ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10601\\T_1060500_SpiritualFox_Hair07_D.png":  [
+                                                                                                                                 {
+                                                                                                                                     "mode":  "tint",
+                                                                                                                                     "hueShift":  0,
+                                                                                                                                     "color":  "#291711",
+                                                                                                                                     "strength":  1,
+                                                                                                                                     "protectSkin":  false,
+                                                                                                                                     "lightMul":  1,
+                                                                                                                                     "satMul":  1
+                                                                                                                                 }
+                                                                                                                             ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10601\\T_1060500_SpiritualFox_Hair05_D.png":  [
+                                                                                                                                 {
+                                                                                                                                     "mode":  "tint",
+                                                                                                                                     "hueShift":  0,
+                                                                                                                                     "color":  "#291711",
+                                                                                                                                     "strength":  1,
+                                                                                                                                     "protectSkin":  false,
+                                                                                                                                     "lightMul":  1,
+                                                                                                                                     "satMul":  1
+                                                                                                                                 }
+                                                                                                                             ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Weapons\\MVP\\Laptop\\Textures\\T_WP_1060500_Laptop_E.png":  [
+                                                                                                                                      {
+                                                                                                                                          "mode":  "tint",
+                                                                                                                                          "hueShift":  0,
+                                                                                                                                          "color":  "#DCBD99",
+                                                                                                                                          "strength":  1,
+                                                                                                                                          "protectSkin":  false,
+                                                                                                                                          "lightMul":  1,
+                                                                                                                                          "satMul":  1
+                                                                                                                                      }
+                                                                                                                                  ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10601\\T_1060500_SpiritualFox_Hair06_D.png":  [
+                                                                                                                                 {
+                                                                                                                                     "mode":  "tint",
+                                                                                                                                     "hueShift":  0,
+                                                                                                                                     "color":  "#291711",
+                                                                                                                                     "strength":  1,
+                                                                                                                                     "protectSkin":  false,
+                                                                                                                                     "lightMul":  1,
+                                                                                                                                     "satMul":  1
+                                                                                                                                 }
+                                                                                                                             ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10601\\T_WP_1060001_SpiritualFox_Hair09_D.png":  [
+                                                                                                                                    {
+                                                                                                                                        "mode":  "tint",
+                                                                                                                                        "hueShift":  0,
+                                                                                                                                        "color":  "#291711",
+                                                                                                                                        "strength":  1,
+                                                                                                                                        "protectSkin":  false,
+                                                                                                                                        "lightMul":  1,
+                                                                                                                                        "satMul":  1
+                                                                                                                                    }
+                                                                                                                                ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10601\\T_1060500_SpiritualFox_Hair03_D.png":  [
+                                                                                                                                 {
+                                                                                                                                     "mode":  "tint",
+                                                                                                                                     "hueShift":  0,
+                                                                                                                                     "color":  "#291711",
+                                                                                                                                     "strength":  1,
+                                                                                                                                     "protectSkin":  false,
+                                                                                                                                     "lightMul":  1,
+                                                                                                                                     "satMul":  1
+                                                                                                                                 }
+                                                                                                                             ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10600\\T_10600_1060500_Head_D.png":  [
+                                                                                                                        {
+                                                                                                                            "mode":  "tint",
+                                                                                                                            "hueShift":  0,
+                                                                                                                            "color":  "#160D04",
+                                                                                                                            "strength":  1,
+                                                                                                                            "protectSkin":  true,
+                                                                                                                            "lightMul":  1,
+                                                                                                                            "satMul":  1
+                                                                                                                        }
+                                                                                                                    ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10601\\T_1060500_SpiritualFox_Hair08_D.png":  [
+                                                                                                                                 {
+                                                                                                                                     "mode":  "tint",
+                                                                                                                                     "hueShift":  0,
+                                                                                                                                     "color":  "#291711",
+                                                                                                                                     "strength":  1,
+                                                                                                                                     "protectSkin":  false,
+                                                                                                                                     "lightMul":  1,
+                                                                                                                                     "satMul":  1
+                                                                                                                                 }
+                                                                                                                             ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10601\\T_WP_1060001_SpiritualFox_Hair12_D.png":  [
+                                                                                                                                    {
+                                                                                                                                        "mode":  "tint",
+                                                                                                                                        "hueShift":  0,
+                                                                                                                                        "color":  "#291711",
+                                                                                                                                        "strength":  1,
+                                                                                                                                        "protectSkin":  false,
+                                                                                                                                        "lightMul":  1,
+                                                                                                                                        "satMul":  1
+                                                                                                                                    }
+                                                                                                                                ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10601\\T_1060500_SpiritualFox_Hair01_D.png":  [
+                                                                                                                                 {
+                                                                                                                                     "mode":  "tint",
+                                                                                                                                     "hueShift":  0,
+                                                                                                                                     "color":  "#160D04",
+                                                                                                                                     "strength":  1,
+                                                                                                                                     "protectSkin":  true,
+                                                                                                                                     "lightMul":  1,
+                                                                                                                                     "satMul":  1
+                                                                                                                                 }
+                                                                                                                             ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10600\\T_10600_1060500_Hair_01_D.png":  [
+                                                                                                                           {
+                                                                                                                               "mode":  "paint",
+                                                                                                                               "hueShift":  0,
+                                                                                                                               "color":  "#1F1006",
+                                                                                                                               "strength":  1,
+                                                                                                                               "protectSkin":  true,
+                                                                                                                               "lightMul":  1,
+                                                                                                                               "satMul":  1
+                                                                                                                           }
+                                                                                                                       ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10600\\T_10600_1060500_Equip_01_D.png":  [
+                                                                                                                            {
+                                                                                                                                "mode":  "tint",
+                                                                                                                                "hueShift":  0,
+                                                                                                                                "color":  "#1F1006",
+                                                                                                                                "strength":  1,
+                                                                                                                                "protectSkin":  false,
+                                                                                                                                "lightMul":  1,
+                                                                                                                                "satMul":  1
+                                                                                                                            }
+                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10601\\T_1060500_SpiritualFox_Hair02_D.png":  [
+                                                                                                                                 {
+                                                                                                                                     "mode":  "tint",
+                                                                                                                                     "hueShift":  0,
+                                                                                                                                     "color":  "#160D04",
+                                                                                                                                     "strength":  1,
+                                                                                                                                     "protectSkin":  true,
+                                                                                                                                     "lightMul":  1,
+                                                                                                                                     "satMul":  1
+                                                                                                                                 }
+                                                                                                                             ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10601\\T_1060500_SpiritualFox_Equip02_D.png":  [
+                                                                                                                                  {
+                                                                                                                                      "mode":  "tint",
+                                                                                                                                      "hueShift":  0,
+                                                                                                                                      "color":  "#1F1006",
+                                                                                                                                      "strength":  1,
+                                                                                                                                      "protectSkin":  false,
+                                                                                                                                      "lightMul":  1,
+                                                                                                                                      "satMul":  1
+                                                                                                                                  }
+                                                                                                                              ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Weapons\\MVP\\Laptop\\Textures\\T_WP_1060500_Laptop_D.png":  [
+                                                                                                                                      {
+                                                                                                                                          "mode":  "tint",
+                                                                                                                                          "hueShift":  0,
+                                                                                                                                          "color":  "#DCBD99",
+                                                                                                                                          "strength":  1,
+                                                                                                                                          "protectSkin":  false,
+                                                                                                                                          "lightMul":  1,
+                                                                                                                                          "satMul":  1
+                                                                                                                                      }
+                                                                                                                                  ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10600\\T_10600_1060500_Eyes_01_D.png":  [
+                                                                                                                           {
+                                                                                                                               "mode":  "tint",
+                                                                                                                               "hueShift":  0,
+                                                                                                                               "color":  "#291711",
+                                                                                                                               "strength":  1,
+                                                                                                                               "protectSkin":  false,
+                                                                                                                               "lightMul":  1,
+                                                                                                                               "satMul":  1
+                                                                                                                           }
+                                                                                                                       ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10600\\T_10600_1060001_Equip_01_E.png":  [
+                                                                                                                            {
+                                                                                                                                "mode":  "tint",
+                                                                                                                                "hueShift":  0,
+                                                                                                                                "color":  "#160D04",
+                                                                                                                                "strength":  1,
+                                                                                                                                "protectSkin":  true,
+                                                                                                                                "lightMul":  1,
+                                                                                                                                "satMul":  1
+                                                                                                                            }
+                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Weapons\\MVP\\Laptop\\Textures\\T_WP_1060500_Laptop05_D.png":  [
+                                                                                                                                        {
+                                                                                                                                            "mode":  "tint",
+                                                                                                                                            "hueShift":  0,
+                                                                                                                                            "color":  "#DCBD99",
+                                                                                                                                            "strength":  1,
+                                                                                                                                            "protectSkin":  false,
+                                                                                                                                            "lightMul":  1,
+                                                                                                                                            "satMul":  1
+                                                                                                                                        }
+                                                                                                                                    ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10600\\T_10600_1060500_Equip_02_D.png":  [
+                                                                                                                            {
+                                                                                                                                "mode":  "tint",
+                                                                                                                                "hueShift":  0,
+                                                                                                                                "color":  "#1F1006",
+                                                                                                                                "strength":  1,
+                                                                                                                                "protectSkin":  false,
+                                                                                                                                "lightMul":  1,
+                                                                                                                                "satMul":  1
+                                                                                                                            }
+                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10601\\T_WP_1060001_SpiritualFox_Hair10_D.png":  [
+                                                                                                                                    {
+                                                                                                                                        "mode":  "tint",
+                                                                                                                                        "hueShift":  0,
+                                                                                                                                        "color":  "#291711",
+                                                                                                                                        "strength":  1,
+                                                                                                                                        "protectSkin":  false,
+                                                                                                                                        "lightMul":  1,
+                                                                                                                                        "satMul":  1
+                                                                                                                                    }
+                                                                                                                                ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10601\\T_1060500_SpiritualFox_Equip01_D.png":  [
+                                                                                                                                  {
+                                                                                                                                      "mode":  "tint",
+                                                                                                                                      "hueShift":  0,
+                                                                                                                                      "color":  "#DCBD99",
+                                                                                                                                      "strength":  1,
+                                                                                                                                      "protectSkin":  false,
+                                                                                                                                      "lightMul":  1,
+                                                                                                                                      "satMul":  1
+                                                                                                                                  }
+                                                                                                                              ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10601\\T_1060500_SpiritualFox_Body_D.png":  [
+                                                                                                                               {
+                                                                                                                                   "mode":  "tint",
+                                                                                                                                   "hueShift":  0,
+                                                                                                                                   "color":  "#DCBD99",
+                                                                                                                                   "strength":  1,
+                                                                                                                                   "protectSkin":  false,
+                                                                                                                                   "lightMul":  1,
+                                                                                                                                   "satMul":  1
+                                                                                                                               }
+                                                                                                                           ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10601\\T_WP_1060001_SpiritualFox_Eyes_D.png":  [
+                                                                                                                                  {
+                                                                                                                                      "mode":  "tint",
+                                                                                                                                      "hueShift":  0,
+                                                                                                                                      "color":  "#DCBD99",
+                                                                                                                                      "strength":  1,
+                                                                                                                                      "protectSkin":  false,
+                                                                                                                                      "lightMul":  1,
+                                                                                                                                      "satMul":  1
+                                                                                                                                  }
+                                                                                                                              ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060500\\Textures\\10600\\T_10600_1060500_Tail_02_D.png":  [
+                                                                                                                           {
+                                                                                                                               "mode":  "tint",
+                                                                                                                               "hueShift":  0,
+                                                                                                                               "color":  "#291711",
+                                                                                                                               "strength":  1,
+                                                                                                                               "protectSkin":  false,
+                                                                                                                               "lightMul":  1,
+                                                                                                                               "satMul":  1
+                                                                                                                           }
+                                                                                                                       ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060001\\Textures\\10600\\T_10600_1060001_Body_D.png":  [
+                                                                                                                        {
+                                                                                                                            "strength":  1,
+                                                                                                                            "protectSkin":  false,
+                                                                                                                            "color":  "#2D1E13",
+                                                                                                                            "satMul":  1,
+                                                                                                                            "hueShift":  0,
+                                                                                                                            "mode":  "tint",
+                                                                                                                            "lightMul":  1
+                                                                                                                        }
+                                                                                                                    ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060001\\Textures\\10600\\T_10600_1060001_Equip_01_D.png":  [
+                                                                                                                            {
+                                                                                                                                "strength":  1,
+                                                                                                                                "protectSkin":  false,
+                                                                                                                                "color":  "#2D1E13",
+                                                                                                                                "satMul":  1,
+                                                                                                                                "hueShift":  0,
+                                                                                                                                "mode":  "tint",
+                                                                                                                                "lightMul":  1
+                                                                                                                            }
+                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060001\\Textures\\10600\\T_10600_1060001_Equip_02_D.png":  [
+                                                                                                                            {
+                                                                                                                                "strength":  1,
+                                                                                                                                "protectSkin":  false,
+                                                                                                                                "color":  "#2D1E13",
+                                                                                                                                "satMul":  1,
+                                                                                                                                "hueShift":  0,
+                                                                                                                                "mode":  "tint",
+                                                                                                                                "lightMul":  1
+                                                                                                                            }
+                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060001\\Textures\\10600\\T_10600_1060001_Hair_01_D.png":  [
+                                                                                                                           {
+                                                                                                                               "strength":  1,
+                                                                                                                               "protectSkin":  false,
+                                                                                                                               "color":  "#160F0A",
+                                                                                                                               "gradDir":  "v",
+                                                                                                                               "satMul":  1,
+                                                                                                                               "hueShift":  0,
+                                                                                                                               "color2":  "#2D1E13",
+                                                                                                                               "mode":  "gradpaint",
+                                                                                                                               "lightMul":  1
+                                                                                                                           }
+                                                                                                                       ],
+                "Marvel\\Content\\Marvel\\Characters\\1060\\1060001\\Textures\\10600\\T_10600_1060001_Tail_02_D.png":  [
+                                                                                                                           {
+                                                                                                                               "strength":  1,
+                                                                                                                               "protectSkin":  false,
+                                                                                                                               "color":  "#160F0A",
+                                                                                                                               "gradDir":  "v",
+                                                                                                                               "satMul":  1,
+                                                                                                                               "hueShift":  0,
+                                                                                                                               "color2":  "#2D1E13",
+                                                                                                                               "mode":  "gradpaint",
+                                                                                                                               "lightMul":  1
+                                                                                                                           }
+                                                                                                                       ]
+            },
+    "colorOps":  {
+                     "Marvel/Content/Marvel/Characters/1060/1060500/Materials/1060/Lobby/MI_10600_1060500_Laser_01.uasset":  [
+                                                                                                                                 {
+                                                                                                                                     "name":  "RampColor1",
+                                                                                                                                     "g":  0.28744083772691748,
+                                                                                                                                     "b":  0.0056053916242027229,
+                                                                                                                                     "export":  0,
+                                                                                                                                     "ordinal":  1,
+                                                                                                                                     "r":  0.65140563741982416
+                                                                                                                                 }
+                                                                                                                             ],
+                     "Marvel/Content/Marvel/Characters/1060/1060500/Materials/1060/Lobby/MI_10600_1060500_Laser_02.uasset":  [
+                                                                                                                                 {
+                                                                                                                                     "name":  "CubeMap_RelectionTint",
+                                                                                                                                     "g":  0.00091058095064651249,
+                                                                                                                                     "b":  0.00091058095064651249,
+                                                                                                                                     "export":  0,
+                                                                                                                                     "ordinal":  1,
+                                                                                                                                     "r":  0.016807375752887384
+                                                                                                                                 },
+                                                                                                                                 {
+                                                                                                                                     "name":  "ExtraSpecularTint",
+                                                                                                                                     "g":  0.00121410793419535,
+                                                                                                                                     "b":  0.00121410793419535,
+                                                                                                                                     "export":  0,
+                                                                                                                                     "ordinal":  2,
+                                                                                                                                     "r":  0.014443843596092545
+                                                                                                                                 }
+                                                                                                                             ]
+                 }
+}

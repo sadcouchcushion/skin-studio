@@ -1,0 +1,133 @@
+[size=5][b]Skin Studio for Marvel Rivals[/b][/size]
+[size=3]Recolour your skins on PC and see them on your hero in game.[/size]
+
+Skin Studio has two halves that work together:
+[list]
+[*][b]The Skin Studio app[/b] (on your PC). This is where skins are opened, edited, saved as designs and built into mods.
+[*][b]The in-game panel[/b] ([font=Courier New]!!SkinLive[/font]). Press [b]F8[/b] in a match and a Skin Studio panel opens over the game. You can recolour your hero right there, and the changes show on the live character within a second or so.
+[/list]
+The in-game panel is drawn by the app on your PC. [b]The panel only works while Skin Studio is running on the same PC[/b], so open the app before you launch the game.
+
+[line]
+
+[size=4][b]Requirements[/b][/size]
+[list]
+[*]Windows 10 or 11.
+[*]Marvel Rivals on Steam or Epic (any install folder).
+[*]The [b].NET 8 Runtime[/b] from Microsoft, for material colour edits.
+[*]About 2 GB free on C: for the texture cache.
+[*]Optional: [b]Project Galacta[/b] (Nexus mod 12806) to swap a freshly built mod into a running game without restarting.
+[*]Optional: [b]Atelier[/b] (github.com/clownfetus/Atelier) for the 3D preview, and Blender for 3D painting.
+[/list]
+
+[line]
+
+[size=4][b]Install[/b][/size]
+[color=#ff6666][b]Close Marvel Rivals before installing anything.[/b][/color]
+
+[list=1]
+[*][b]Open the game's ~mods folder.[/b] On Steam: right-click Marvel Rivals > Manage > Browse local files, then open [font=Courier New]MarvelGame\Marvel\Content\Paks\~mods[/font]. Create the ~mods folder if it does not exist.
+[*][b]Unzip the whole download into ~mods.[/b] You should see three [font=Courier New]!!SkinLive_9999999_P[/font] files (.pak, .ucas, .utoc) and a [font=Courier New]SkinStudio[/font] folder sitting directly in ~mods.
+[*][b]Double-click [font=Courier New]~mods\SkinStudio\Start Skin Studio.bat[/font] once.[/b] It sets Skin Studio up in your user folder ([font=Courier New]%LOCALAPPDATA%\SkinStudio[/font]), finds the game from where you put it, adds [b]Skin Studio[/b] to the Start menu and opens the app.
+[*]From then on, open Skin Studio from the Start menu.
+[/list]
+The app's work files, cache and built mods are kept in [font=Courier New]%LOCALAPPDATA%\SkinStudio[/font], not in ~mods, so the game never tries to load them.
+
+[b]Using Vortex?[/b] Run your Vortex deploy [b]first[/b], then unzip Skin Studio into ~mods. A Vortex redeploy can sweep loose files out of ~mods, so after any deploy check the three !!SkinLive files are still there.
+
+[b]Updating:[/b] close Skin Studio and the game, unzip the new download over the old one in ~mods, and run Start Skin Studio.bat again. Your designs and cache are kept.
+
+The first time a skin is opened, the app extracts its textures from the game, which can take up to a minute. After that it is cached.
+
+[spoiler]
+[b]Optional: the panel without the app window[/b]
+
+When the app opens, it also starts a small background helper with no window. While the helper is running, the in-game panel keeps working even if you close the app window: the helper starts the panel's drawing process whenever Rivals runs, and that process closes with the game.
+
+The helper only runs after the app has been opened since your last Windows sign-in. To have it start with Windows, put a shortcut in your Startup folder (Win+R, type [font=Courier New]shell:startup[/font]) whose target is:
+[code]powershell -WindowStyle Hidden -File "%LOCALAPPDATA%\SkinStudio\ingame\helper.ps1"[/code]
+Delete the shortcut to undo it. If you're unsure, just open Skin Studio before every game.
+[/spoiler]
+
+[line]
+
+[size=4][b]Using the in-game panel[/b][/size]
+[list=1]
+[*]Open [b]Skin Studio[/b] from the Start menu.
+[*]Launch Marvel Rivals and go into a match. [b]The Practice Range is the best place.[/b] The panel needs a hero on the field; it does nothing in the lobby, hero select or the gallery.
+[*]Press [b]F8[/b]. The Skin Studio panel opens and the mouse switches over to it.
+[*]Press [b]F8[/b] again to close it. The mouse goes back to the camera.
+[/list]
+[quote][b]F8 is Skin Studio. F7 belongs to Project Galacta.[/b] If you have Galacta installed, F7 reloads your mods; it does not open this panel.[/quote]
+
+[size=3][b]Live preview[/b][/size]
+The panel's home screen has a [b]Live preview[/b] switch at the top. It is the same switch as the [b]LIVE PREVIEW[/b] button in the app: flip either one and the other follows within a second or two.
+[list]
+[*][b]On:[/b] your edits and saved designs are painted onto your hero live.
+[*][b]Off:[/b] F8 shows a single screen with [b]Turn on live preview[/b]. Turning it off puts the game's own skin back on your hero straight away.
+[/list]
+
+[size=3][b]Editing a part[/b][/size]
+[list]
+[*]The home screen lists the parts of the hero you are playing. Tap one to open it.
+[*]A strip of part thumbnails runs across the top, so you can switch part without going back.
+[*]The tabs [b]Colour[/b], [b]Shine[/b] and [b]Glow[/b] pick which kind of map you are editing.
+[*][b]Layers[/b] are shown as tabs (for example "1 Tint", "2 Hue shift", "+ Add") and apply left to right. The selected layer's controls sit right under the tabs. Use [b]Move left[/b], [b]Move right[/b] and [b]Delete layer[/b] to rearrange them.
+[*]Layer types include Tint, Paint, Hue shift, Gradient tint, Gradient paint, Grayscale, Invert, Colour family and Image, with sliders such as Strength, Saturation and Lightness, and a [b]Protect skin tones[/b] option.
+[*][b]Colour history[/b] holds the last 16 colours you used, in two rows. Tapping one reuses it and moves it to the front.
+[*]On a part you haven't edited yet, pick a colour from the history, or start with [b]Tint[/b] if you have no history yet.
+[*][b]Fine-tune[/b] opens the full colour picker.
+[*][b]Undo[/b] steps back. [b]Clear this map - back to vanilla[/b] and [b]Clear every edit on this hero[/b] reset things.
+[*][b]Text size[/b] (Small, Medium, Large, Huge) is at the bottom of the home screen if the panel is hard to read.
+[/list]
+Each change repaints the hero in under a second for most textures.
+
+[size=3][b]Designs[/b][/size]
+Your edits are saved as [b]designs[/b] in the app ([font=Courier New]%LOCALAPPDATA%\SkinStudio\designs\[/font]). The panel's [b]Designs[/b] screen lists the saved designs for the hero you are playing and has a [b]New design[/b] button.
+
+When you spawn as a hero with live preview on, Skin Studio automatically puts the newest design made for [b]that skin[/b] on your hero a second or two later. No key is needed. A skin with no design stays as it is. The first time on a skin, Skin Studio has to prepare it first, which can take up to a minute.
+
+[size=3][b]Building a real mod[/b][/size]
+Live preview is only visible on your own screen and only while Skin Studio runs. To make a permanent mod that other people can use, build it:
+[list]
+[*]In the app: name the mod and click [b]BUILD MOD[/b]. The mod is installed into ~mods and a zip is saved in [font=Courier New]%LOCALAPPDATA%\SkinStudio\output\[/font] and your Downloads folder.
+[*]In game: the panel's [b]Build mod[/b] button does the same.
+[/list]
+[b]Without Project Galacta[/b], a new build loads at your next game launch. If the game is using the old copy, it goes in when you quit Rivals. Live preview keeps your edits on the hero until then.
+
+[b]With Project Galacta[/b] installed and the game running, Skin Studio swaps the new build in for you using Galacta's F7 (it presses F7 for you). Then enter or leave a match or the Practice Range to see it. If the game doesn't respond within a few seconds, the panel asks you to press F7 yourself. A mod that wasn't in ~mods when you logged in usually waits for your next launch, because Galacta only reloads the mods it found at login.
+
+[line]
+
+[size=4][b]Troubleshooting[/b][/size]
+[b]F8 does nothing.[/b]
+[list=1]
+[*]Is Skin Studio open? The panel is drawn by the app on your PC, so with nothing running F8 shows nothing. Open the app, then press F8 again; presses made before the app was running are thrown away.
+[*]Are you in a match with a hero on the field? The lobby has no hero to edit.
+[*]Are the three !!SkinLive_9999999_P files still in ~mods? A Vortex redeploy can remove them.
+[*]Did a game patch just come out? See below.
+[/list]
+[b]The game crashes at launch after a patch.[/b] This mod includes a small Blueprint, which a game update can break. Remove the three !!SkinLive_9999999_P files from ~mods and wait for an updated version. Skins you built with Skin Studio are texture-only and are not affected. Also check other mods: older Blueprint, VFX and per-map mods are a common crash cause after an update.
+
+[b]The mouse still turns the camera.[/b] Tap the Windows key once, then click the panel.
+
+[b]My built mod doesn't show.[/b] Mods load when the game starts. Restart Rivals, or use Project Galacta (see Building a real mod).
+
+[b]Material colours don't change.[/b] Install the .NET 8 Runtime from Microsoft, then restart Skin Studio.
+
+[b]Turning things off.[/b] Switch live preview off, in the app or the panel. Your hero goes back to the game's own skin.
+
+[line]
+
+[size=4][b]Uninstall[/b][/size]
+[list=1]
+[*]Close Skin Studio and Marvel Rivals.
+[*]From ~mods, delete the three !!SkinLive_9999999_P files and the SkinStudio folder.
+[*]Delete [font=Courier New]%LOCALAPPDATA%\SkinStudio[/font]. Copy its designs folder somewhere first if you want to keep your designs.
+[*]Delete [b]Skin Studio[/b] from the Start menu, and the Startup shortcut if you made one.
+[/list]
+
+[line]
+
+[size=4][b]What's been tested[/b][/size]
+Seen working in game: F8 opens and closes the panel in a match, the mouse works in the panel, colour and material edits repaint the hero live, saved designs go back on automatically, the 16-colour Colour history and the Tint start work, the Live preview switch inside the panel works, and Skin Studio presses Galacta's F7 for you after a build.

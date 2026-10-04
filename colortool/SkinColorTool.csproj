@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Small console helper Skin Studio shells out to (like python/rrcli/retoc).
+       Uses the UAssetAPI + Marvel.usmap already on disk with rrcli's KawaiiPhysics
+       binding - the same net8 parser that is proven to round-trip Rivals assets.
+       Framework-dependent: the net8 runtime is already installed. -->
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>SkinColorTool</AssemblyName>
+    <RootNamespace>SkinColorTool</RootNamespace>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <!-- Reference the DLLs in place; copy them (and known runtime deps) next to our
+       exe so they resolve without a package restore. An AssemblyResolve fallback
+       in Program.cs covers any remaining transitive deps from the same folder. -->
+  <ItemGroup>
+    <Reference Include="UAssetAPI">
+      <HintPath>C:\rs\tools\rrcli\KawaiiPhysicsBinding\UAssetAPI.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\rs\tools\rrcli\KawaiiPhysicsBinding\Newtonsoft.Json.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="ZstdSharp">
+      <HintPath>C:\rs\tools\rrcli\KawaiiPhysicsBinding\ZstdSharp.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>
+

@@ -1,0 +1,62 @@
+﻿{
+    "modName":  "JubileePink",
+    "displayName":  "Jubilee Pink",
+    "hero":  "1064",
+    "skin":  "1064001",
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1064\\1064001\\Textures\\T_1064001_Eyes_D.png":  {
+                                                                                                           "mode":  "tint",
+                                                                                                           "hueShift":  0,
+                                                                                                           "color":  "#630084",
+                                                                                                           "strength":  0.5,
+                                                                                                           "protectSkin":  false,
+                                                                                                           "lightMul":  1,
+                                                                                                           "satMul":  1
+                                                                                                       },
+                "Marvel\\Content\\Marvel\\Characters\\1064\\1064001\\Textures\\T_1064001_Body_D.png":  {
+                                                                                                           "strength":  1,
+                                                                                                           "satMul":  1,
+                                                                                                           "color":  "#FFDFEE",
+                                                                                                           "hueShift":  0,
+                                                                                                           "lightMul":  1,
+                                                                                                           "protectSkin":  true,
+                                                                                                           "mode":  "tint"
+                                                                                                       },
+                "Marvel\\Content\\Marvel\\Characters\\1064\\1064001\\Textures\\T_1064001_Equip_02_D.png":  {
+                                                                                                               "strength":  1,
+                                                                                                               "satMul":  1,
+                                                                                                               "color":  "#FFDFEE",
+                                                                                                               "hueShift":  0,
+                                                                                                               "lightMul":  1,
+                                                                                                               "protectSkin":  true,
+                                                                                                               "mode":  "tint"
+                                                                                                           },
+                "Marvel\\Content\\Marvel\\Characters\\1064\\1064001\\Textures\\T_1064001_Equip_01_D.png":  {
+                                                                                                               "strength":  1,
+                                                                                                               "satMul":  1,
+                                                                                                               "color":  "#FFDFEE",
+                                                                                                               "hueShift":  0,
+                                                                                                               "lightMul":  1,
+                                                                                                               "protectSkin":  true,
+                                                                                                               "mode":  "tint"
+                                                                                                           },
+                "Marvel\\Content\\Marvel\\Characters\\1064\\1064001\\Textures\\T_1064001_Head_D.png":  {
+                                                                                                           "mode":  "tint",
+                                                                                                           "hueShift":  0,
+                                                                                                           "color":  "#FDE0FE",
+                                                                                                           "strength":  1,
+                                                                                                           "protectSkin":  true,
+                                                                                                           "lightMul":  1,
+                                                                                                           "satMul":  1
+                                                                                                       },
+                "Marvel\\Content\\Marvel\\Characters\\1064\\1064001\\Textures\\T_1064001_Equip_03_D.png":  {
+                                                                                                               "strength":  1,
+                                                                                                               "satMul":  1,
+                                                                                                               "color":  "#FFDFEE",
+                                                                                                               "hueShift":  0,
+                                                                                                               "lightMul":  1,
+                                                                                                               "protectSkin":  true,
+                                                                                                               "mode":  "tint"
+                                                                                                           }
+            }
+}

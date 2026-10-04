@@ -1,0 +1,44 @@
+﻿{
+    "modName":  "RedHulk",
+    "displayName":  "Red Hulk",
+    "hero":  "1011",
+    "skin":  "1011001",
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1011\\1011001\\Textures\\1012\\T_1012001_1012_Body_D.png":  {
+                                                                                                                      "strength":  1,
+                                                                                                                      "satMul":  1,
+                                                                                                                      "color":  "#710F0F",
+                                                                                                                      "hueShift":  0,
+                                                                                                                      "lightMul":  1,
+                                                                                                                      "protectSkin":  true,
+                                                                                                                      "mode":  "tint"
+                                                                                                                  },
+                "Marvel\\Content\\Marvel\\Characters\\1011\\1011001\\Textures\\1013\\T_1013001_1013_Head_D.png":  {
+                                                                                                                      "strength":  1,
+                                                                                                                      "satMul":  1,
+                                                                                                                      "color":  "#710F0F",
+                                                                                                                      "hueShift":  0,
+                                                                                                                      "lightMul":  1,
+                                                                                                                      "protectSkin":  true,
+                                                                                                                      "mode":  "tint"
+                                                                                                                  },
+                "Marvel\\Content\\Marvel\\Characters\\1011\\1011001\\Textures\\1013\\T_1013001_1013_Body_D.png":  {
+                                                                                                                      "strength":  1,
+                                                                                                                      "satMul":  1,
+                                                                                                                      "color":  "#710F0F",
+                                                                                                                      "hueShift":  0,
+                                                                                                                      "lightMul":  1,
+                                                                                                                      "protectSkin":  true,
+                                                                                                                      "mode":  "tint"
+                                                                                                                  },
+                "Marvel\\Content\\Marvel\\Characters\\1011\\1011001\\Textures\\1012\\T_1012001_1012_Head_D.png":  {
+                                                                                                                      "strength":  1,
+                                                                                                                      "satMul":  1,
+                                                                                                                      "color":  "#710F0F",
+                                                                                                                      "hueShift":  0,
+                                                                                                                      "lightMul":  1,
+                                                                                                                      "protectSkin":  true,
+                                                                                                                      "mode":  "tint"
+                                                                                                                  }
+            }
+}

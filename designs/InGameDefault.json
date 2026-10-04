@@ -1,0 +1,25 @@
+{
+    "modName":  "InGameDefault",
+    "displayName":  "In-game Default",
+    "hero":  "1055",
+    "skin":  "1055001",
+    "chromaSkins":  [
+
+                    ],
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1055\\1055001\\Texture\\T_1055001_Hair_01_D.png":  [
+                                                                                                             {
+                                                                                                                 "strength":  1,
+                                                                                                                 "protectSkin":  false,
+                                                                                                                 "color":  "#FF7A1A",
+                                                                                                                 "satMul":  1,
+                                                                                                                 "hueShift":  0,
+                                                                                                                 "mode":  "tint",
+                                                                                                                 "lightMul":  1
+                                                                                                             }
+                                                                                                         ]
+            },
+    "colorOps":  {
+
+                 }
+}

@@ -1,0 +1,783 @@
+﻿{
+    "modName":  "BohoSue",
+    "displayName":  "Boho Sue",
+    "hero":  "1050",
+    "skin":  "1050302",
+    "chromaSkins":  [
+                        "1050308"
+                    ],
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Weapons\\ClothesRack\\Textures\\T_WP_1050302_ClothesRack_06_D.png":  [
+                                                                                                                                              {
+                                                                                                                                                  "strength":  0.99,
+                                                                                                                                                  "satMul":  1,
+                                                                                                                                                  "color":  "#97AC82",
+                                                                                                                                                  "hueShift":  50,
+                                                                                                                                                  "lightMul":  1,
+                                                                                                                                                  "protectSkin":  false,
+                                                                                                                                                  "mode":  "tint"
+                                                                                                                                              }
+                                                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Textures\\T_1050302_Body_D.png":  [
+                                                                                                           {
+                                                                                                               "strength":  0.99,
+                                                                                                               "protectSkin":  false,
+                                                                                                               "color":  "#B9C9A9",
+                                                                                                               "satMul":  1,
+                                                                                                               "hueShift":  50,
+                                                                                                               "bandCenter":  321,
+                                                                                                               "bandWidth":  34,
+                                                                                                               "mode":  "huerange",
+                                                                                                               "lightMul":  1
+                                                                                                           }
+                                                                                                       ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050308\\Textures\\T_1050308_Head_D.png":  [
+                                                                                                           {
+                                                                                                               "strength":  1,
+                                                                                                               "file":  "C:\\rs\\SkinStudio\\cache\\1050302\\png\\src\\Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Textures\\T_1050302_Head_D.png",
+                                                                                                               "mode":  "replace"
+                                                                                                           }
+                                                                                                       ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Weapons\\ClothesRack\\Textures\\T_WP_1050302_ClothesRack_03_D.png":  [
+                                                                                                                                              {
+                                                                                                                                                  "strength":  0.99,
+                                                                                                                                                  "satMul":  1,
+                                                                                                                                                  "color":  "#97AC82",
+                                                                                                                                                  "hueShift":  50,
+                                                                                                                                                  "lightMul":  1,
+                                                                                                                                                  "protectSkin":  false,
+                                                                                                                                                  "mode":  "tint"
+                                                                                                                                              }
+                                                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Textures\\T_1050302_Equip_01_D.png":  [
+                                                                                                               {
+                                                                                                                   "strength":  1,
+                                                                                                                   "file":  "C:\\rs\\SkinStudio\\work\\edit\\1050302\\T_1050302_Equip_01_D.png",
+                                                                                                                   "mode":  "replace"
+                                                                                                               }
+                                                                                                           ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050308\\Textures\\T_1050308_Equip_02_S.png":  [
+                                                                                                               {
+                                                                                                                   "strength":  1,
+                                                                                                                   "file":  "C:\\rs\\SkinStudio\\cache\\1050302\\png\\src\\Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Textures\\T_1050302_Equip_02_S.png",
+                                                                                                                   "mode":  "replace"
+                                                                                                               }
+                                                                                                           ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050308\\Textures\\T_1050308_Equip_01_M.png":  [
+                                                                                                               {
+                                                                                                                   "strength":  1,
+                                                                                                                   "file":  "C:\\rs\\SkinStudio\\cache\\1050302\\png\\src\\Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Textures\\T_1050302_Equip_01_M.png",
+                                                                                                                   "mode":  "replace"
+                                                                                                               }
+                                                                                                           ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050308\\Textures\\T_Common_GemRefraction.png":  [
+                                                                                                                 {
+                                                                                                                     "strength":  1,
+                                                                                                                     "file":  "C:\\rs\\SkinStudio\\cache\\1050302\\png\\src\\Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Textures\\T_Common_GemRefraction.png",
+                                                                                                                     "mode":  "replace"
+                                                                                                                 }
+                                                                                                             ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Weapons\\ClothesRack\\Textures\\T_WP_1050302_ClothesRack_04_D.png":  [
+                                                                                                                                              {
+                                                                                                                                                  "strength":  0.99,
+                                                                                                                                                  "satMul":  1,
+                                                                                                                                                  "color":  "#97AC82",
+                                                                                                                                                  "hueShift":  50,
+                                                                                                                                                  "lightMul":  1,
+                                                                                                                                                  "protectSkin":  false,
+                                                                                                                                                  "mode":  "tint"
+                                                                                                                                              }
+                                                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050308\\Textures\\T_1050308_Head_S.png":  [
+                                                                                                           {
+                                                                                                               "strength":  1,
+                                                                                                               "file":  "C:\\rs\\SkinStudio\\cache\\1050302\\png\\src\\Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Textures\\T_1050302_Head_S.png",
+                                                                                                               "mode":  "replace"
+                                                                                                           }
+                                                                                                       ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050308\\Textures\\T_1050308_Body_D.png":  [
+                                                                                                           {
+                                                                                                               "strength":  1,
+                                                                                                               "file":  "C:\\rs\\SkinStudio\\work\\chroma\\1050302\\T_1050302_Body_D.png",
+                                                                                                               "mode":  "replace"
+                                                                                                           }
+                                                                                                       ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Weapons\\ClothesRack\\Textures\\T_WP_1050302_ClothesRack_01_D.png":  [
+                                                                                                                                              {
+                                                                                                                                                  "strength":  0.99,
+                                                                                                                                                  "satMul":  1,
+                                                                                                                                                  "color":  "#291D19",
+                                                                                                                                                  "hueShift":  50,
+                                                                                                                                                  "lightMul":  1,
+                                                                                                                                                  "protectSkin":  false,
+                                                                                                                                                  "mode":  "tint"
+                                                                                                                                              }
+                                                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Weapons\\ClothesRack\\Textures\\T_WP_1050302_ClothesRack_02_D.png":  [
+                                                                                                                                              {
+                                                                                                                                                  "strength":  0.99,
+                                                                                                                                                  "satMul":  1,
+                                                                                                                                                  "color":  "#97AC82",
+                                                                                                                                                  "hueShift":  50,
+                                                                                                                                                  "lightMul":  1,
+                                                                                                                                                  "protectSkin":  false,
+                                                                                                                                                  "mode":  "tint"
+                                                                                                                                              }
+                                                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Weapons\\ClothesRack\\Textures\\T_WP_1050302_ClothesRack_07_D.png":  [
+                                                                                                                                              {
+                                                                                                                                                  "strength":  0.99,
+                                                                                                                                                  "satMul":  1,
+                                                                                                                                                  "color":  "#97AC82",
+                                                                                                                                                  "hueShift":  50,
+                                                                                                                                                  "lightMul":  1,
+                                                                                                                                                  "protectSkin":  false,
+                                                                                                                                                  "mode":  "tint"
+                                                                                                                                              }
+                                                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Textures\\T_1050302_Equip_01_S.png":  [
+                                                                                                               {
+                                                                                                                   "strength":  0.99,
+                                                                                                                   "satMul":  1,
+                                                                                                                   "color":  "#ACE59C",
+                                                                                                                   "hueShift":  50,
+                                                                                                                   "lightMul":  1,
+                                                                                                                   "protectSkin":  false,
+                                                                                                                   "mode":  "tint"
+                                                                                                               }
+                                                                                                           ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050308\\Textures\\T_1050308_Hair_AO.png":  [
+                                                                                                            {
+                                                                                                                "strength":  1,
+                                                                                                                "file":  "C:\\rs\\SkinStudio\\cache\\1050302\\png\\src\\Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Textures\\T_1050302_Hair_AO.png",
+                                                                                                                "mode":  "replace"
+                                                                                                            }
+                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Textures\\T_1050302_Equip_02_D.png":  [
+                                                                                                               {
+                                                                                                                   "strength":  0.99,
+                                                                                                                   "file":  "C:\\rs\\SkinStudio\\work\\edit\\1050302\\T_1050302_Equip_02_D.png",
+                                                                                                                   "mode":  "replace"
+                                                                                                               }
+                                                                                                           ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050308\\Textures\\T_1050308_Equip_01_S.png":  [
+                                                                                                               {
+                                                                                                                   "strength":  1,
+                                                                                                                   "file":  "C:\\rs\\SkinStudio\\work\\chroma\\1050302\\T_1050302_Equip_01_S.png",
+                                                                                                                   "mode":  "replace"
+                                                                                                               }
+                                                                                                           ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Weapons\\ClothesRack\\Textures\\T_WP_1050302_ClothesRack_05_D.png":  [
+                                                                                                                                              {
+                                                                                                                                                  "strength":  0.99,
+                                                                                                                                                  "satMul":  1,
+                                                                                                                                                  "color":  "#97AC82",
+                                                                                                                                                  "hueShift":  50,
+                                                                                                                                                  "lightMul":  1,
+                                                                                                                                                  "protectSkin":  false,
+                                                                                                                                                  "mode":  "tint"
+                                                                                                                                              }
+                                                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050308\\Textures\\T_1050308_Equip_01_D.png":  [
+                                                                                                               {
+                                                                                                                   "strength":  1,
+                                                                                                                   "file":  "C:\\rs\\SkinStudio\\work\\chroma\\1050302\\T_1050302_Equip_01_D.png",
+                                                                                                                   "mode":  "replace"
+                                                                                                               }
+                                                                                                           ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050308\\Textures\\T_1050308_Equip_02_D.png":  [
+                                                                                                               {
+                                                                                                                   "strength":  1,
+                                                                                                                   "file":  "C:\\rs\\SkinStudio\\work\\chroma\\1050302\\T_1050302_Equip_02_D.png",
+                                                                                                                   "mode":  "replace"
+                                                                                                               }
+                                                                                                           ],
+                "Marvel\\Content\\Marvel\\Characters\\1050\\1050302\\Weapons\\ClothesRack\\Textures\\T_WP_1050302_ClothesRack_08_D.png":  [
+                                                                                                                                              {
+                                                                                                                                                  "strength":  0.99,
+                                                                                                                                                  "satMul":  1,
+                                                                                                                                                  "color":  "#97AC82",
+                                                                                                                                                  "hueShift":  50,
+                                                                                                                                                  "lightMul":  1,
+                                                                                                                                                  "protectSkin":  false,
+                                                                                                                                                  "mode":  "tint"
+                                                                                                                                              }
+                                                                                                                                          ]
+            },
+    "colorOps":  {
+                     "Marvel/Content/Marvel/Characters/1050/1050308/Materials/Lobby/MI_1050308_Equip_01.uasset":  [
+                                                                                                                      {
+                                                                                                                          "r":  0.5352281291611255,
+                                                                                                                          "name":  "Region 1 - ColorB",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.49362777378156175,
+                                                                                                                          "ordinal":  3,
+                                                                                                                          "g":  0.55691857789026133,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.45920060209334146,
+                                                                                                                          "name":  "Region 4 - ColorB",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.32949593503365138,
+                                                                                                                          "ordinal":  9,
+                                                                                                                          "g":  0.31491954773035147,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.41639988125471944,
+                                                                                                                          "name":  "Region 2 - ColorGChannel",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.31234888081139245,
+                                                                                                                          "ordinal":  17,
+                                                                                                                          "g":  0.33835044656359914,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.52399420050117829,
+                                                                                                                          "name":  "Region 5 - ColorB",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.42953617134052058,
+                                                                                                                          "ordinal":  11,
+                                                                                                                          "g":  0.52049011741965889,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.51265552445596774,
+                                                                                                                          "name":  "Region 6 - ColorB",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.501732797107309,
+                                                                                                                          "ordinal":  13,
+                                                                                                                          "g":  0.52614830529842815,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.46744082142211268,
+                                                                                                                          "name":  "Region 3 - ColorBChannel",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.40755031766575395,
+                                                                                                                          "ordinal":  25,
+                                                                                                                          "g":  0.41670630021319049,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.52421895802943119,
+                                                                                                                          "name":  "Region 5 - ColorBChannel",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.48309384278643819,
+                                                                                                                          "ordinal":  27,
+                                                                                                                          "g":  0.48137187889673155,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.5291737259898105,
+                                                                                                                          "name":  "Region 1 - ColorA",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.49445325431870724,
+                                                                                                                          "ordinal":  2,
+                                                                                                                          "g":  0.57019606595658945,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.30979491740644605,
+                                                                                                                          "name":  "Region 6 - ColorA",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.30578075372571339,
+                                                                                                                          "ordinal":  12,
+                                                                                                                          "g":  0.30987357508797581,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.46502358932406263,
+                                                                                                                          "name":  "Region 3 - ColorGChannel",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.40747219224710579,
+                                                                                                                          "ordinal":  18,
+                                                                                                                          "g":  0.412911694888815,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.47769043101111414,
+                                                                                                                          "name":  "Region 2 - ColorBChannel",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.36143690451090832,
+                                                                                                                          "ordinal":  24,
+                                                                                                                          "g":  0.40753390962119612,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.48487525477539728,
+                                                                                                                          "name":  "Region 2 - ColorB",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.35847976968097683,
+                                                                                                                          "ordinal":  5,
+                                                                                                                          "g":  0.389172101677767,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.51176425811247084,
+                                                                                                                          "name":  "Region 3 - ColorB",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.43132239879281242,
+                                                                                                                          "ordinal":  7,
+                                                                                                                          "g":  0.44734091855513619,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.54281835042968385,
+                                                                                                                          "name":  "Region 5 - ColorGChannel",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.47382539427902415,
+                                                                                                                          "ordinal":  20,
+                                                                                                                          "g":  0.57723542759124769,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.42157446862659254,
+                                                                                                                          "name":  "Region 2 - ColorA",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.3146852537968558,
+                                                                                                                          "ordinal":  4,
+                                                                                                                          "g":  0.34164710626055145,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.4652504971767798,
+                                                                                                                          "name":  "Region 5 - ColorA",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.4337284688609892,
+                                                                                                                          "ordinal":  10,
+                                                                                                                          "g":  0.50708379271332282,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.38831850763763975,
+                                                                                                                          "name":  "Region 4 - ColorA",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.30416243282773142,
+                                                                                                                          "ordinal":  8,
+                                                                                                                          "g":  0.29748964521873833,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1050/1050308/Materials/Lobby/MI_1050308_Equip_02.uasset":  [
+                                                                                                                      {
+                                                                                                                          "r":  0.43384129161868829,
+                                                                                                                          "name":  "FX_105031_GradientMinColor",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.345144180121028,
+                                                                                                                          "ordinal":  48,
+                                                                                                                          "g":  0.37430523229700047,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.43384129161868829,
+                                                                                                                          "name":  "FX_Stealth - EdgeColor",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.345144180121028,
+                                                                                                                          "ordinal":  51,
+                                                                                                                          "g":  0.37430523229700047,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1050/1050308/Materials/Lobby/MI_1050308_Equip_05.uasset":  [
+                                                                                                                      {
+                                                                                                                          "r":  0.42157446862659254,
+                                                                                                                          "name":  "Region 2 - ColorA",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.3146852537968558,
+                                                                                                                          "ordinal":  3,
+                                                                                                                          "g":  0.34164710626055145,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.4652504971767798,
+                                                                                                                          "name":  "Region 5 - ColorA",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.4337284688609892,
+                                                                                                                          "ordinal":  9,
+                                                                                                                          "g":  0.50708379271332282,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.46502358932406263,
+                                                                                                                          "name":  "Region 3 - ColorGChannel",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.40747219224710579,
+                                                                                                                          "ordinal":  17,
+                                                                                                                          "g":  0.412911694888815,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.30979491740644605,
+                                                                                                                          "name":  "Region 6 - ColorA",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.30578075372571339,
+                                                                                                                          "ordinal":  11,
+                                                                                                                          "g":  0.30987357508797581,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.5352281291611255,
+                                                                                                                          "name":  "Region 1 - ColorB",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.49362777378156175,
+                                                                                                                          "ordinal":  2,
+                                                                                                                          "g":  0.55691857789026133,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.51265552445596774,
+                                                                                                                          "name":  "Region 6 - ColorB",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.501732797107309,
+                                                                                                                          "ordinal":  12,
+                                                                                                                          "g":  0.52614830529842815,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.52421895802943119,
+                                                                                                                          "name":  "Region 5 - ColorBChannel",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.48309384278643819,
+                                                                                                                          "ordinal":  26,
+                                                                                                                          "g":  0.48137187889673155,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.46744082142211268,
+                                                                                                                          "name":  "Region 3 - ColorBChannel",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.40755031766575395,
+                                                                                                                          "ordinal":  24,
+                                                                                                                          "g":  0.41670630021319049,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.41595480361132842,
+                                                                                                                          "name":  "Region 3 - ColorA",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.35100646830990362,
+                                                                                                                          "ordinal":  5,
+                                                                                                                          "g":  0.36078147352253082,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.38831850763763975,
+                                                                                                                          "name":  "Region 4 - ColorA",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.30416243282773142,
+                                                                                                                          "ordinal":  7,
+                                                                                                                          "g":  0.29748964521873833,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.47769043101111414,
+                                                                                                                          "name":  "Region 2 - ColorBChannel",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.36143690451090832,
+                                                                                                                          "ordinal":  23,
+                                                                                                                          "g":  0.40753390962119612,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.41639988125471944,
+                                                                                                                          "name":  "Region 2 - ColorGChannel",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.31234888081139245,
+                                                                                                                          "ordinal":  16,
+                                                                                                                          "g":  0.33835044656359914,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.54281835042968385,
+                                                                                                                          "name":  "Region 5 - ColorGChannel",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.47382539427902415,
+                                                                                                                          "ordinal":  19,
+                                                                                                                          "g":  0.57723542759124769,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.48487525477539728,
+                                                                                                                          "name":  "Region 2 - ColorB",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.35847976968097683,
+                                                                                                                          "ordinal":  4,
+                                                                                                                          "g":  0.389172101677767,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.51176425811247084,
+                                                                                                                          "name":  "Region 3 - ColorB",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.43132239879281242,
+                                                                                                                          "ordinal":  6,
+                                                                                                                          "g":  0.44734091855513619,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.45920060209334146,
+                                                                                                                          "name":  "Region 4 - ColorB",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.32949593503365138,
+                                                                                                                          "ordinal":  8,
+                                                                                                                          "g":  0.31491954773035147,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.52399420050117829,
+                                                                                                                          "name":  "Region 5 - ColorB",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.42953617134052058,
+                                                                                                                          "ordinal":  10,
+                                                                                                                          "g":  0.52049011741965889,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.5291737259898105,
+                                                                                                                          "name":  "Region 1 - ColorA",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.49445325431870724,
+                                                                                                                          "ordinal":  1,
+                                                                                                                          "g":  0.57019606595658945,
+                                                                                                                          "viaChroma":  true
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1050/1050308/Materials/Lobby/MI_1050308_Head.uasset":  [
+                                                                                                                  {
+                                                                                                                      "r":  0.15653254511401665,
+                                                                                                                      "name":  "RimLightColor",
+                                                                                                                      "export":  0,
+                                                                                                                      "b":  0.12203862984759319,
+                                                                                                                      "ordinal":  2,
+                                                                                                                      "g":  0.15093245990111753,
+                                                                                                                      "viaChroma":  true
+                                                                                                                  }
+                                                                                                              ],
+                     "Marvel/Content/Marvel/Characters/1050/1050308/Materials/MI_1050308_Body.uasset":  [
+                                                                                                            {
+                                                                                                                "r":  0.5509852920760141,
+                                                                                                                "name":  "FX_Stealth - EdgeColor",
+                                                                                                                "export":  0,
+                                                                                                                "b":  0.39389919232999321,
+                                                                                                                "ordinal":  52,
+                                                                                                                "g":  0.49605597340977203,
+                                                                                                                "viaChroma":  true
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "r":  0.5509852920760141,
+                                                                                                                "name":  "FX_105031_GradientMinColor",
+                                                                                                                "export":  0,
+                                                                                                                "b":  0.39389919232999321,
+                                                                                                                "ordinal":  49,
+                                                                                                                "g":  0.49605597340977203,
+                                                                                                                "viaChroma":  true
+                                                                                                            }
+                                                                                                        ],
+                     "Marvel/Content/Marvel/Characters/1050/1050308/Materials/MI_1050308_Equip_01.uasset":  [
+                                                                                                                {
+                                                                                                                    "r":  0.5352281291611255,
+                                                                                                                    "name":  "Region 1 - ColorB",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.49362777378156175,
+                                                                                                                    "ordinal":  3,
+                                                                                                                    "g":  0.55691857789026133,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.45920060209334146,
+                                                                                                                    "name":  "Region 4 - ColorB",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.32949593503365138,
+                                                                                                                    "ordinal":  9,
+                                                                                                                    "g":  0.31491954773035147,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.41639988125471944,
+                                                                                                                    "name":  "Region 2 - ColorGChannel",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.31234888081139245,
+                                                                                                                    "ordinal":  17,
+                                                                                                                    "g":  0.33835044656359914,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.52399420050117829,
+                                                                                                                    "name":  "Region 5 - ColorB",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.42953617134052058,
+                                                                                                                    "ordinal":  11,
+                                                                                                                    "g":  0.52049011741965889,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.51265552445596774,
+                                                                                                                    "name":  "Region 6 - ColorB",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.501732797107309,
+                                                                                                                    "ordinal":  13,
+                                                                                                                    "g":  0.52614830529842815,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.46744082142211268,
+                                                                                                                    "name":  "Region 3 - ColorBChannel",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.40755031766575395,
+                                                                                                                    "ordinal":  25,
+                                                                                                                    "g":  0.41670630021319049,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.52421895802943119,
+                                                                                                                    "name":  "Region 5 - ColorBChannel",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.48309384278643819,
+                                                                                                                    "ordinal":  27,
+                                                                                                                    "g":  0.48137187889673155,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.5291737259898105,
+                                                                                                                    "name":  "Region 1 - ColorA",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.49445325431870724,
+                                                                                                                    "ordinal":  2,
+                                                                                                                    "g":  0.57019606595658945,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.30979491740644605,
+                                                                                                                    "name":  "Region 6 - ColorA",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.30578075372571339,
+                                                                                                                    "ordinal":  12,
+                                                                                                                    "g":  0.30987357508797581,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.46502358932406263,
+                                                                                                                    "name":  "Region 3 - ColorGChannel",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.40747219224710579,
+                                                                                                                    "ordinal":  18,
+                                                                                                                    "g":  0.412911694888815,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.47769043101111414,
+                                                                                                                    "name":  "Region 2 - ColorBChannel",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.36143690451090832,
+                                                                                                                    "ordinal":  24,
+                                                                                                                    "g":  0.40753390962119612,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.48487525477539728,
+                                                                                                                    "name":  "Region 2 - ColorB",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.35847976968097683,
+                                                                                                                    "ordinal":  5,
+                                                                                                                    "g":  0.389172101677767,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.51176425811247084,
+                                                                                                                    "name":  "Region 3 - ColorB",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.43132239879281242,
+                                                                                                                    "ordinal":  7,
+                                                                                                                    "g":  0.44734091855513619,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.54281835042968385,
+                                                                                                                    "name":  "Region 5 - ColorGChannel",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.47382539427902415,
+                                                                                                                    "ordinal":  20,
+                                                                                                                    "g":  0.57723542759124769,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.42157446862659254,
+                                                                                                                    "name":  "Region 2 - ColorA",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.3146852537968558,
+                                                                                                                    "ordinal":  4,
+                                                                                                                    "g":  0.34164710626055145,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.4652504971767798,
+                                                                                                                    "name":  "Region 5 - ColorA",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.4337284688609892,
+                                                                                                                    "ordinal":  10,
+                                                                                                                    "g":  0.50708379271332282,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.38831850763763975,
+                                                                                                                    "name":  "Region 4 - ColorA",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.30416243282773142,
+                                                                                                                    "ordinal":  8,
+                                                                                                                    "g":  0.29748964521873833,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.44747813806963227,
+                                                                                                                    "name":  "FX_105031_GradientMinColor",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.35781217750258,
+                                                                                                                    "ordinal":  49,
+                                                                                                                    "g":  0.38518059855521153,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.44747813806963227,
+                                                                                                                    "name":  "FX_Stealth - EdgeColor",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.35781217750258,
+                                                                                                                    "ordinal":  52,
+                                                                                                                    "g":  0.38518059855521153,
+                                                                                                                    "viaChroma":  true
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1050/1050308/Materials/MI_1050308_Equip_02.uasset":  [
+                                                                                                                {
+                                                                                                                    "r":  0.43384129161868829,
+                                                                                                                    "name":  "FX_105031_GradientMinColor",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.345144180121028,
+                                                                                                                    "ordinal":  48,
+                                                                                                                    "g":  0.37430523229700047,
+                                                                                                                    "viaChroma":  true
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.43384129161868829,
+                                                                                                                    "name":  "FX_Stealth - EdgeColor",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.345144180121028,
+                                                                                                                    "ordinal":  51,
+                                                                                                                    "g":  0.37430523229700047,
+                                                                                                                    "viaChroma":  true
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1050/1050308/Materials/MI_1050308_Head.uasset":  [
+                                                                                                            {
+                                                                                                                "r":  0.15653254511401665,
+                                                                                                                "name":  "RimLightColor",
+                                                                                                                "export":  0,
+                                                                                                                "b":  0.12203862984759319,
+                                                                                                                "ordinal":  2,
+                                                                                                                "g":  0.15093245990111753,
+                                                                                                                "viaChroma":  true
+                                                                                                            }
+                                                                                                        ]
+                 }
+}

@@ -1,0 +1,398 @@
+﻿{
+    "modName":  "browncd",
+    "displayName":  "brownc\u0026d",
+    "hero":  "1025",
+    "skin":  "1025001",
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Textures\\Clock\\T_1025001_10251_Equip_02_D.png":  [
+                                                                                                                            {
+                                                                                                                                "strength":  1,
+                                                                                                                                "protectSkin":  false,
+                                                                                                                                "color":  "#48311C",
+                                                                                                                                "gradDir":  "v",
+                                                                                                                                "satMul":  1,
+                                                                                                                                "hueShift":  0,
+                                                                                                                                "color2":  "#3E1E0F",
+                                                                                                                                "mode":  "gradpaint",
+                                                                                                                                "color3":  "#9EBD94",
+                                                                                                                                "lightMul":  1,
+                                                                                                                                "color4":  "#78C8DC"
+                                                                                                                            }
+                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Weapons\\Emote\\10250\\Wing\\Textures\\T_WP_10253022050_Wing_02_D.png":  [
+                                                                                                                                                  {
+                                                                                                                                                      "strength":  1,
+                                                                                                                                                      "protectSkin":  false,
+                                                                                                                                                      "color":  "#241508",
+                                                                                                                                                      "gradDir":  "v",
+                                                                                                                                                      "satMul":  1,
+                                                                                                                                                      "hueShift":  0,
+                                                                                                                                                      "color2":  "#813D1D",
+                                                                                                                                                      "mode":  "gradtint",
+                                                                                                                                                      "color3":  "#9EBD94",
+                                                                                                                                                      "lightMul":  1,
+                                                                                                                                                      "color4":  "#78C8DC"
+                                                                                                                                                  }
+                                                                                                                                              ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Textures\\Clock\\T_1025001_10251_Equip_04_D.png":  [
+                                                                                                                            {
+                                                                                                                                "strength":  1,
+                                                                                                                                "satMul":  1,
+                                                                                                                                "color":  "#241508",
+                                                                                                                                "hueShift":  0,
+                                                                                                                                "lightMul":  1,
+                                                                                                                                "protectSkin":  false,
+                                                                                                                                "mode":  "tint"
+                                                                                                                            }
+                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Weapons\\Emote\\10251\\HaulageCable\\Textures\\T_WP_10253052080_HaulageCable_02_D.png":  [
+                                                                                                                                                                  {
+                                                                                                                                                                      "strength":  1,
+                                                                                                                                                                      "satMul":  1,
+                                                                                                                                                                      "color":  "#241508",
+                                                                                                                                                                      "hueShift":  0,
+                                                                                                                                                                      "lightMul":  1,
+                                                                                                                                                                      "protectSkin":  false,
+                                                                                                                                                                      "mode":  "tint"
+                                                                                                                                                                  }
+                                                                                                                                                              ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Weapons\\Emote\\10251\\Surfboard\\Textures\\T_WP_10253052080_Surfboard_D.png":  [
+                                                                                                                                                         {
+                                                                                                                                                             "strength":  1,
+                                                                                                                                                             "satMul":  1,
+                                                                                                                                                             "color":  "#241508",
+                                                                                                                                                             "hueShift":  0,
+                                                                                                                                                             "lightMul":  1,
+                                                                                                                                                             "protectSkin":  false,
+                                                                                                                                                             "mode":  "tint"
+                                                                                                                                                         }
+                                                                                                                                                     ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Weapons\\Emote\\10251\\Lamp\\Textures\\T_WP_10251022080_Lamp_E.png":  [
+                                                                                                                                               {
+                                                                                                                                                   "strength":  1,
+                                                                                                                                                   "satMul":  1,
+                                                                                                                                                   "color":  "#241508",
+                                                                                                                                                   "hueShift":  0,
+                                                                                                                                                   "lightMul":  1,
+                                                                                                                                                   "protectSkin":  false,
+                                                                                                                                                   "mode":  "tint"
+                                                                                                                                               }
+                                                                                                                                           ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Weapons\\Emote\\10251\\Symbiont\\Textures\\T_WP_10253022051_Symbiont_02_D.png":  [
+                                                                                                                                                          {
+                                                                                                                                                              "strength":  1,
+                                                                                                                                                              "protectSkin":  false,
+                                                                                                                                                              "color":  "#241508",
+                                                                                                                                                              "gradDir":  "v",
+                                                                                                                                                              "satMul":  1,
+                                                                                                                                                              "hueShift":  0,
+                                                                                                                                                              "color2":  "#813D1D",
+                                                                                                                                                              "mode":  "gradtint",
+                                                                                                                                                              "color3":  "#9EBD94",
+                                                                                                                                                              "lightMul":  1,
+                                                                                                                                                              "color4":  "#78C8DC"
+                                                                                                                                                          }
+                                                                                                                                                      ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Textures\\10250\\T_1025001_10250_Equip_D.png":  [
+                                                                                                                         {
+                                                                                                                             "strength":  1,
+                                                                                                                             "satMul":  1,
+                                                                                                                             "color":  "#241508",
+                                                                                                                             "hueShift":  0,
+                                                                                                                             "lightMul":  1,
+                                                                                                                             "protectSkin":  false,
+                                                                                                                             "mode":  "tint"
+                                                                                                                         }
+                                                                                                                     ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Textures\\10250\\T_1025001_10250_Equip_E.png":  [
+                                                                                                                         {
+                                                                                                                             "strength":  1,
+                                                                                                                             "satMul":  1,
+                                                                                                                             "color":  "#241508",
+                                                                                                                             "hueShift":  0,
+                                                                                                                             "lightMul":  1,
+                                                                                                                             "protectSkin":  false,
+                                                                                                                             "mode":  "tint"
+                                                                                                                         }
+                                                                                                                     ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Textures\\10250\\T_10250_1025001_Hair_D.png":  [
+                                                                                                                        {
+                                                                                                                            "mode":  "tint",
+                                                                                                                            "hueShift":  0,
+                                                                                                                            "color":  "#241508",
+                                                                                                                            "strength":  1,
+                                                                                                                            "protectSkin":  false,
+                                                                                                                            "lightMul":  1,
+                                                                                                                            "satMul":  1
+                                                                                                                        }
+                                                                                                                    ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Weapons\\Emote\\10251\\Obsidian\\Textures\\T_WP_10250_03_Obsidian_D.png":  [
+                                                                                                                                                    {
+                                                                                                                                                        "strength":  1,
+                                                                                                                                                        "protectSkin":  false,
+                                                                                                                                                        "color":  "#241508",
+                                                                                                                                                        "gradDir":  "v",
+                                                                                                                                                        "satMul":  1,
+                                                                                                                                                        "hueShift":  0,
+                                                                                                                                                        "color2":  "#813D1D",
+                                                                                                                                                        "mode":  "gradtint",
+                                                                                                                                                        "color3":  "#9EBD94",
+                                                                                                                                                        "lightMul":  1,
+                                                                                                                                                        "color4":  "#78C8DC"
+                                                                                                                                                    }
+                                                                                                                                                ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Textures\\10250\\T_10250_1025001_Hair_E.png":  [
+                                                                                                                        {
+                                                                                                                            "strength":  1,
+                                                                                                                            "satMul":  1,
+                                                                                                                            "color":  "#241508",
+                                                                                                                            "hueShift":  0,
+                                                                                                                            "lightMul":  1,
+                                                                                                                            "protectSkin":  false,
+                                                                                                                            "mode":  "tint"
+                                                                                                                        }
+                                                                                                                    ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Textures\\Clock\\T_1025001_10251_Hair_D.png":  [
+                                                                                                                        {
+                                                                                                                            "mode":  "tint",
+                                                                                                                            "hueShift":  0,
+                                                                                                                            "color":  "#241508",
+                                                                                                                            "strength":  1,
+                                                                                                                            "protectSkin":  false,
+                                                                                                                            "lightMul":  1,
+                                                                                                                            "satMul":  1
+                                                                                                                        }
+                                                                                                                    ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Weapons\\Emote\\10250\\Nephrite\\Textures\\T_WP_10251_03_Nephrite_D.png":  [
+                                                                                                                                                    {
+                                                                                                                                                        "strength":  1,
+                                                                                                                                                        "satMul":  1,
+                                                                                                                                                        "color":  "#241508",
+                                                                                                                                                        "hueShift":  0,
+                                                                                                                                                        "lightMul":  1,
+                                                                                                                                                        "protectSkin":  false,
+                                                                                                                                                        "mode":  "tint"
+                                                                                                                                                    }
+                                                                                                                                                ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Weapons\\Emote\\10251\\HaulageCable\\Textures\\T_WP_10253052080_HaulageCable_01_D.png":  [
+                                                                                                                                                                  {
+                                                                                                                                                                      "strength":  1,
+                                                                                                                                                                      "satMul":  1,
+                                                                                                                                                                      "color":  "#241508",
+                                                                                                                                                                      "hueShift":  0,
+                                                                                                                                                                      "lightMul":  1,
+                                                                                                                                                                      "protectSkin":  false,
+                                                                                                                                                                      "mode":  "tint"
+                                                                                                                                                                  }
+                                                                                                                                                              ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Textures\\10250\\T_1025001_10250_Eyes_D.png":  [
+                                                                                                                        {
+                                                                                                                            "strength":  1,
+                                                                                                                            "satMul":  1,
+                                                                                                                            "color":  "#241508",
+                                                                                                                            "hueShift":  0,
+                                                                                                                            "lightMul":  1,
+                                                                                                                            "protectSkin":  false,
+                                                                                                                            "mode":  "tint"
+                                                                                                                        }
+                                                                                                                    ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Weapons\\Emote\\10250\\Rose\\Textures\\T_WP_10253012040_Rose_D.png":  [
+                                                                                                                                               {
+                                                                                                                                                   "strength":  1,
+                                                                                                                                                   "satMul":  1,
+                                                                                                                                                   "color":  "#241508",
+                                                                                                                                                   "hueShift":  0,
+                                                                                                                                                   "lightMul":  1,
+                                                                                                                                                   "protectSkin":  false,
+                                                                                                                                                   "mode":  "tint"
+                                                                                                                                               }
+                                                                                                                                           ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Weapons\\Emote\\10250\\Mask\\Textures\\T_WP_10253002020_Mask_D.png":  [
+                                                                                                                                               {
+                                                                                                                                                   "strength":  1,
+                                                                                                                                                   "satMul":  1,
+                                                                                                                                                   "color":  "#241508",
+                                                                                                                                                   "hueShift":  0,
+                                                                                                                                                   "lightMul":  1,
+                                                                                                                                                   "protectSkin":  false,
+                                                                                                                                                   "mode":  "tint"
+                                                                                                                                               }
+                                                                                                                                           ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Weapons\\Emote\\10250\\Nephrite\\Textures\\T_WP_10251_03_Nephrite_E.png":  [
+                                                                                                                                                    {
+                                                                                                                                                        "strength":  1,
+                                                                                                                                                        "satMul":  1,
+                                                                                                                                                        "color":  "#241508",
+                                                                                                                                                        "hueShift":  0,
+                                                                                                                                                        "lightMul":  1,
+                                                                                                                                                        "protectSkin":  false,
+                                                                                                                                                        "mode":  "tint"
+                                                                                                                                                    }
+                                                                                                                                                ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Textures\\10250\\T_1025001_10250_Hair_Line_D.png":  [
+                                                                                                                             {
+                                                                                                                                 "mode":  "tint",
+                                                                                                                                 "hueShift":  0,
+                                                                                                                                 "color":  "#241508",
+                                                                                                                                 "strength":  1,
+                                                                                                                                 "protectSkin":  false,
+                                                                                                                                 "lightMul":  1,
+                                                                                                                                 "satMul":  1
+                                                                                                                             }
+                                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Textures\\10250\\T_1025001_10250_Body_D.png":  [
+                                                                                                                        {
+                                                                                                                            "strength":  1,
+                                                                                                                            "satMul":  1,
+                                                                                                                            "color":  "#241508",
+                                                                                                                            "hueShift":  0,
+                                                                                                                            "lightMul":  1,
+                                                                                                                            "protectSkin":  false,
+                                                                                                                            "mode":  "tint"
+                                                                                                                        }
+                                                                                                                    ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Weapons\\Emote\\10251\\Obsidian\\Textures\\T_WP_10250_03_Obsidian_E.png":  [
+                                                                                                                                                    {
+                                                                                                                                                        "strength":  1,
+                                                                                                                                                        "protectSkin":  false,
+                                                                                                                                                        "color":  "#241508",
+                                                                                                                                                        "gradDir":  "v",
+                                                                                                                                                        "satMul":  1,
+                                                                                                                                                        "hueShift":  0,
+                                                                                                                                                        "color2":  "#813D1D",
+                                                                                                                                                        "mode":  "gradtint",
+                                                                                                                                                        "color3":  "#9EBD94",
+                                                                                                                                                        "lightMul":  1,
+                                                                                                                                                        "color4":  "#78C8DC"
+                                                                                                                                                    }
+                                                                                                                                                ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Textures\\10250\\T_1025001_10250_Hair_01_D.png":  [
+                                                                                                                           {
+                                                                                                                               "strength":  1,
+                                                                                                                               "satMul":  1,
+                                                                                                                               "color":  "#241508",
+                                                                                                                               "hueShift":  0,
+                                                                                                                               "lightMul":  1,
+                                                                                                                               "protectSkin":  false,
+                                                                                                                               "mode":  "tint"
+                                                                                                                           }
+                                                                                                                       ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Weapons\\Emote\\10251\\Symbiont\\Textures\\T_WP_10253022051_Symbiont_01_D.png":  [
+                                                                                                                                                          {
+                                                                                                                                                              "strength":  1,
+                                                                                                                                                              "satMul":  1,
+                                                                                                                                                              "color":  "#241508",
+                                                                                                                                                              "hueShift":  0,
+                                                                                                                                                              "lightMul":  1,
+                                                                                                                                                              "protectSkin":  false,
+                                                                                                                                                              "mode":  "tint"
+                                                                                                                                                          }
+                                                                                                                                                      ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Textures\\10250\\LobbyFace\\T_1025001_10250_Hair_Line_D.png":  [
+                                                                                                                                        {
+                                                                                                                                            "mode":  "tint",
+                                                                                                                                            "hueShift":  0,
+                                                                                                                                            "color":  "#241508",
+                                                                                                                                            "strength":  1,
+                                                                                                                                            "protectSkin":  false,
+                                                                                                                                            "lightMul":  1,
+                                                                                                                                            "satMul":  1
+                                                                                                                                        }
+                                                                                                                                    ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Textures\\Clock\\T_1025001_10251_Hair_Line_D.png":  [
+                                                                                                                             {
+                                                                                                                                 "mode":  "tint",
+                                                                                                                                 "hueShift":  0,
+                                                                                                                                 "color":  "#241508",
+                                                                                                                                 "strength":  1,
+                                                                                                                                 "protectSkin":  false,
+                                                                                                                                 "lightMul":  1,
+                                                                                                                                 "satMul":  1
+                                                                                                                             }
+                                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Slots\\Accessories\\3810250001\\38102510001\\Textures\\T_Slot_381025_0002_D.png":  [
+                                                                                                                                                            {
+                                                                                                                                                                "strength":  1,
+                                                                                                                                                                "satMul":  1,
+                                                                                                                                                                "color":  "#241508",
+                                                                                                                                                                "hueShift":  0,
+                                                                                                                                                                "lightMul":  1,
+                                                                                                                                                                "protectSkin":  true,
+                                                                                                                                                                "mode":  "tint"
+                                                                                                                                                            }
+                                                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Slots\\Accessories\\3810250001\\Textures\\T_Slot_381025_0001_D.png":  [
+                                                                                                                                               {
+                                                                                                                                                   "mode":  "tint",
+                                                                                                                                                   "hueShift":  0,
+                                                                                                                                                   "color":  "#241508",
+                                                                                                                                                   "strength":  1,
+                                                                                                                                                   "protectSkin":  true,
+                                                                                                                                                   "lightMul":  1,
+                                                                                                                                                   "satMul":  1
+                                                                                                                                               }
+                                                                                                                                           ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Textures\\Clock\\T_1025001_10251_Equip_01_D.png":  [
+                                                                                                                            {
+                                                                                                                                "strength":  1,
+                                                                                                                                "protectSkin":  false,
+                                                                                                                                "color":  "#241508",
+                                                                                                                                "gradDir":  "v",
+                                                                                                                                "satMul":  1,
+                                                                                                                                "hueShift":  0,
+                                                                                                                                "color2":  "#3E1E0F",
+                                                                                                                                "mode":  "gradpaint",
+                                                                                                                                "color3":  "#9EBD94",
+                                                                                                                                "lightMul":  1,
+                                                                                                                                "color4":  "#78C8DC"
+                                                                                                                            }
+                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Weapons\\Emote\\10250\\Wing\\Textures\\T_WP_10253022050_Wing_01_D.png":  [
+                                                                                                                                                  {
+                                                                                                                                                      "strength":  1,
+                                                                                                                                                      "satMul":  1,
+                                                                                                                                                      "color":  "#241508",
+                                                                                                                                                      "hueShift":  0,
+                                                                                                                                                      "lightMul":  1,
+                                                                                                                                                      "protectSkin":  false,
+                                                                                                                                                      "mode":  "tint"
+                                                                                                                                                  }
+                                                                                                                                              ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Weapons\\Emote\\10251\\Lamp\\Textures\\T_WP_10251022080_Lamp_D.png":  [
+                                                                                                                                               {
+                                                                                                                                                   "strength":  1,
+                                                                                                                                                   "satMul":  1,
+                                                                                                                                                   "color":  "#241508",
+                                                                                                                                                   "hueShift":  0,
+                                                                                                                                                   "lightMul":  1,
+                                                                                                                                                   "protectSkin":  false,
+                                                                                                                                                   "mode":  "tint"
+                                                                                                                                               }
+                                                                                                                                           ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Textures\\10250\\T_1025001_10250_Body_E.png":  [
+                                                                                                                        {
+                                                                                                                            "strength":  1,
+                                                                                                                            "satMul":  1,
+                                                                                                                            "color":  "#241508",
+                                                                                                                            "hueShift":  0,
+                                                                                                                            "lightMul":  1,
+                                                                                                                            "protectSkin":  false,
+                                                                                                                            "mode":  "tint"
+                                                                                                                        }
+                                                                                                                    ],
+                "Marvel\\Content\\Marvel\\Characters\\1025\\1025001\\Weapons\\Emote\\10251\\Sword\\Textures\\T_WP_10253012041_Sword_D.png":  [
+                                                                                                                                                 {
+                                                                                                                                                     "strength":  1,
+                                                                                                                                                     "satMul":  1,
+                                                                                                                                                     "color":  "#241508",
+                                                                                                                                                     "hueShift":  0,
+                                                                                                                                                     "lightMul":  1,
+                                                                                                                                                     "protectSkin":  false,
+                                                                                                                                                     "mode":  "tint"
+                                                                                                                                                 }
+                                                                                                                                             ]
+            },
+    "colorOps":  {
+
+                 }
+}

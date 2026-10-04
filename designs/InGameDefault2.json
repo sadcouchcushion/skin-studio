@@ -1,0 +1,36 @@
+﻿{
+    "modName":  "InGameDefault2",
+    "displayName":  "In-game Default 2",
+    "hero":  "1052",
+    "skin":  "1052001",
+    "chromaSkins":  [
+
+                    ],
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1052\\1052001\\Texture\\T_1052001_Equip_01_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "protectSkin":  false,
+                                                                                                                  "color":  "#FF6C02",
+                                                                                                                  "satMul":  1,
+                                                                                                                  "hueShift":  0,
+                                                                                                                  "mode":  "tint",
+                                                                                                                  "lightMul":  1
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1052\\1052001\\Texture\\T_1052001_Equip_02_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "protectSkin":  false,
+                                                                                                                  "color":  "#FF6C02",
+                                                                                                                  "satMul":  1,
+                                                                                                                  "hueShift":  0,
+                                                                                                                  "mode":  "tint",
+                                                                                                                  "lightMul":  1
+                                                                                                              }
+                                                                                                          ]
+            },
+    "colorOps":  {
+
+                 }
+}

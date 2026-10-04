@@ -1,0 +1,114 @@
+﻿{
+    "modName":  "WarmJubileeDefault",
+    "displayName":  "WarmJubileeDefault",
+    "hero":  "1064",
+    "skin":  "1064001",
+    "chromaSkins":  [
+
+                    ],
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1064\\1064001\\Textures\\T_1064001_Eyes_D.png":  [
+                                                                                                           {
+                                                                                                               "strength":  1,
+                                                                                                               "satMul":  1,
+                                                                                                               "color":  "#381E08",
+                                                                                                               "hueShift":  0,
+                                                                                                               "lightMul":  1,
+                                                                                                               "protectSkin":  false,
+                                                                                                               "mode":  "paint"
+                                                                                                           }
+                                                                                                       ],
+                "Marvel\\Content\\Marvel\\Characters\\1064\\1064001\\Textures\\T_1064001_Head_D.png":  [
+                                                                                                           {
+                                                                                                               "strength":  1,
+                                                                                                               "file":  "C:\\rs\\SkinStudio\\work\\edit\\1064001\\T_1064001_Head_D.png",
+                                                                                                               "mode":  "replace"
+                                                                                                           }
+                                                                                                       ],
+                "Marvel\\Content\\Marvel\\Characters\\1064\\1064001\\Textures\\T_1064001_Hair_D.png":  [
+                                                                                                           {
+                                                                                                               "strength":  1,
+                                                                                                               "protectSkin":  false,
+                                                                                                               "color":  "#2E0C25",
+                                                                                                               "satMul":  1,
+                                                                                                               "hueShift":  0,
+                                                                                                               "bandCenter":  -1,
+                                                                                                               "bandWidth":  0,
+                                                                                                               "mode":  "huerange",
+                                                                                                               "lightMul":  1
+                                                                                                           }
+                                                                                                       ]
+            },
+    "colorOps":  {
+                     "Marvel/Content/Marvel/Characters/1064/1064001/Materials/Lobby/MI_1064001_Equip_05.uasset":  [
+                                                                                                                      {
+                                                                                                                          "r":  0.090841711183407683,
+                                                                                                                          "name":  "ReflectionTint01",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.011612245179743883,
+                                                                                                                          "ordinal":  9,
+                                                                                                                          "g":  0.0295568344378088
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.051269458374043238,
+                                                                                                                          "name":  "BaseColor",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.0021246888848418626,
+                                                                                                                          "ordinal":  0,
+                                                                                                                          "g":  0.010329823029626936
+                                                                                                                      },
+                                                                                                                      {
+                                                                                                                          "r":  0.031896033073011532,
+                                                                                                                          "name":  "Gradient_DownColor",
+                                                                                                                          "export":  0,
+                                                                                                                          "b":  0.0024282158683907,
+                                                                                                                          "ordinal":  6,
+                                                                                                                          "g":  0.010960094006488246
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1064/1064001/Materials/Lobby/MI_1064001_ShowRimLight_HeroList.uasset":  [
+                                                                                                                                   {
+                                                                                                                                       "r":  0.048171824226889419,
+                                                                                                                                       "name":  "RimColor2",
+                                                                                                                                       "export":  0,
+                                                                                                                                       "b":  0.0027317428519395373,
+                                                                                                                                       "ordinal":  1,
+                                                                                                                                       "g":  0.011612245179743883
+                                                                                                                                   },
+                                                                                                                                   {
+                                                                                                                                       "r":  0.82278575439628354,
+                                                                                                                                       "name":  "RimColor3",
+                                                                                                                                       "export":  0,
+                                                                                                                                       "b":  0.0030352698354883748,
+                                                                                                                                       "ordinal":  3,
+                                                                                                                                       "g":  0.41254261348390375
+                                                                                                                                   }
+                                                                                                                               ],
+                     "Marvel/Content/Marvel/Characters/1064/1064001/Materials/MI_1064001_Equip_04.uasset":  [
+                                                                                                                {
+                                                                                                                    "r":  0.039546235276732837,
+                                                                                                                    "name":  "BaseColor",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.001821161901293025,
+                                                                                                                    "ordinal":  0,
+                                                                                                                    "g":  0.011612245179743883
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.072271850682317479,
+                                                                                                                    "name":  "ReflectionTint02",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.0027317428519395373,
+                                                                                                                    "ordinal":  10,
+                                                                                                                    "g":  0.016807375752887384
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "r":  0.051269458374043238,
+                                                                                                                    "name":  "Gradient_DownColor",
+                                                                                                                    "export":  0,
+                                                                                                                    "b":  0.0030352698354883748,
+                                                                                                                    "ordinal":  7,
+                                                                                                                    "g":  0.012286488356915872
+                                                                                                                }
+                                                                                                            ]
+                 }
+}

@@ -1,0 +1,129 @@
+﻿{
+    "modName":  "LunaMagentaGlow",
+    "displayName":  "Luna Magenta Glow",
+    "hero":  "1031",
+    "skin":  "1031001",
+    "ops":  {
+
+            },
+    "colorOps":  {
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/Lobby/MI_1031001_Body.uasset":  [
+                                                                                                                  {
+                                                                                                                      "export":  0,
+                                                                                                                      "ordinal":  1,
+                                                                                                                      "name":  "FX_Color_01",
+                                                                                                                      "r":  1,
+                                                                                                                      "g":  0,
+                                                                                                                      "b":  1
+                                                                                                                  },
+                                                                                                                  {
+                                                                                                                      "export":  0,
+                                                                                                                      "ordinal":  2,
+                                                                                                                      "name":  "RimLightColor",
+                                                                                                                      "r":  1,
+                                                                                                                      "g":  0,
+                                                                                                                      "b":  1
+                                                                                                                  }
+                                                                                                              ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/Lobby/MI_1031001_Equip_02.uasset":  [
+                                                                                                                      {
+                                                                                                                          "export":  0,
+                                                                                                                          "ordinal":  1,
+                                                                                                                          "name":  "EmissiveColor",
+                                                                                                                          "r":  1,
+                                                                                                                          "g":  0,
+                                                                                                                          "b":  1
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/Lobby/MI_1031001_Equip_06.uasset":  [
+                                                                                                                      {
+                                                                                                                          "export":  0,
+                                                                                                                          "ordinal":  5,
+                                                                                                                          "name":  "RimLightColor",
+                                                                                                                          "r":  1,
+                                                                                                                          "g":  0,
+                                                                                                                          "b":  1
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/Lobby/MI_1031001_Equip_07.uasset":  [
+                                                                                                                      {
+                                                                                                                          "export":  0,
+                                                                                                                          "ordinal":  5,
+                                                                                                                          "name":  "RimLightColor",
+                                                                                                                          "r":  1,
+                                                                                                                          "g":  0,
+                                                                                                                          "b":  1
+                                                                                                                      }
+                                                                                                                  ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/Lobby/MI_1031001_Tooth.uasset":  [
+                                                                                                                   {
+                                                                                                                       "export":  0,
+                                                                                                                       "ordinal":  2,
+                                                                                                                       "name":  "RimLightColor",
+                                                                                                                       "r":  1,
+                                                                                                                       "g":  0,
+                                                                                                                       "b":  1
+                                                                                                                   }
+                                                                                                               ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Body.uasset":  [
+                                                                                                            {
+                                                                                                                "export":  0,
+                                                                                                                "ordinal":  1,
+                                                                                                                "name":  "FX_Color_01",
+                                                                                                                "r":  1,
+                                                                                                                "g":  0,
+                                                                                                                "b":  1
+                                                                                                            }
+                                                                                                        ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Crystal.uasset":  [
+                                                                                                               {
+                                                                                                                   "export":  0,
+                                                                                                                   "ordinal":  5,
+                                                                                                                   "name":  "RimLightColor",
+                                                                                                                   "r":  1,
+                                                                                                                   "g":  0,
+                                                                                                                   "b":  1
+                                                                                                               }
+                                                                                                           ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Equip_02.uasset":  [
+                                                                                                                {
+                                                                                                                    "export":  0,
+                                                                                                                    "ordinal":  1,
+                                                                                                                    "name":  "EmissiveColor",
+                                                                                                                    "r":  1,
+                                                                                                                    "g":  0,
+                                                                                                                    "b":  1
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Equip_06.uasset":  [
+                                                                                                                {
+                                                                                                                    "export":  0,
+                                                                                                                    "ordinal":  5,
+                                                                                                                    "name":  "RimLightColor",
+                                                                                                                    "r":  1,
+                                                                                                                    "g":  0,
+                                                                                                                    "b":  1
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Equip_07.uasset":  [
+                                                                                                                {
+                                                                                                                    "export":  0,
+                                                                                                                    "ordinal":  5,
+                                                                                                                    "name":  "RimLightColor",
+                                                                                                                    "r":  1,
+                                                                                                                    "g":  0,
+                                                                                                                    "b":  1
+                                                                                                                }
+                                                                                                            ],
+                     "Marvel/Content/Marvel/Characters/1031/1031001/Materials/MI_1031001_Tooth.uasset":  [
+                                                                                                             {
+                                                                                                                 "export":  0,
+                                                                                                                 "ordinal":  2,
+                                                                                                                 "name":  "RimLightColor",
+                                                                                                                 "r":  1,
+                                                                                                                 "g":  0,
+                                                                                                                 "b":  1
+                                                                                                             }
+                                                                                                         ]
+                 }
+}

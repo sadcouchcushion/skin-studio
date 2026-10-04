@@ -1,0 +1,1211 @@
+﻿{
+    "modName":  "LunaMagentaFX",
+    "displayName":  "Luna Magenta FX",
+    "hero":  "1031",
+    "skin":  "1031001",
+    "ops":  {
+
+            },
+    "colorOps":  {
+                     "Marvel/Content/Marvel/VFX/Particles/Characters/1031/1031001/103121/NS_103121_Attack_02.uasset":  [
+                                                                                                                           {
+                                                                                                                               "export":  0,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  1,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  2,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  3,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  4,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  5,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  6,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  7,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  8,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  9,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  10,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  11,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  12,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  13,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  14,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  15,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  16,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  17,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  18,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  19,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  20,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  21,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  22,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  23,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  24,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  25,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  26,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  27,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  28,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  29,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  30,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  31,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  32,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  33,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  34,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  35,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  36,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  37,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  38,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  39,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  40,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  41,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  42,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  43,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  44,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  45,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  46,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  47,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  48,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  49,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  50,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  51,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           }
+                                                                                                                       ],
+                     "Marvel/Content/Marvel/VFX/Particles/Characters/1031/1031001/103121/NS_103121_Attack_03.uasset":  [
+                                                                                                                           {
+                                                                                                                               "export":  0,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  1,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  2,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  3,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  4,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  5,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  6,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  7,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  8,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  9,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  10,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  11,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  12,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  13,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  14,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  15,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  16,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  17,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  18,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  19,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  20,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  21,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  22,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  23,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  24,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  25,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  26,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  27,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  28,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  29,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  30,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  31,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  32,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  33,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  34,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  35,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  36,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  37,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  38,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  39,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  40,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  41,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  42,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  43,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  44,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  45,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  46,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  47,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  48,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  49,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  50,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  51,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  52,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  53,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  54,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  55,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           }
+                                                                                                                       ],
+                     "Marvel/Content/Marvel/VFX/Particles/Characters/1031/1031001/103121/NS_103121_Attack_08.uasset":  [
+                                                                                                                           {
+                                                                                                                               "export":  0,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  1,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  2,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  3,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           }
+                                                                                                                       ],
+                     "Marvel/Content/Marvel/VFX/Particles/Characters/1031/1031001/103121/NS_103121_Attack_09.uasset":  [
+                                                                                                                           {
+                                                                                                                               "export":  0,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  1,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  2,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           },
+                                                                                                                           {
+                                                                                                                               "export":  3,
+                                                                                                                               "ordinal":  0,
+                                                                                                                               "name":  "fx",
+                                                                                                                               "kind":  "curve",
+                                                                                                                               "r":  1,
+                                                                                                                               "g":  0,
+                                                                                                                               "b":  1
+                                                                                                                           }
+                                                                                                                       ],
+                     "Marvel/Content/Marvel/VFX/Particles/Characters/1031/1031001/103121/NS_103121_Ice_01.uasset":  [
+                                                                                                                        {
+                                                                                                                            "export":  0,
+                                                                                                                            "ordinal":  0,
+                                                                                                                            "name":  "fx",
+                                                                                                                            "kind":  "curve",
+                                                                                                                            "r":  1,
+                                                                                                                            "g":  0,
+                                                                                                                            "b":  1
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "export":  1,
+                                                                                                                            "ordinal":  0,
+                                                                                                                            "name":  "fx",
+                                                                                                                            "kind":  "curve",
+                                                                                                                            "r":  1,
+                                                                                                                            "g":  0,
+                                                                                                                            "b":  1
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "export":  2,
+                                                                                                                            "ordinal":  0,
+                                                                                                                            "name":  "fx",
+                                                                                                                            "kind":  "curve",
+                                                                                                                            "r":  1,
+                                                                                                                            "g":  0,
+                                                                                                                            "b":  1
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "export":  3,
+                                                                                                                            "ordinal":  0,
+                                                                                                                            "name":  "fx",
+                                                                                                                            "kind":  "curve",
+                                                                                                                            "r":  1,
+                                                                                                                            "g":  0,
+                                                                                                                            "b":  1
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "export":  4,
+                                                                                                                            "ordinal":  0,
+                                                                                                                            "name":  "fx",
+                                                                                                                            "kind":  "curve",
+                                                                                                                            "r":  1,
+                                                                                                                            "g":  0,
+                                                                                                                            "b":  1
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "export":  5,
+                                                                                                                            "ordinal":  0,
+                                                                                                                            "name":  "fx",
+                                                                                                                            "kind":  "curve",
+                                                                                                                            "r":  1,
+                                                                                                                            "g":  0,
+                                                                                                                            "b":  1
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "export":  6,
+                                                                                                                            "ordinal":  0,
+                                                                                                                            "name":  "fx",
+                                                                                                                            "kind":  "curve",
+                                                                                                                            "r":  1,
+                                                                                                                            "g":  0,
+                                                                                                                            "b":  1
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "export":  7,
+                                                                                                                            "ordinal":  0,
+                                                                                                                            "name":  "fx",
+                                                                                                                            "kind":  "curve",
+                                                                                                                            "r":  1,
+                                                                                                                            "g":  0,
+                                                                                                                            "b":  1
+                                                                                                                        }
+                                                                                                                    ],
+                     "Marvel/Content/Marvel/VFX/Particles/Characters/1031/1031001/103121/NS_103121_Ice_02.uasset":  [
+                                                                                                                        {
+                                                                                                                            "export":  0,
+                                                                                                                            "ordinal":  0,
+                                                                                                                            "name":  "fx",
+                                                                                                                            "kind":  "curve",
+                                                                                                                            "r":  1,
+                                                                                                                            "g":  0,
+                                                                                                                            "b":  1
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "export":  1,
+                                                                                                                            "ordinal":  0,
+                                                                                                                            "name":  "fx",
+                                                                                                                            "kind":  "curve",
+                                                                                                                            "r":  1,
+                                                                                                                            "g":  0,
+                                                                                                                            "b":  1
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "export":  2,
+                                                                                                                            "ordinal":  0,
+                                                                                                                            "name":  "fx",
+                                                                                                                            "kind":  "curve",
+                                                                                                                            "r":  1,
+                                                                                                                            "g":  0,
+                                                                                                                            "b":  1
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "export":  3,
+                                                                                                                            "ordinal":  0,
+                                                                                                                            "name":  "fx",
+                                                                                                                            "kind":  "curve",
+                                                                                                                            "r":  1,
+                                                                                                                            "g":  0,
+                                                                                                                            "b":  1
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "export":  4,
+                                                                                                                            "ordinal":  0,
+                                                                                                                            "name":  "fx",
+                                                                                                                            "kind":  "curve",
+                                                                                                                            "r":  1,
+                                                                                                                            "g":  0,
+                                                                                                                            "b":  1
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "export":  5,
+                                                                                                                            "ordinal":  0,
+                                                                                                                            "name":  "fx",
+                                                                                                                            "kind":  "curve",
+                                                                                                                            "r":  1,
+                                                                                                                            "g":  0,
+                                                                                                                            "b":  1
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "export":  6,
+                                                                                                                            "ordinal":  0,
+                                                                                                                            "name":  "fx",
+                                                                                                                            "kind":  "curve",
+                                                                                                                            "r":  1,
+                                                                                                                            "g":  0,
+                                                                                                                            "b":  1
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                            "export":  7,
+                                                                                                                            "ordinal":  0,
+                                                                                                                            "name":  "fx",
+                                                                                                                            "kind":  "curve",
+                                                                                                                            "r":  1,
+                                                                                                                            "g":  0,
+                                                                                                                            "b":  1
+                                                                                                                        }
+                                                                                                                    ]
+                 }
+}

@@ -1,0 +1,188 @@
+﻿{
+    "modName":  "JeffBrown",
+    "displayName":  "Jeff Brown",
+    "hero":  "1047",
+    "skin":  "1047001",
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Weapons\\Emote\\WhiteQueen\\Texture\\T_10470012060_Equip_01_D.png":  {
+                                                                                                                                              "strength":  1,
+                                                                                                                                              "satMul":  1,
+                                                                                                                                              "color":  "#FFEEDF",
+                                                                                                                                              "hueShift":  0,
+                                                                                                                                              "lightMul":  1,
+                                                                                                                                              "protectSkin":  true,
+                                                                                                                                              "mode":  "tint"
+                                                                                                                                          },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Weapons\\Emote\\Shoes\\Textures\\T_WP_10470012070_Shoes_D.png":  {
+                                                                                                                                          "strength":  1,
+                                                                                                                                          "satMul":  1,
+                                                                                                                                          "color":  "#FFEEDF",
+                                                                                                                                          "hueShift":  0,
+                                                                                                                                          "lightMul":  1,
+                                                                                                                                          "protectSkin":  true,
+                                                                                                                                          "mode":  "tint"
+                                                                                                                                      },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Weapons\\Emote\\Stall\\Texture\\T_WP_10470012170_Stall001_D.png":  {
+                                                                                                                                            "strength":  1,
+                                                                                                                                            "satMul":  1,
+                                                                                                                                            "color":  "#FFEEDF",
+                                                                                                                                            "hueShift":  0,
+                                                                                                                                            "lightMul":  1,
+                                                                                                                                            "protectSkin":  true,
+                                                                                                                                            "mode":  "tint"
+                                                                                                                                        },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Textures\\T_1047001_Body_D.png":  {
+                                                                                                           "strength":  1,
+                                                                                                           "satMul":  1,
+                                                                                                           "color":  "#FFEEDF",
+                                                                                                           "hueShift":  0,
+                                                                                                           "lightMul":  1,
+                                                                                                           "protectSkin":  true,
+                                                                                                           "mode":  "tint"
+                                                                                                       },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Weapons\\Emote\\Deadpool\\Textures\\T_1047001_Equip_01_D.png":  {
+                                                                                                                                         "strength":  1,
+                                                                                                                                         "satMul":  1,
+                                                                                                                                         "color":  "#FFEEDF",
+                                                                                                                                         "hueShift":  0,
+                                                                                                                                         "lightMul":  1,
+                                                                                                                                         "protectSkin":  true,
+                                                                                                                                         "mode":  "tint"
+                                                                                                                                     },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Weapons\\Emote\\BriefCase\\Textures\\T_WP_10475022100_Briefcase_D.png":  {
+                                                                                                                                                  "strength":  1,
+                                                                                                                                                  "satMul":  1,
+                                                                                                                                                  "color":  "#FFEEDF",
+                                                                                                                                                  "hueShift":  0,
+                                                                                                                                                  "lightMul":  1,
+                                                                                                                                                  "protectSkin":  true,
+                                                                                                                                                  "mode":  "tint"
+                                                                                                                                              },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Slots\\Accessories\\3810470001\\Textures\\T_Slot_0381047_0001_D.png":  {
+                                                                                                                                                "strength":  1,
+                                                                                                                                                "satMul":  1,
+                                                                                                                                                "color":  "#FFEEDF",
+                                                                                                                                                "hueShift":  0,
+                                                                                                                                                "lightMul":  1,
+                                                                                                                                                "protectSkin":  true,
+                                                                                                                                                "mode":  "tint"
+                                                                                                                                            },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Textures\\T_1047001_Head_D.png":  {
+                                                                                                           "strength":  1,
+                                                                                                           "satMul":  1,
+                                                                                                           "color":  "#FFEEDF",
+                                                                                                           "hueShift":  0,
+                                                                                                           "lightMul":  1,
+                                                                                                           "protectSkin":  true,
+                                                                                                           "mode":  "tint"
+                                                                                                       },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Weapons\\Emote\\Deadpool\\Textures\\T_1047001_Equip_02_D.png":  {
+                                                                                                                                         "strength":  1,
+                                                                                                                                         "satMul":  1,
+                                                                                                                                         "color":  "#FFEEDF",
+                                                                                                                                         "hueShift":  0,
+                                                                                                                                         "lightMul":  1,
+                                                                                                                                         "protectSkin":  true,
+                                                                                                                                         "mode":  "tint"
+                                                                                                                                     },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Weapons\\Emote\\Deadpool\\Textures\\T_1047001_Equip_04_D.png":  {
+                                                                                                                                         "strength":  1,
+                                                                                                                                         "satMul":  1,
+                                                                                                                                         "color":  "#FFEEDF",
+                                                                                                                                         "hueShift":  0,
+                                                                                                                                         "lightMul":  1,
+                                                                                                                                         "protectSkin":  true,
+                                                                                                                                         "mode":  "tint"
+                                                                                                                                     },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Textures\\T_1047001_Cloth_D.png":  {
+                                                                                                            "strength":  1,
+                                                                                                            "satMul":  1,
+                                                                                                            "color":  "#DFF1FF",
+                                                                                                            "hueShift":  0,
+                                                                                                            "lightMul":  1,
+                                                                                                            "protectSkin":  true,
+                                                                                                            "mode":  "tint"
+                                                                                                        },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Textures\\T_1047001_Body2_D.png":  {
+                                                                                                            "strength":  1,
+                                                                                                            "satMul":  1,
+                                                                                                            "color":  "#FFEEDF",
+                                                                                                            "hueShift":  0,
+                                                                                                            "lightMul":  1,
+                                                                                                            "protectSkin":  true,
+                                                                                                            "mode":  "tint"
+                                                                                                        },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Weapons\\Emote\\WhiteQueen\\Texture\\T_10470012060_Equip_02_D.png":  {
+                                                                                                                                              "strength":  1,
+                                                                                                                                              "satMul":  1,
+                                                                                                                                              "color":  "#FFEEDF",
+                                                                                                                                              "hueShift":  0,
+                                                                                                                                              "lightMul":  1,
+                                                                                                                                              "protectSkin":  true,
+                                                                                                                                              "mode":  "tint"
+                                                                                                                                          },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Weapons\\Emote\\WhiteQueen\\Texture\\T_10470012060_Body_D.png":  {
+                                                                                                                                          "strength":  1,
+                                                                                                                                          "satMul":  1,
+                                                                                                                                          "color":  "#FFEEDF",
+                                                                                                                                          "hueShift":  0,
+                                                                                                                                          "lightMul":  1,
+                                                                                                                                          "protectSkin":  true,
+                                                                                                                                          "mode":  "tint"
+                                                                                                                                      },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Textures\\Merge_Texture\\T_1047001_LOD2_D.png":  {
+                                                                                                                          "strength":  1,
+                                                                                                                          "satMul":  1,
+                                                                                                                          "color":  "#FFEEDF",
+                                                                                                                          "hueShift":  0,
+                                                                                                                          "lightMul":  1,
+                                                                                                                          "protectSkin":  true,
+                                                                                                                          "mode":  "tint"
+                                                                                                                      },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Weapons\\Emote\\WhiteQueen\\Texture\\T_10470012060_Equip_03_D.png":  {
+                                                                                                                                              "strength":  1,
+                                                                                                                                              "satMul":  1,
+                                                                                                                                              "color":  "#FFEEDF",
+                                                                                                                                              "hueShift":  0,
+                                                                                                                                              "lightMul":  1,
+                                                                                                                                              "protectSkin":  true,
+                                                                                                                                              "mode":  "tint"
+                                                                                                                                          },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Weapons\\Emote\\Deadpool\\Textures\\T_1047001_Equip_03_D.png":  {
+                                                                                                                                         "strength":  1,
+                                                                                                                                         "satMul":  1,
+                                                                                                                                         "color":  "#FFEEDF",
+                                                                                                                                         "hueShift":  0,
+                                                                                                                                         "lightMul":  1,
+                                                                                                                                         "protectSkin":  true,
+                                                                                                                                         "mode":  "tint"
+                                                                                                                                     },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Weapons\\Emote\\Deadpool\\Textures\\T_1047001_Equip_05_D.png":  {
+                                                                                                                                         "strength":  1,
+                                                                                                                                         "satMul":  1,
+                                                                                                                                         "color":  "#FFEEDF",
+                                                                                                                                         "hueShift":  0,
+                                                                                                                                         "lightMul":  1,
+                                                                                                                                         "protectSkin":  true,
+                                                                                                                                         "mode":  "tint"
+                                                                                                                                     },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Weapons\\Emote\\Cake\\Textures\\T_WP_10473062150_Cake_D.png":  {
+                                                                                                                                        "strength":  1,
+                                                                                                                                        "satMul":  1,
+                                                                                                                                        "color":  "#FFEEDF",
+                                                                                                                                        "hueShift":  0,
+                                                                                                                                        "lightMul":  1,
+                                                                                                                                        "protectSkin":  true,
+                                                                                                                                        "mode":  "tint"
+                                                                                                                                    },
+                "Marvel\\Content\\Marvel\\Characters\\1047\\1047001\\Weapons\\Emote\\WhiteQueen\\Texture\\T_10470012060_Equip_04_D.png":  {
+                                                                                                                                              "strength":  1,
+                                                                                                                                              "satMul":  1,
+                                                                                                                                              "color":  "#FFEEDF",
+                                                                                                                                              "hueShift":  0,
+                                                                                                                                              "lightMul":  1,
+                                                                                                                                              "protectSkin":  true,
+                                                                                                                                              "mode":  "tint"
+                                                                                                                                          }
+            }
+}

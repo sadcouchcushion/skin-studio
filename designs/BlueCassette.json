@@ -1,0 +1,79 @@
+﻿{
+    "modName":  "BlueCassette",
+    "displayName":  "Blue Cassette",
+    "hero":  "1031",
+    "skin":  "1031316",
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031316\\Texture\\T_1031316_Equip_03_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "file":  "C:\\rs\\SkinStudio\\work\\edit\\1031316\\T_1031316_Equip_03_D.png",
+                                                                                                                  "mode":  "edited"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031316\\Texture\\T_1031316_Eyes_02_D.png":  [
+                                                                                                             {
+                                                                                                                 "mode":  "tint",
+                                                                                                                 "hueShift":  0,
+                                                                                                                 "color":  "#8EFAFF",
+                                                                                                                 "strength":  1,
+                                                                                                                 "protectSkin":  false,
+                                                                                                                 "lightMul":  1,
+                                                                                                                 "satMul":  1
+                                                                                                             }
+                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031316\\Texture\\T_1031316_Eyes_01_D.png":  [
+                                                                                                             {
+                                                                                                                 "mode":  "tint",
+                                                                                                                 "hueShift":  0,
+                                                                                                                 "color":  "#8EFAFF",
+                                                                                                                 "strength":  1,
+                                                                                                                 "protectSkin":  false,
+                                                                                                                 "lightMul":  1,
+                                                                                                                 "satMul":  1
+                                                                                                             }
+                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031316\\Weapons\\MVP\\Player\\Textures\\T_WP_1031316_Player_D.png":  [
+                                                                                                                                      {
+                                                                                                                                          "strength":  1,
+                                                                                                                                          "file":  "C:\\rs\\SkinStudio\\work\\edit\\1031316\\T_WP_1031316_Player_D.png",
+                                                                                                                                          "mode":  "edited"
+                                                                                                                                      }
+                                                                                                                                  ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031316\\Texture\\T_1031316_Hair_D.png":  [
+                                                                                                          {
+                                                                                                              "strength":  1,
+                                                                                                              "file":  "C:\\rs\\SkinStudio\\work\\edit\\1031316\\T_1031316_Hair_D.png",
+                                                                                                              "mode":  "edited"
+                                                                                                          }
+                                                                                                      ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031316\\Texture\\T_1031316_Body_01_D.png":  [
+                                                                                                             {
+                                                                                                                 "strength":  1,
+                                                                                                                 "file":  "C:\\rs\\SkinStudio\\work\\edit\\1031316\\T_1031316_Body_01_D.png",
+                                                                                                                 "mode":  "edited"
+                                                                                                             }
+                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031316\\Texture\\T_1031316_Equip_02_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "file":  "C:\\rs\\SkinStudio\\work\\edit\\1031316\\T_1031316_Equip_02_D.png",
+                                                                                                                  "mode":  "edited"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031316\\Texture\\T_1031316_Equip_01_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "file":  "C:\\rs\\SkinStudio\\work\\edit\\1031316\\T_1031316_Equip_01_D.png",
+                                                                                                                  "mode":  "edited"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1031\\1031316\\Texture\\T_1031316_Body_02_D.png":  [
+                                                                                                             {
+                                                                                                                 "strength":  1,
+                                                                                                                 "file":  "C:\\rs\\SkinStudio\\work\\edit\\1031316\\T_1031316_Body_02_D.png",
+                                                                                                                 "mode":  "edited"
+                                                                                                             }
+                                                                                                         ]
+            }
+}

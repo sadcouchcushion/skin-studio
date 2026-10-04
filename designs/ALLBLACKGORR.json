@@ -1,0 +1,253 @@
+﻿{
+    "modName":  "ALLBLACKGORR",
+    "displayName":  "ALL BLACK GORR",
+    "hero":  "1067",
+    "skin":  "1067001",
+    "ops":  {
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Texture\\T_1067001_Head_D.png":  [
+                                                                                                          {
+                                                                                                              "strength":  1,
+                                                                                                              "satMul":  1,
+                                                                                                              "color":  "#000000",
+                                                                                                              "hueShift":  0,
+                                                                                                              "lightMul":  1,
+                                                                                                              "protectSkin":  false,
+                                                                                                              "mode":  "paint"
+                                                                                                          }
+                                                                                                      ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Weapons\\Necrosword02\\Textures\\T_WP_1067001_Necrosword02_02_D.png":  [
+                                                                                                                                                {
+                                                                                                                                                    "strength":  1,
+                                                                                                                                                    "satMul":  1,
+                                                                                                                                                    "color":  "#000000",
+                                                                                                                                                    "hueShift":  0,
+                                                                                                                                                    "lightMul":  1,
+                                                                                                                                                    "protectSkin":  false,
+                                                                                                                                                    "mode":  "paint"
+                                                                                                                                                }
+                                                                                                                                            ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Texture\\T_1067001_Body_02_D.png":  [
+                                                                                                             {
+                                                                                                                 "strength":  1,
+                                                                                                                 "satMul":  1,
+                                                                                                                 "color":  "#000000",
+                                                                                                                 "hueShift":  0,
+                                                                                                                 "lightMul":  1,
+                                                                                                                 "protectSkin":  false,
+                                                                                                                 "mode":  "paint"
+                                                                                                             }
+                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Weapons\\Necrosword01\\Textures\\T_1067001_Necrosword01_02_D.png":  [
+                                                                                                                                             {
+                                                                                                                                                 "strength":  1,
+                                                                                                                                                 "satMul":  1,
+                                                                                                                                                 "color":  "#000000",
+                                                                                                                                                 "hueShift":  0,
+                                                                                                                                                 "lightMul":  1,
+                                                                                                                                                 "protectSkin":  false,
+                                                                                                                                                 "mode":  "paint"
+                                                                                                                                             }
+                                                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Weapons\\Necrosword01\\Textures\\T_1067001_Necrosword01_D.png":  [
+                                                                                                                                          {
+                                                                                                                                              "strength":  1,
+                                                                                                                                              "satMul":  1,
+                                                                                                                                              "color":  "#000000",
+                                                                                                                                              "hueShift":  0,
+                                                                                                                                              "lightMul":  1,
+                                                                                                                                              "protectSkin":  false,
+                                                                                                                                              "mode":  "paint"
+                                                                                                                                          }
+                                                                                                                                      ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Texture\\T_1067001_Body_01_D.png":  [
+                                                                                                             {
+                                                                                                                 "strength":  1,
+                                                                                                                 "satMul":  1,
+                                                                                                                 "color":  "#000000",
+                                                                                                                 "hueShift":  0,
+                                                                                                                 "lightMul":  1,
+                                                                                                                 "protectSkin":  false,
+                                                                                                                 "mode":  "paint"
+                                                                                                             }
+                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Texture\\T_1067001_Equip_01_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "satMul":  1,
+                                                                                                                  "color":  "#000000",
+                                                                                                                  "hueShift":  0,
+                                                                                                                  "lightMul":  1,
+                                                                                                                  "protectSkin":  false,
+                                                                                                                  "mode":  "paint"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Slots\\Accessories\\3810670001\\Texture\\T_Slot_381067_0001_D.png":  [
+                                                                                                                                              {
+                                                                                                                                                  "strength":  1,
+                                                                                                                                                  "satMul":  1,
+                                                                                                                                                  "color":  "#000000",
+                                                                                                                                                  "hueShift":  0,
+                                                                                                                                                  "lightMul":  1,
+                                                                                                                                                  "protectSkin":  false,
+                                                                                                                                                  "mode":  "paint"
+                                                                                                                                              }
+                                                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Weapons\\Monster\\Textures\\T_WP_1067001_Monster_Equip_01_D.png":  [
+                                                                                                                                            {
+                                                                                                                                                "strength":  1,
+                                                                                                                                                "satMul":  1,
+                                                                                                                                                "color":  "#000000",
+                                                                                                                                                "hueShift":  0,
+                                                                                                                                                "lightMul":  1,
+                                                                                                                                                "protectSkin":  false,
+                                                                                                                                                "mode":  "paint"
+                                                                                                                                            }
+                                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Weapons\\Sickle\\Textures\\T_WP_1067001_Sickle_D.png":  [
+                                                                                                                                 {
+                                                                                                                                     "strength":  1,
+                                                                                                                                     "satMul":  1,
+                                                                                                                                     "color":  "#000000",
+                                                                                                                                     "hueShift":  0,
+                                                                                                                                     "lightMul":  1,
+                                                                                                                                     "protectSkin":  false,
+                                                                                                                                     "mode":  "paint"
+                                                                                                                                 }
+                                                                                                                             ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Texture\\T_1067001_Head_VFX_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "satMul":  1,
+                                                                                                                  "color":  "#000000",
+                                                                                                                  "hueShift":  0,
+                                                                                                                  "lightMul":  1,
+                                                                                                                  "protectSkin":  false,
+                                                                                                                  "mode":  "paint"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Weapons\\Sickle\\Textures\\T_WP_1067001_Sickle_E.png":  [
+                                                                                                                                 {
+                                                                                                                                     "strength":  1,
+                                                                                                                                     "satMul":  1,
+                                                                                                                                     "color":  "#000000",
+                                                                                                                                     "hueShift":  0,
+                                                                                                                                     "lightMul":  1,
+                                                                                                                                     "protectSkin":  false,
+                                                                                                                                     "mode":  "paint"
+                                                                                                                                 }
+                                                                                                                             ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Texture\\T_1067001_Eyes_D.png":  [
+                                                                                                          {
+                                                                                                              "strength":  1,
+                                                                                                              "satMul":  1,
+                                                                                                              "color":  "#000000",
+                                                                                                              "hueShift":  0,
+                                                                                                              "lightMul":  1,
+                                                                                                              "protectSkin":  false,
+                                                                                                              "mode":  "paint"
+                                                                                                          }
+                                                                                                      ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Weapons\\Monster\\Textures\\T_WP_1067001_Monster_Equip_02_D.png":  [
+                                                                                                                                            {
+                                                                                                                                                "strength":  1,
+                                                                                                                                                "satMul":  1,
+                                                                                                                                                "color":  "#000000",
+                                                                                                                                                "hueShift":  0,
+                                                                                                                                                "lightMul":  1,
+                                                                                                                                                "protectSkin":  false,
+                                                                                                                                                "mode":  "paint"
+                                                                                                                                            }
+                                                                                                                                        ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Texture\\T_1067001_Body_02_VFX_D.png":  [
+                                                                                                                 {
+                                                                                                                     "strength":  1,
+                                                                                                                     "satMul":  1,
+                                                                                                                     "color":  "#000000",
+                                                                                                                     "hueShift":  0,
+                                                                                                                     "lightMul":  1,
+                                                                                                                     "protectSkin":  false,
+                                                                                                                     "mode":  "paint"
+                                                                                                                 }
+                                                                                                             ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Weapons\\Monster\\Textures\\T_WP_1067001_Monster_Head_D.png":  [
+                                                                                                                                        {
+                                                                                                                                            "strength":  1,
+                                                                                                                                            "satMul":  1,
+                                                                                                                                            "color":  "#000000",
+                                                                                                                                            "hueShift":  0,
+                                                                                                                                            "lightMul":  1,
+                                                                                                                                            "protectSkin":  false,
+                                                                                                                                            "mode":  "paint"
+                                                                                                                                        }
+                                                                                                                                    ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Weapons\\Monster\\Textures\\T_WP_1067001_Monster_Body_D.png":  [
+                                                                                                                                        {
+                                                                                                                                            "strength":  1,
+                                                                                                                                            "satMul":  1,
+                                                                                                                                            "color":  "#000000",
+                                                                                                                                            "hueShift":  0,
+                                                                                                                                            "lightMul":  1,
+                                                                                                                                            "protectSkin":  false,
+                                                                                                                                            "mode":  "paint"
+                                                                                                                                        }
+                                                                                                                                    ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Weapons\\Necrosword02\\Textures\\T_WP_1067001_Necrosword02_D.png":  [
+                                                                                                                                             {
+                                                                                                                                                 "strength":  1,
+                                                                                                                                                 "satMul":  1,
+                                                                                                                                                 "color":  "#000000",
+                                                                                                                                                 "hueShift":  0,
+                                                                                                                                                 "lightMul":  1,
+                                                                                                                                                 "protectSkin":  false,
+                                                                                                                                                 "mode":  "paint"
+                                                                                                                                             }
+                                                                                                                                         ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Texture\\T_1067001_Body_01_VFX_D.png":  [
+                                                                                                                 {
+                                                                                                                     "strength":  1,
+                                                                                                                     "satMul":  1,
+                                                                                                                     "color":  "#000000",
+                                                                                                                     "hueShift":  0,
+                                                                                                                     "lightMul":  1,
+                                                                                                                     "protectSkin":  false,
+                                                                                                                     "mode":  "paint"
+                                                                                                                 }
+                                                                                                             ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Texture\\T_1067001_Equip_02_D.png":  [
+                                                                                                              {
+                                                                                                                  "strength":  1,
+                                                                                                                  "satMul":  1,
+                                                                                                                  "color":  "#000000",
+                                                                                                                  "hueShift":  0,
+                                                                                                                  "lightMul":  1,
+                                                                                                                  "protectSkin":  false,
+                                                                                                                  "mode":  "paint"
+                                                                                                              }
+                                                                                                          ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Weapons\\SymbiosisShadow\\Textures\\T_1067001_SymbiosisShadow_01_D.png":  [
+                                                                                                                                                   {
+                                                                                                                                                       "strength":  1,
+                                                                                                                                                       "satMul":  1,
+                                                                                                                                                       "color":  "#000000",
+                                                                                                                                                       "hueShift":  0,
+                                                                                                                                                       "lightMul":  1,
+                                                                                                                                                       "protectSkin":  false,
+                                                                                                                                                       "mode":  "paint"
+                                                                                                                                                   }
+                                                                                                                                               ],
+                "Marvel\\Content\\Marvel\\Characters\\1067\\1067001\\Texture\\T_1067001_Equip_01_VFX_D.png":  [
+                                                                                                                  {
+                                                                                                                      "strength":  1,
+                                                                                                                      "satMul":  1,
+                                                                                                                      "color":  "#000000",
+                                                                                                                      "hueShift":  0,
+                                                                                                                      "lightMul":  1,
+                                                                                                                      "protectSkin":  false,
+                                                                                                                      "mode":  "paint"
+                                                                                                                  }
+                                                                                                              ]
+            },
+    "colorOps":  {
+
+                 }
+}
