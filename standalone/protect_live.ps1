@@ -36,16 +36,16 @@ function PLog([string]$m) { Write-Host ('[{0}] {1}' -f (Get-Date -Format 'HH:mm:
 if (LS-WatcherAlive $SaveDir) { PLog 'the app''s live preview is running - it owns the live textures, Protect skin steps aside'; exit 3 }
 
 if ($Design -and -not $FlagOnly) {
-    & powershell.exe -NoProfile -ExecutionPolicy Bypass -File 'C:\rs\SkinStudio\live_preview.ps1' -Design $Design -LiveDir $LiveDir
+    & powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File 'C:\rs\SkinStudio\live_preview.ps1' -Design $Design -LiveDir $LiveDir
     if ($LASTEXITCODE -ne 0) { throw "live_preview.ps1 failed (exit $LASTEXITCODE)" }
 } elseif (-not $FlagOnly) {
     $bc = Join-Path $PSScriptRoot 'build_colours.ps1'
     $mode = if ($Off) { '-Off' } else { '-Live' }
-    & powershell.exe -NoProfile -ExecutionPolicy Bypass -File $bc -Skin $Skin -Protect $mode -SaveDir $SaveDir -DesignDir $ProtectDir
+    & powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File $bc -Skin $Skin -Protect $mode -SaveDir $SaveDir -DesignDir $ProtectDir
     if ($LASTEXITCODE -ne 0) { throw "build_colours.ps1 failed (exit $LASTEXITCODE)" }
     $dp = Join-Path $ProtectDir ('InGameColours{0}.json' -f $Skin)
     if (-not (Test-Path -LiteralPath $dp)) { PLog "no design for $Skin - nothing to paint"; return }
-    & powershell.exe -NoProfile -ExecutionPolicy Bypass -File 'C:\rs\SkinStudio\live_preview.ps1' -Design $dp -LiveDir $LiveDir
+    & powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File 'C:\rs\SkinStudio\live_preview.ps1' -Design $dp -LiveDir $LiveDir
     if ($LASTEXITCODE -ne 0) { throw "live_preview.ps1 failed (exit $LASTEXITCODE)" }
 }
 

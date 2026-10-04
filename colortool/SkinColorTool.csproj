@@ -13,6 +13,16 @@
     <AssemblyName>SkinColorTool</AssemblyName>
     <RootNamespace>SkinColorTool</RootNamespace>
     <InvariantGlobalization>true</InvariantGlobalization>
+    <!-- file details shown in Explorer's Properties and read by scanners -->
+    <Product>Skin Studio for Marvel Rivals</Product>
+    <AssemblyTitle>Skin Studio colour tool</AssemblyTitle>
+    <Description>Reads and writes material colours in Marvel Rivals assets for Skin Studio.</Description>
+    <Company>Chicory Design Studio</Company>
+    <Authors>Alli / Chicory Design Studio</Authors>
+    <Copyright>Alli / Chicory Design Studio</Copyright>
+    <Version>1.0.3</Version>
+    <ApplicationIcon>$(MSBuildThisFileDirectory)..\branding\skin-studio.ico</ApplicationIcon>
+    <Deterministic>true</Deterministic>
     <!-- folder holding UAssetAPI.dll, Newtonsoft.Json.dll and ZstdSharp.dll
          (see BUILDING.md); override with -p:LibDir=... -->
     <LibDir Condition="'$(LibDir)' == ''">$(MSBuildThisFileDirectory)lib\</LibDir>

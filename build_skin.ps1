@@ -74,7 +74,7 @@ if (-not $Combined) {
             $pt.doc | ConvertTo-Json -Depth 8 | Set-Content -LiteralPath $pp -Encoding utf8
             Write-Host ''
             Write-Host ('###### {0} of {1}: {2} ({3} texture, {4} material edit(s)) ######' -f $i, $parts.Count, $pt.doc.displayName, $pt.doc.ops.Count, $pt.doc.colorOps.Count)
-            & powershell.exe -NoProfile -ExecutionPolicy Bypass -File $PSCommandPath -Design $pp @fwd
+            & powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File $PSCommandPath -Design $pp @fwd
             if ($LASTEXITCODE -ne 0) { $failed += $pt.doc.modName }
         }
         if ($failed.Count) { throw ('per-skin build failed for: ' + ($failed -join ', ')) }

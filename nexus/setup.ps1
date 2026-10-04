@@ -44,6 +44,13 @@ if ($newVer -ne $oldVer) {
     foreach ($sub in 'designs', 'images', 'output', 'work', 'cache') { New-Item -ItemType Directory -Force -Path (Join-Path $dst $sub) | Out-Null }
 }
 
+# Files unzipped from a download carry Windows' "came from the internet" mark,
+# and the app starts its own scripts with -ExecutionPolicy RemoteSigned, which
+# refuses marked scripts. Clear the mark on the installed copy only (what this
+# script just put in %LOCALAPPDATA%\SkinStudio), so the app never needs Bypass.
+Get-ChildItem -LiteralPath $dst -Recurse -File -Include *.ps1, *.bat, *.cs, *.exe, *.dll, *.pyd |
+    Unblock-File -ErrorAction SilentlyContinue
+
 if ($paks) {
     [IO.File]::WriteAllText((Join-Path $dst 'game_paks.txt'), $paks)
     Say ("Game found: {0}" -f $paks)

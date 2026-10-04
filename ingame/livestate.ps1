@@ -69,7 +69,7 @@ function LS-HelperAlive {
 }
 function LS-StartHelper {
     if (LS-HelperAlive) { return $false }
-    $argv = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-WindowStyle', 'Hidden', '-File', ('"{0}"' -f (Join-Path $PSScriptRoot 'helper.ps1')))
+    $argv = @('-NoProfile', '-ExecutionPolicy', 'RemoteSigned', '-WindowStyle', 'Hidden', '-File', ('"{0}"' -f (Join-Path $PSScriptRoot 'helper.ps1')))
     Start-Process powershell.exe -ArgumentList $argv -WorkingDirectory $script:LS_Root -WindowStyle Hidden | Out-Null
     $true
 }
@@ -86,7 +86,7 @@ function LS-StartHiddenWatcher([string[]]$extra = @(), [string]$logDir = '') {
         if ([IO.File]::Exists($f)) { try { [IO.File]::Copy($f, $f + '.prev', $true); [IO.File]::Delete($f) } catch {} }
     }
     # Start-Process joins -ArgumentList with bare spaces in PS 5.1: quote paths
-    $argv = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', ('"{0}"' -f (Join-Path $script:LS_Root 'live_preview.ps1')), '-WatchDesigns', '-ExitWithGame') + @($extra)
+    $argv = @('-NoProfile', '-ExecutionPolicy', 'RemoteSigned', '-File', ('"{0}"' -f (Join-Path $script:LS_Root 'live_preview.ps1')), '-WatchDesigns', '-ExitWithGame') + @($extra)
     $p = Start-Process powershell.exe -ArgumentList $argv -WorkingDirectory $script:LS_Root -WindowStyle Hidden -RedirectStandardOutput $out -RedirectStandardError $err -PassThru
     $null = $p.Handle      # PS 5.1: without holding the handle, ExitCode reads empty after exit
     $p

@@ -10,7 +10,7 @@
 # Run it from a SHORT path - PS 5.1 cannot execute a .ps1 sitting past ~260
 # characters (it reports a bogus "missing terminator").
 #
-#   powershell -NoProfile -ExecutionPolicy Bypass -File C:\rs\SkinStudio\build-vuistyle.ps1
+#   powershell -NoProfile -ExecutionPolicy RemoteSigned -File C:\rs\SkinStudio\build-vuistyle.ps1
 #
 # The three hand-written pieces (palette, type/branding, brand band + status
 # bar) live in vuistyle.parts\ next to this script. They are NOT put through
