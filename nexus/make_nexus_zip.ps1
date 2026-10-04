@@ -83,9 +83,12 @@ $bad = @(Get-ChildItem -LiteralPath $appStage -Recurse -File | Where-Object { $_
 if ($bad.Count) { throw ("mountable files in the app download: " + ($bad.FullName -join ', ')) }
 
 # --- in-game mod download: the three files at the zip root, exactly as installed now ---
+# (straight in ~mods, or in the subfolder Vortex deploys it to; there must be exactly one)
 $mods = Join-Path $SS_Paks '~mods'
+$live = @(Get-ChildItem -LiteralPath $mods -Recurse -File -Filter '!!SkinLive_9999999_P.pak')
+if ($live.Count -ne 1) { throw ("expected one !!SkinLive_9999999_P.pak under $mods, found {0}: {1}" -f $live.Count, ($live.FullName -join ', ')) }
 foreach ($ext in 'pak', 'ucas', 'utoc') {
-    Copy-Item -LiteralPath (Join-Path $mods "!!SkinLive_9999999_P.$ext") -Destination $modStage
+    Copy-Item -LiteralPath (Join-Path $live[0].DirectoryName "!!SkinLive_9999999_P.$ext") -Destination $modStage
 }
 
 Write-Zip $modStage (Join-Path $Out ("SkinStudio-InGame-{0}.zip" -f $Version))
