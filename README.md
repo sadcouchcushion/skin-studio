@@ -2,14 +2,17 @@
 
 ## Download
 
-**[⬇ Download Skin Studio 1.0 (zip)](https://github.com/sadcouchcushion/skin-studio/releases/download/v1.0/Skin.Studio.1.0.zip)** · [all releases](https://github.com/sadcouchcushion/skin-studio/releases/latest)
+Skin Studio is two downloads, and you need both:
+
+- **[⬇ Skin Studio app 1.0.1 (zip)](https://github.com/sadcouchcushion/skin-studio/releases/download/v1.0.1/SkinStudio-App-1.0.1.zip)**, from this repository · [all releases](https://github.com/sadcouchcushion/skin-studio/releases/latest)
+- **The in-game mod** (`!!SkinLive`, for the F8 panel), from Nexus Mods. It is also attached to each release here as `SkinStudio-InGame-<version>.zip`.
 
 To install:
 
 1. Close Marvel Rivals.
-2. Open the game's `MarvelGame\Marvel\Content\Paks\~mods` folder (on Steam: right-click Marvel Rivals > Manage > Browse local files). Create `~mods` if it isn't there.
-3. Unzip the whole download into `~mods`. You should see three `!!SkinLive_9999999_P` files and a `SkinStudio` folder directly inside `~mods`.
-4. Double-click `~mods\SkinStudio\Start Skin Studio.bat` once. After that, open Skin Studio from the Start menu, and press **F8** in game for the panel.
+2. Install the in-game mod with Vortex, or unzip it into the game's `MarvelGame\Marvel\Content\Paks\~mods` folder (on Steam: right-click Marvel Rivals > Manage > Browse local files; create `~mods` if it isn't there). The three `!!SkinLive_9999999_P` files should sit directly in `~mods`.
+3. Unzip the app anywhere outside the game folder and double-click `SkinStudio\Start Skin Studio.bat` once. It installs to `%LOCALAPPDATA%\SkinStudio` and adds Skin Studio to the Start menu.
+4. **Open Skin Studio before you launch the game**, then press **F8** in a match for the panel. The panel is drawn by the app, so it only works while the app is running.
 
 Full guide: [docs/NEXUS_GUIDE.md](docs/NEXUS_GUIDE.md).
 
@@ -18,7 +21,7 @@ Skin Studio recolours Marvel Rivals skins on your PC and shows the result on you
 - **The Skin Studio app** (`SkinStudio.ps1` and the `*lib.ps1` scripts): open a skin, edit its textures and material colours, save designs and build them into mods.
 - **The in-game panel** (`!!SkinLive`, press **F8** in game): recolour your hero live while the app is running on the same PC. Its watcher and panel scripts live in `ingame/`.
 
-This repository is the full source of the release published on Nexus Mods. Everything the release runs is plain PowerShell, C# and JavaScript that you can read here. The release zip is built by `nexus/make_nexus_zip.ps1`.
+This repository is the full source of the release published on Nexus Mods. Everything the release runs is plain PowerShell, C# and JavaScript that you can read here. Both release zips (the app and the in-game mod) are built by `nexus/make_nexus_zip.ps1`.
 
 ## Layout
 
