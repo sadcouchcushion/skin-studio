@@ -17,7 +17,7 @@ The in-game panel is drawn by the app on your PC. [b]The panel only works while 
 [*]The [b].NET 8 Runtime[/b] from Microsoft, for material colour edits.
 [*]About 2 GB free on C: for the texture cache.
 [*]Optional: [b]Project Galacta[/b] (Nexus mod 12806) to swap a freshly built mod into a running game without restarting.
-[*]Optional: [b]Atelier[/b] (github.com/clownfetus/Atelier) for the 3D preview, and Blender for 3D painting.
+[*]Optional: [b]Atelier[/b] for the 3D preview, and Blender for 3D painting.
 [/list]
 
 [line]
@@ -25,21 +25,21 @@ The in-game panel is drawn by the app on your PC. [b]The panel only works while 
 [size=4][b]Install[/b][/size]
 [color=#ff6666][b]Close Marvel Rivals before installing anything.[/b][/color]
 
-Skin Studio comes as [b]two downloads[/b], and you need both:
+Skin Studio comes as [b]two files[/b], both on this page's [b]Files[/b] tab, and you need both:
 [list]
-[*][b]The in-game mod[/b] (the SkinStudio-InGame zip, here on Nexus): the three [font=Courier New]!!SkinLive_9999999_P[/font] files that go in the game's ~mods folder.
-[*][b]The Skin Studio app[/b] (the SkinStudio-App zip, from GitHub): [url=https://github.com/sadcouchcushion/skin-studio/releases/latest][b]Download the Skin Studio app[/b][/url]. The panel is drawn by this app, so without it F8 does nothing.
+[*][b]Main file: the in-game mod[/b] (SkinStudio-InGame zip): the three [font=Courier New]!!SkinLive_9999999_P[/font] files that go in the game's ~mods folder.
+[*][b]Second file: the Skin Studio app[/b] (SkinStudio-App zip): the app on your PC. The panel is drawn by this app, so without it F8 does nothing.
 [/list]
 
-[b]1. Install the in-game mod[/b]
+[b]1. Install the in-game mod (main file)[/b]
 [list]
-[*][b]With Vortex:[/b] click [b]Mod Manager Download[/b] and deploy. Then check that the three [font=Courier New]!!SkinLive_9999999_P[/font] files (.pak, .ucas, .utoc) are in ~mods.
+[*][b]With Vortex:[/b] click [b]Mod Manager Download[/b] on the main file and deploy. Then check that the three [font=Courier New]!!SkinLive_9999999_P[/font] files (.pak, .ucas, .utoc) are in ~mods.
 [*][b]By hand:[/b] open the game's ~mods folder (on Steam: right-click Marvel Rivals > Manage > Browse local files, then open [font=Courier New]MarvelGame\Marvel\Content\Paks\~mods[/font]; create ~mods if it does not exist). Unzip the SkinStudio-InGame download into it, so the three !!SkinLive files sit directly in ~mods.
 [/list]
 
-[b]2. Install the app[/b]
+[b]2. Install the app (second file)[/b]
 [list=1]
-[*]Download the SkinStudio-App zip from the [url=https://github.com/sadcouchcushion/skin-studio/releases/latest]GitHub release page[/url].
+[*]On the Files tab, click [b]Manual Download[/b] on the SkinStudio-App file. Don't install it with Vortex; it is a program, not a game mod.
 [*]Unzip it anywhere [b]outside[/b] the game folder, for example your Downloads folder. Do not put it in ~mods.
 [*]Double-click [font=Courier New]SkinStudio\Start Skin Studio.bat[/font] once. It sets Skin Studio up in your user folder ([font=Courier New]%LOCALAPPDATA%\SkinStudio[/font]), finds the game in your Steam or Epic library, adds [b]Skin Studio[/b] to the Start menu and opens the app. You can delete the unzipped folder afterwards.
 [*]From then on, open Skin Studio from the Start menu. [b]Open it before you launch the game[/b], every time you want the F8 panel.
@@ -48,7 +48,7 @@ The app's work files, cache and built mods are kept in [font=Courier New]%LOCALA
 
 [b]Using Vortex for other mods?[/b] A Vortex redeploy can sweep loose files out of ~mods, so after any deploy check the three !!SkinLive files are still there.
 
-[b]Updating:[/b] close Skin Studio and the game. Replace the three !!SkinLive files with the new in-game download, and run Start Skin Studio.bat from the new app download. Your designs and cache are kept.
+[b]Updating:[/b] close Skin Studio and the game. Replace the three !!SkinLive files with the new main file, and run Start Skin Studio.bat from the new app file. Your designs and cache are kept.
 
 [b]Upgrading from 1.0?[/b] Version 1.0 was one download with a SkinStudio folder inside ~mods. Delete that ~mods\SkinStudio folder (your designs live in %LOCALAPPDATA%\SkinStudio and are kept), then follow the steps above.
 
@@ -117,7 +117,7 @@ Live preview is only visible on your own screen and only while Skin Studio runs.
 [size=4][b]Troubleshooting[/b][/size]
 [b]F8 does nothing.[/b]
 [list=1]
-[*]Is Skin Studio open? The panel is drawn by the app on your PC (the separate GitHub download), so with nothing running F8 shows nothing. Open the app, then press F8 again; presses made before the app was running are thrown away.
+[*]Is Skin Studio open? The panel is drawn by the app on your PC (the second file on the Files tab), so with nothing running F8 shows nothing. Open the app, then press F8 again; presses made before the app was running are thrown away.
 [*]Are you in a match with a hero on the field? The lobby has no hero to edit.
 [*]Are the three !!SkinLive_9999999_P files still in ~mods? A Vortex redeploy can remove them.
 [*]Did a game patch just come out? See below.
