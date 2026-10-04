@@ -23,7 +23,9 @@ This repository is the full source of the release published on Nexus Mods. Every
 
 ## Building
 
-- `colortool/`: `dotnet build -c Release` (needs the .NET 8 SDK; pulls UAssetAPI and Newtonsoft.Json from NuGet).
+See [BUILDING.md](BUILDING.md) for the full step-by-step build, the third-party tools in the download and SHA-256 hashes for every binary.
+
+- `colortool/`: `dotnet build -c Release` (needs the .NET 8 SDK and the three DLLs listed in BUILDING.md in `colortool/lib/`).
 - The `!!SkinLive` pak is cooked from an Unreal Engine 5.3 project that isn't in this repository; `ingame/build_live_mod.ps1` shows the steps.
 - Game files, paks, extracted textures and build output are deliberately not committed.
 
@@ -31,6 +33,6 @@ This repository is the full source of the release published on Nexus Mods. Every
 
 - [three.js](https://threejs.org) (MIT) in `viewer/three/`.
 - Black Ops One font (SIL Open Font License, licence in `branding/`).
-- WebView2, UAssetAPI, Newtonsoft.Json and ZstdSharp are used as binaries and are not committed (WebView2 DLLs go in `viewer/lib/`; the rest come from NuGet).
+- WebView2, UAssetAPI, Newtonsoft.Json, ZstdSharp, repak-rivals, retoc and UE4-DDS-Tools ship as unmodified binaries in the release and aren't committed here; BUILDING.md lists where each comes from.
 
 Marvel Rivals is a trademark of its owners. This is an unofficial fan tool and is not affiliated with or endorsed by NetEase or Marvel.

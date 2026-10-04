@@ -13,6 +13,9 @@
     <AssemblyName>SkinColorTool</AssemblyName>
     <RootNamespace>SkinColorTool</RootNamespace>
     <InvariantGlobalization>true</InvariantGlobalization>
+    <!-- folder holding UAssetAPI.dll, Newtonsoft.Json.dll and ZstdSharp.dll
+         (see BUILDING.md); override with -p:LibDir=... -->
+    <LibDir Condition="'$(LibDir)' == ''">$(MSBuildThisFileDirectory)lib\</LibDir>
   </PropertyGroup>
 
   <!-- Reference the DLLs in place; copy them (and known runtime deps) next to our
@@ -20,15 +23,15 @@
        in Program.cs covers any remaining transitive deps from the same folder. -->
   <ItemGroup>
     <Reference Include="UAssetAPI">
-      <HintPath>C:\rs\tools\rrcli\KawaiiPhysicsBinding\UAssetAPI.dll</HintPath>
+      <HintPath>$(LibDir)UAssetAPI.dll</HintPath>
       <Private>true</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>C:\rs\tools\rrcli\KawaiiPhysicsBinding\Newtonsoft.Json.dll</HintPath>
+      <HintPath>$(LibDir)Newtonsoft.Json.dll</HintPath>
       <Private>true</Private>
     </Reference>
     <Reference Include="ZstdSharp">
-      <HintPath>C:\rs\tools\rrcli\KawaiiPhysicsBinding\ZstdSharp.dll</HintPath>
+      <HintPath>$(LibDir)ZstdSharp.dll</HintPath>
       <Private>true</Private>
     </Reference>
   </ItemGroup>
