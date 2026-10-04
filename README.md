@@ -1,5 +1,18 @@
 # Skin Studio for Marvel Rivals
 
+## Download
+
+**[⬇ Download Skin Studio 1.0 (zip)](https://github.com/sadcouchcushion/skin-studio/releases/download/v1.0/Skin.Studio.1.0.zip)** · [all releases](https://github.com/sadcouchcushion/skin-studio/releases/latest)
+
+To install:
+
+1. Close Marvel Rivals.
+2. Open the game's `MarvelGame\Marvel\Content\Paks\~mods` folder (on Steam: right-click Marvel Rivals > Manage > Browse local files). Create `~mods` if it isn't there.
+3. Unzip the whole download into `~mods`. You should see three `!!SkinLive_9999999_P` files and a `SkinStudio` folder directly inside `~mods`.
+4. Double-click `~mods\SkinStudio\Start Skin Studio.bat` once. After that, open Skin Studio from the Start menu, and press **F8** in game for the panel.
+
+Full guide: [docs/NEXUS_GUIDE.md](docs/NEXUS_GUIDE.md).
+
 Skin Studio recolours Marvel Rivals skins on your PC and shows the result on your hero in game. It has two parts:
 
 - **The Skin Studio app** (`SkinStudio.ps1` and the `*lib.ps1` scripts): open a skin, edit its textures and material colours, save designs and build them into mods.
