@@ -10,7 +10,7 @@ Marvel Rivals is a trademark of its owners. Skin Studio is an unofficial fan too
 
 ## Included in the download
 
-These files ship unchanged inside the Skin Studio zip. Each stays under its own licence, and their authors own them.
+These files ship unchanged inside the Skin Studio app zip. Each stays under its own licence, and their authors own them. The full licence texts are in `THIRD-PARTY-NOTICES.txt`, which ships in the app zip.
 
 | What | Used for | Author | Licence | Link |
 | --- | --- | --- | --- | --- |

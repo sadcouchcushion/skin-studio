@@ -8,6 +8,7 @@
 #                                 anywhere outside the game folder
 #       SkinStudio\Start Skin Studio.bat       runs setup.ps1
 #       SkinStudio\setup.ps1                   installs app\ to %LOCALAPPDATA%\SkinStudio
+#       SkinStudio\THIRD-PARTY-NOTICES.txt     licences of the bundled tools (also in app\)
 #       SkinStudio\app\                        the app + its tools (no cache, designs or builds)
 #
 #   powershell -File nexus\make_nexus_zip.ps1 -Version 1.0.1
@@ -68,6 +69,12 @@ Copy-Item -LiteralPath (Join-Path $SS_Tools 'retoc.exe') -Destination (Join-Path
 Set-Content -LiteralPath (Join-Path $app 'VERSION.txt') -Value $Version -Encoding ASCII
 
 Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'setup.ps1') -Destination (Join-Path $appStage 'SkinStudio')
+# licence notices for the bundled tools: next to Start Skin Studio.bat, and in app\
+# (picked up with the top-level .txt files) so the installed copy keeps them
+$notices = Join-Path $root 'THIRD-PARTY-NOTICES.txt'
+if (-not (Test-Path -LiteralPath $notices)) { throw "missing $notices" }
+Copy-Item -LiteralPath $notices -Destination (Join-Path $appStage 'SkinStudio')
+if (-not (Test-Path -LiteralPath (Join-Path $app 'THIRD-PARTY-NOTICES.txt'))) { throw 'THIRD-PARTY-NOTICES.txt missing from app\' }
 [IO.File]::WriteAllText((Join-Path $appStage 'SkinStudio\Start Skin Studio.bat'),
     "@echo off`r`npowershell -NoProfile -ExecutionPolicy Bypass -File `"%~dp0setup.ps1`"`r`n")
 
