@@ -1,0 +1,71 @@
+[size=4][b]Credits[/b][/size]
+
+[size=3][b]Skin Studio[/b][/size]
+[b]Skin Studio for Marvel Rivals[/b] is made by [b]Alli / Chicory Design Studio[/b]: the app, the in-game F8 panel ([font=Courier New]!!SkinLive[/font]), SkinColorTool, the 3D preview, the Blender bridge, the installer and the Variant / Skin Studio branding.
+Source: [url=https://github.com/sadcouchcushion/skin-studio]github.com/sadcouchcushion/skin-studio[/url]
+
+Marvel Rivals is a trademark of its owners. Skin Studio is an unofficial fan tool and is not affiliated with or endorsed by NetEase, Marvel or Epic Games.
+
+[line]
+
+[size=3][b]Included in the download[/b][/size]
+These files ship unchanged inside the Skin Studio zip. Each stays under its own licence, and their authors own them.
+[list]
+[*][b]repak-rivals[/b] ([font=Courier New]retoc-rivals-cli[/font] 3.8.0) by [b]natimerry, spuds and Truman Kilen (trumank)[/b]. Extracts and packs Marvel Rivals .pak/.utoc/.ucas files. MIT or Apache-2.0; licence files are in [font=Courier New]tools/rrcli/[/font]. [url=https://www.nexusmods.com/marvelrivals/mods/1717]Nexus mod 1717[/url] · [url=https://github.com/natimerry/repak-rivals]GitHub[/url]
+[*][b]retoc[/b] 0.1.5 by [b]Truman Kilen (trumank) and Archengius[/b]. Unreal IoStore packer. MIT. [url=https://github.com/trumank/retoc]GitHub[/url]
+[*][b]UE4-DDS-Tools[/b] 0.6.1 by [b]matyalatte[/b]. Texture extraction and injection. MIT. [url=https://github.com/matyalatte/UE4-DDS-Tools]GitHub[/url]
+[*][b]Texconv-Custom-DLL[/b] ([font=Courier New]texconv.dll[/font], part of UE4-DDS-Tools) by [b]matyalatte[/b], based on Microsoft's Texconv / [url=https://github.com/microsoft/DirectXTex]DirectXTex[/url]. MIT. [url=https://github.com/matyalatte/Texconv-Custom-DLL]GitHub[/url]
+[*][b]Python 3.10.11[/b] embeddable package (part of UE4-DDS-Tools) by the [b]Python Software Foundation[/b]. PSF License v2; licence in [font=Courier New]tools/ddstools/python/[/font]. [url=https://www.python.org]python.org[/url]
+[*][b]UAssetAPI[/b] 1.0.2 by [b]atenfyr[/b]. Reads and writes material colours in SkinColorTool. MIT. [url=https://github.com/atenfyr/UAssetAPI]GitHub[/url]
+[*][b]Newtonsoft.Json[/b] by [b]James Newton-King[/b]. MIT. [url=https://github.com/JamesNK/Newtonsoft.Json]GitHub[/url]
+[*][b]ZstdSharp[/b] by [b]Oleg Stepanischev[/b]. MIT. [url=https://github.com/oleg-st/ZstdSharp]GitHub[/url]
+[*][b]Microsoft WebView2 SDK[/b] 1.0.2957.106 by [b]Microsoft Corporation[/b]. Runs the 3D preview window. BSD-style licence (notice below). [url=https://www.nuget.org/packages/Microsoft.Web.WebView2]NuGet[/url]
+[*][b]three.js[/b] r185 by the [b]three.js authors[/b]. The 3D preview. MIT. [url=https://threejs.org]threejs.org[/url]
+[*][b]Black Ops One[/b] font by [b]James Grieshaber and Eben Sorkin[/b] (The Black-Ops Project Authors). SIL Open Font License 1.1; licence in [font=Courier New]branding/[/font]. [url=https://fonts.google.com/specimen/Black+Ops+One]Google Fonts[/url]
+[*][b]Oodle[/b] decompressor ([font=Courier New]oo2core_9_win64.dll[/font]) by [b]Epic Games Tools (RAD Game Tools)[/b]. Proprietary; shipped as it comes with repak-rivals. [url=https://www.radgametools.com/oodle.htm]radgametools.com[/url]
+[*][b]Marvel.usmap[/b]: Marvel Rivals type mappings, generated from the game files and shared by the Marvel Rivals modding community.
+[/list]
+
+[size=3][b]Used, not included[/b][/size]
+Skin Studio works with these, but they are not in the download.
+[list]
+[*][b]Unreal Engine 5.3[/b] by [b]Epic Games[/b]. Used to cook the in-game panel's widget assets. Unreal Engine EULA. [url=https://www.unrealengine.com]unrealengine.com[/url]
+[*][b]Project Galacta[/b] by [b]0xSaturn[/b] (optional). Swaps a freshly built mod into the running game with F7. [url=https://www.nexusmods.com/marvelrivals/mods/12806]Nexus mod 12806[/url]
+[*][b]Atelier[/b] by [b]clownfetus[/b] (optional). 3D preview meshes and Atelier project round-trips; Skin Studio runs its tools and copies none of its code. GPL-3.0. [url=https://github.com/clownfetus/Atelier]GitHub[/url]
+[*][b]CUE4Parse[/b] by [b]FabianFG and contributors[/b] (inside Atelier and FModel). Decodes game meshes. Apache-2.0. [url=https://github.com/FabianFG/CUE4Parse]GitHub[/url]
+[*][b]FModel[/b] by [b]4sval and contributors[/b] (optional). Mesh export for the Blender bridge. GPL-3.0. [url=https://github.com/4sval/FModel]GitHub[/url]
+[*][b]Blender[/b] by the [b]Blender Foundation[/b] (optional). 3D painting. GPL. [url=https://www.blender.org]blender.org[/url]
+[*][b].NET 8 Runtime[/b] by [b]Microsoft / .NET Foundation[/b]. Runs SkinColorTool. MIT. [url=https://dotnet.microsoft.com]dotnet.microsoft.com[/url]
+[/list]
+
+[spoiler]
+[b]Licence notices[/b]
+
+[b]MIT[/b] (retoc, UE4-DDS-Tools, Texconv-Custom-DLL, DirectXTex, UAssetAPI, Newtonsoft.Json, ZstdSharp, three.js, repak-rivals)
+[quote]Copyright (c) 2025 Truman Kilen and Archengius (retoc). Copyright 2024 Truman Kilen, spuds (repak-rivals). Copyright (c) 2022-2023 matyalatte (UE4-DDS-Tools). Copyright (c) 2022-2026 matyalatte (Texconv-Custom-DLL). Copyright (c) Microsoft Corporation (DirectXTex). Copyright (c) 2020 - 2026 atenfyr (UAssetAPI). Copyright (c) 2007 James Newton-King (Newtonsoft.Json). Copyright (c) 2021 Oleg Stepanischev (ZstdSharp). Copyright 2010-2026 Three.js Authors (three.js).
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.[/quote]
+
+[b]Microsoft WebView2 SDK[/b]
+[quote]Copyright (C) Microsoft Corporation. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+[list]
+[*]Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+[*]Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+[*]The name of Microsoft Corporation, or the names of its contributors may not be used to endorse or promote products derived from this software without specific prior written permission.
+[/list]
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.[/quote]
+
+[b]Apache-2.0[/b] (repak-rivals, as an alternative to MIT): full text at [url=https://www.apache.org/licenses/LICENSE-2.0]apache.org/licenses/LICENSE-2.0[/url] and in [font=Courier New]tools/rrcli/LICENSE-APACHE[/font].
+
+[b]PSF License v2[/b] (Python 3.10.11): Copyright (c) 2001-2023 Python Software Foundation; All Rights Reserved. Full text in [font=Courier New]tools/ddstools/python/LICENSE.txt[/font].
+
+[b]SIL Open Font License 1.1[/b] (Black Ops One): Copyright 2022 The Black-Ops Project Authors. Full text in [font=Courier New]branding/BlackOpsOne-OFL.txt[/font] and at [url=https://openfontlicense.org]openfontlicense.org[/url].
+[/spoiler]
+
+Thanks to the Marvel Rivals modding community, and to everyone whose tools above made Skin Studio possible.

@@ -44,6 +44,8 @@ See [BUILDING.md](BUILDING.md) for the full step-by-step build, the third-party 
 
 ## Third-party pieces
 
+Full credits, with authors, links and licence notices: [docs/CREDITS.md](docs/CREDITS.md).
+
 - [three.js](https://threejs.org) (MIT) in `viewer/three/`.
 - Black Ops One font (SIL Open Font License, licence in `branding/`).
 - WebView2, UAssetAPI, Newtonsoft.Json, ZstdSharp, repak-rivals, retoc and UE4-DDS-Tools ship as unmodified binaries in the release and aren't committed here; BUILDING.md lists where each comes from.
