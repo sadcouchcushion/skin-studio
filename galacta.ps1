@@ -2,7 +2,7 @@
 # Galacta, no restart. Dot-sourced after skinlib.ps1 by build_skin.ps1 (the
 # desktop BUILD MOD) and ingame\panel_server.ps1 (the in-game Build mod button).
 #
-# Project Galacta (Nexus 12806, by 0xSaturno) mounts every mod after login with
+# Project Galacta (Nexus 12806, by 0xSaturn) mounts every mod after login with
 # the game's own NePatchUtility, and its F7 key unmounts / remounts them all
 # while the game runs. Its own docs: F7, manage your mods, F7, then change level.
 # Decoded from its GAL_ModLoader (1.2.2, 2026-09-26): ToggleMods walks the list

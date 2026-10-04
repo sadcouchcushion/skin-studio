@@ -8,6 +8,7 @@
 #                                 anywhere outside the game folder
 #       SkinStudio\Start Skin Studio.bat       runs setup.ps1
 #       SkinStudio\setup.ps1                   installs app\ to %LOCALAPPDATA%\SkinStudio
+#       SkinStudio\THIRD-PARTY-NOTICES.txt     licences of the bundled tools (also in app\)
 #       SkinStudio\app\                        the app + its tools (no cache, designs or builds)
 #
 #   powershell -File nexus\make_nexus_zip.ps1 -Version 1.0.1
@@ -68,6 +69,12 @@ Copy-Item -LiteralPath (Join-Path $SS_Tools 'retoc.exe') -Destination (Join-Path
 Set-Content -LiteralPath (Join-Path $app 'VERSION.txt') -Value $Version -Encoding ASCII
 
 Copy-Item -LiteralPath (Join-Path $PSScriptRoot 'setup.ps1') -Destination (Join-Path $appStage 'SkinStudio')
+# licence notices for the bundled tools: next to Start Skin Studio.bat, and in app\
+# (picked up with the top-level .txt files) so the installed copy keeps them
+$notices = Join-Path $root 'THIRD-PARTY-NOTICES.txt'
+if (-not (Test-Path -LiteralPath $notices)) { throw "missing $notices" }
+Copy-Item -LiteralPath $notices -Destination (Join-Path $appStage 'SkinStudio')
+if (-not (Test-Path -LiteralPath (Join-Path $app 'THIRD-PARTY-NOTICES.txt'))) { throw 'THIRD-PARTY-NOTICES.txt missing from app\' }
 [IO.File]::WriteAllText((Join-Path $appStage 'SkinStudio\Start Skin Studio.bat'),
     "@echo off`r`npowershell -NoProfile -ExecutionPolicy Bypass -File `"%~dp0setup.ps1`"`r`n")
 
@@ -76,9 +83,12 @@ $bad = @(Get-ChildItem -LiteralPath $appStage -Recurse -File | Where-Object { $_
 if ($bad.Count) { throw ("mountable files in the app download: " + ($bad.FullName -join ', ')) }
 
 # --- in-game mod download: the three files at the zip root, exactly as installed now ---
+# (straight in ~mods, or in the subfolder Vortex deploys it to; there must be exactly one)
 $mods = Join-Path $SS_Paks '~mods'
+$live = @(Get-ChildItem -LiteralPath $mods -Recurse -File -Filter '!!SkinLive_9999999_P.pak')
+if ($live.Count -ne 1) { throw ("expected one !!SkinLive_9999999_P.pak under $mods, found {0}: {1}" -f $live.Count, ($live.FullName -join ', ')) }
 foreach ($ext in 'pak', 'ucas', 'utoc') {
-    Copy-Item -LiteralPath (Join-Path $mods "!!SkinLive_9999999_P.$ext") -Destination $modStage
+    Copy-Item -LiteralPath (Join-Path $live[0].DirectoryName "!!SkinLive_9999999_P.$ext") -Destination $modStage
 }
 
 Write-Zip $modStage (Join-Path $Out ("SkinStudio-InGame-{0}.zip" -f $Version))
