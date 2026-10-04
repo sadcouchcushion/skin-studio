@@ -17,7 +17,7 @@
 # Bitmaps load through a MemoryStream, never FromFile: GDI+ keeps a lock on the
 # backing store of a FromFile bitmap for as long as it lives.
 #
-#   powershell -NoProfile -ExecutionPolicy Bypass -File C:\rs\SkinStudio\branding\build-branding.ps1
+#   powershell -NoProfile -ExecutionPolicy RemoteSigned -File C:\rs\SkinStudio\branding\build-branding.ps1
 # ============================================================================
 $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.Drawing

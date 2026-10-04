@@ -14,7 +14,10 @@
 #   powershell -File nexus\make_nexus_zip.ps1 -Version 1.0.1
 param(
     [Parameter(Mandatory)][string]$Version,
-    [string]$Out = (Join-Path $env:USERPROFILE 'Downloads')
+    [string]$Out = (Join-Path $env:USERPROFILE 'Downloads'),
+    # folder holding the !!SkinLive files to ship, when they are not in ~mods
+    # right now (e.g. an unzipped earlier SkinStudio-InGame zip)
+    [string]$LiveFrom = ''
 )
 $ErrorActionPreference = 'Stop'
 $root  = Split-Path $PSScriptRoot -Parent
@@ -64,7 +67,19 @@ New-Item -ItemType Directory -Force -Path (Join-Path $app 'blender') | Out-Null
 foreach ($f in 'Marvel.usmap', 'bridge.py', 'paintid.py', 'fix_fmodel_settings.ps1') { Copy-Item -LiteralPath (Join-Path $root "blender\$f") -Destination (Join-Path $app 'blender') }
 # tools: the packer/extractors the app runs (from C:\rs\tools on this PC)
 Copy-Tree (Join-Path $SS_Tools 'rrcli')    (Join-Path $app 'tools\rrcli')
-Copy-Tree (Join-Path $SS_Tools 'ddstools') (Join-Path $app 'tools\ddstools')
+# ddstools: only python\ and src\ are used (the app runs src\main.py itself); its
+# own .bat front-ends, web shortcut and compiled .pyc caches are left out
+Copy-Tree (Join-Path $SS_Tools 'ddstools') (Join-Path $app 'tools\ddstools') @('*.bat', '*.url', '*.pyc') @('__pycache__')
+# no zip inside the zip (Nexus quarantines nested archives): the embedded
+# Python's standard library ships unpacked as python\Lib, which Python finds
+# on its own when python310.zip is not there
+$py = Join-Path $app 'tools\ddstools\python'
+Expand-Archive -LiteralPath (Join-Path $py 'python310.zip') -DestinationPath (Join-Path $py 'Lib')
+Remove-Item -LiteralPath (Join-Path $py 'python310.zip')
+# the stdlib's one .bat (a macOS ctypes helper) is never used here
+Get-ChildItem -LiteralPath (Join-Path $py 'Lib') -Recurse -File -Filter '*.bat' | Remove-Item -Force
+$nested = @(Get-ChildItem -LiteralPath $appStage -Recurse -File | Where-Object { $_.Extension -in '.zip', '.7z', '.rar' })
+if ($nested.Count) { throw ("archives inside the app download: " + ($nested.FullName -join ', ')) }
 Copy-Item -LiteralPath (Join-Path $SS_Tools 'retoc.exe') -Destination (Join-Path $app 'tools')
 Set-Content -LiteralPath (Join-Path $app 'VERSION.txt') -Value $Version -Encoding ASCII
 
@@ -75,8 +90,23 @@ $notices = Join-Path $root 'THIRD-PARTY-NOTICES.txt'
 if (-not (Test-Path -LiteralPath $notices)) { throw "missing $notices" }
 Copy-Item -LiteralPath $notices -Destination (Join-Path $appStage 'SkinStudio')
 if (-not (Test-Path -LiteralPath (Join-Path $app 'THIRD-PARTY-NOTICES.txt'))) { throw 'THIRD-PARTY-NOTICES.txt missing from app\' }
-[IO.File]::WriteAllText((Join-Path $appStage 'SkinStudio\Start Skin Studio.bat'),
-    "@echo off`r`npowershell -NoProfile -ExecutionPolicy Bypass -File `"%~dp0setup.ps1`"`r`n")
+# The one launcher that needs Bypass: setup.ps1 is still marked as downloaded
+# when it runs. It says what it does in a visible window; setup.ps1 clears the
+# mark on the installed copy, and everything after that runs as RemoteSigned.
+[IO.File]::WriteAllText((Join-Path $appStage 'SkinStudio\Start Skin Studio.bat'), ((@(
+    '@echo off'
+    'title Skin Studio setup'
+    'echo Skin Studio: installing or updating the app in %LOCALAPPDATA%\SkinStudio,'
+    'echo adding a Start menu shortcut, then opening the app. Source: setup.ps1 in this folder.'
+    'powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0setup.ps1"'
+    'if errorlevel 1 pause'
+) -join "`r`n") + "`r`n"))
+
+# SHA256SUMS.txt: the hash of every file in the download, so anyone (or a
+# scanner's reviewer) can match them against BUILDING.md and the upstream tools
+$sums = @(Get-ChildItem -LiteralPath $appStage -Recurse -File | Sort-Object FullName | ForEach-Object {
+    '{0}  {1}' -f (Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256).Hash.ToLower(), $_.FullName.Substring($appStage.Length + 1).Replace('\', '/') })
+[IO.File]::WriteAllText((Join-Path $appStage 'SkinStudio\SHA256SUMS.txt'), (($sums -join "`r`n") + "`r`n"))
 
 # the app download must hold nothing mountable, in case someone unzips it into ~mods
 $bad = @(Get-ChildItem -LiteralPath $appStage -Recurse -File | Where-Object { $_.Extension -in '.pak', '.utoc', '.ucas' })
@@ -84,7 +114,7 @@ if ($bad.Count) { throw ("mountable files in the app download: " + ($bad.FullNam
 
 # --- in-game mod download: the three files at the zip root, exactly as installed now ---
 # (straight in ~mods, or in the subfolder Vortex deploys it to; there must be exactly one)
-$mods = Join-Path $SS_Paks '~mods'
+$mods = if ($LiveFrom) { $LiveFrom } else { Join-Path $SS_Paks '~mods' }
 $live = @(Get-ChildItem -LiteralPath $mods -Recurse -File -Filter '!!SkinLive_9999999_P.pak')
 if ($live.Count -ne 1) { throw ("expected one !!SkinLive_9999999_P.pak under $mods, found {0}: {1}" -f $live.Count, ($live.FullName -join ', ')) }
 foreach ($ext in 'pak', 'ucas', 'utoc') {

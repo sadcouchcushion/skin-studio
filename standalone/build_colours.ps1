@@ -178,7 +178,7 @@ foreach ($sid in @($bySkin.Keys)) {
     $null = Write-Design $doc $dp
     CLog ("  design: {0} ({1} texture(s), {2} material(s))" -f $dp, $ops.Count, $colorOps.Count)
     if ($NoBuild) { continue }
-    & powershell.exe -NoProfile -ExecutionPolicy Bypass -File (Join-Path $SS_Root 'build_skin.ps1') -Design $dp -Zip
+    & powershell.exe -NoProfile -ExecutionPolicy RemoteSigned -File (Join-Path $SS_Root 'build_skin.ps1') -Design $dp -Zip
     if ($LASTEXITCODE -eq 0) { $built += $sid; CLog "  built $sid - zip copied to Downloads" } else { $failed += $sid; CLog "  build FAILED for $sid (exit $LASTEXITCODE)" }
 }
 if (-not $Live) {

@@ -14,10 +14,10 @@
 # The watcher it starts ends with the game (-ExitWithGame). A watcher the app
 # started (visible window) counts too: the helper never starts a second.
 #
-# Started at Windows sign-in by a Startup shortcut, and by the app when it
-# opens. One copy at a time (a named mutex).
+# Started by the app when it opens (ingame\livestate.ps1 LS-StartHelper); the
+# app does not add it to Windows sign-in. One copy at a time (a named mutex).
 #
-#   powershell -WindowStyle Hidden -File helper.ps1
+#   powershell -ExecutionPolicy RemoteSigned -WindowStyle Hidden -File helper.ps1
 #   -SaveDir / -LiveFlag / -LogDir / -WatcherArgs / -Once: test seams
 #   (RS_SS_GAMEPROC fakes the game)
 #
@@ -109,7 +109,7 @@ function Test-BuildRequests {
     }
 }
 function Start-Colours([string[]]$more, [bool]$protect, [string]$logName) {
-    $argv = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', ('"{0}"' -f $script:BuildColours), '-SaveDir', ('"{0}"' -f $SaveDir)) + $more
+    $argv = @('-NoProfile', '-ExecutionPolicy', 'RemoteSigned', '-File', ('"{0}"' -f $script:BuildColours), '-SaveDir', ('"{0}"' -f $SaveDir)) + $more
     if ($protect) { $argv += '-Protect' }
     if ($ColourDesignDir) { $argv += @('-DesignDir', ('"{0}"' -f $ColourDesignDir)) }
     $p = Start-Process powershell.exe -ArgumentList $argv -WindowStyle Hidden -PassThru `
@@ -148,7 +148,7 @@ function Set-ProtectSkin([string]$sid, [string]$why) {
     HLog ('Protect skin: skin {0} ({1})' -f $sid, $why)
 }
 function Start-Protect([string[]]$more) {
-    $argv = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', ('"{0}"' -f $script:ProtectLive), '-Skin', $script:ProtectSkin, '-SaveDir', ('"{0}"' -f $SaveDir)) + @($more | Where-Object { $_ })
+    $argv = @('-NoProfile', '-ExecutionPolicy', 'RemoteSigned', '-File', ('"{0}"' -f $script:ProtectLive), '-Skin', $script:ProtectSkin, '-SaveDir', ('"{0}"' -f $SaveDir)) + @($more | Where-Object { $_ })
     if ($ColourDesignDir) { $argv += @('-ProtectDir', ('"{0}"' -f $ColourDesignDir)) }
     if ($ProtectLiveDir) { $argv += @('-LiveDir', ('"{0}"' -f $ProtectLiveDir)) }
     $p = Start-Process powershell.exe -ArgumentList $argv -WindowStyle Hidden -PassThru `
@@ -282,7 +282,7 @@ function Test-DesignSync {
     } catch { return }
     if ($sig -eq $script:SyncSig) { return }
     $script:SyncSig = $sig
-    $argv = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', ('"{0}"' -f $script:DesignSync), '-SaveDir', ('"{0}"' -f $SaveDir), '-DesignDir', ('"{0}"' -f $script:DesignDirApp))
+    $argv = @('-NoProfile', '-ExecutionPolicy', 'RemoteSigned', '-File', ('"{0}"' -f $script:DesignSync), '-SaveDir', ('"{0}"' -f $SaveDir), '-DesignDir', ('"{0}"' -f $script:DesignDirApp))
     if ($SyncStateFile) { $argv += @('-StateFile', ('"{0}"' -f $SyncStateFile), '-TrashDir', ('"{0}"' -f (Join-Path $LogDir 'trash'))) }
     $script:SyncJob = Start-Process powershell.exe -ArgumentList $argv -WindowStyle Hidden -PassThru `
         -RedirectStandardOutput (Join-Path $LogDir 'designsync.log') -RedirectStandardError (Join-Path $LogDir 'designsync.err')
@@ -303,7 +303,7 @@ function Test-OpenApp {
         if (-not $key) { continue }
         # the sync, now and to the end (a running one is let finish first)
         if ($script:SyncJob -and -not $script:SyncJob.HasExited) { $null = $script:SyncJob.WaitForExit(60000) }
-        $argv = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', ('"{0}"' -f $script:DesignSync), '-SaveDir', ('"{0}"' -f $SaveDir), '-DesignDir', ('"{0}"' -f $script:DesignDirApp))
+        $argv = @('-NoProfile', '-ExecutionPolicy', 'RemoteSigned', '-File', ('"{0}"' -f $script:DesignSync), '-SaveDir', ('"{0}"' -f $SaveDir), '-DesignDir', ('"{0}"' -f $script:DesignDirApp))
         if ($SyncStateFile) { $argv += @('-StateFile', ('"{0}"' -f $SyncStateFile), '-TrashDir', ('"{0}"' -f (Join-Path $LogDir 'trash'))) }
         $p = Start-Process powershell.exe -ArgumentList $argv -WindowStyle Hidden -PassThru `
             -RedirectStandardOutput (Join-Path $LogDir 'designsync.log') -RedirectStandardError (Join-Path $LogDir 'designsync.err')
@@ -315,7 +315,7 @@ function Test-OpenApp {
             HLog ('Open in App: {0} -> the running app' -f $name)
         } else {
             $env:RS_SS_OPEN = $key
-            Start-Process powershell.exe -ArgumentList @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', ('"{0}"' -f (Join-Path $script:LS_Root 'SkinStudio.ps1')))
+            Start-Process powershell.exe -ArgumentList @('-NoProfile', '-ExecutionPolicy', 'RemoteSigned', '-File', ('"{0}"' -f (Join-Path $script:LS_Root 'SkinStudio.ps1')))
             $env:RS_SS_OPEN = ''
             HLog ('Open in App: {0} -> started the app' -f $name)
         }

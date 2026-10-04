@@ -2823,7 +2823,7 @@ function New-DyeCalForm {
         $path = Save-Design
         if (-not $path) { $script:dcMeterLbl.Text = 'Name the mod and make an edit first.'; return }
         Start-Process powershell.exe -WorkingDirectory $SS_Root -ArgumentList @(
-            '-NoExit', '-NoProfile', '-ExecutionPolicy', 'Bypass',
+            '-NoExit', '-NoProfile', '-ExecutionPolicy', 'RemoteSigned',
             '-File', (Join-Path $SS_Root 'build_skin.ps1'), '-Design', $path,
             '-DyeMeter', '-Combined', '-Install', '-Zip', '-Version', 'meter')   # one throwaway install, not a mod to keep
         $script:dcMeterLbl.Text = 'Building in its own window. Install it, restart Rivals, then shoot the meter.'
@@ -3379,7 +3379,7 @@ $btnBuild.Add_Click({
     }
     $path = Save-Design
     if (-not $path) { return }
-    $buildArgs = @('-NoExit', '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', (Join-Path $SS_Root 'build_skin.ps1'), '-Design', $path)
+    $buildArgs = @('-NoExit', '-NoProfile', '-ExecutionPolicy', 'RemoteSigned', '-File', (Join-Path $SS_Root 'build_skin.ps1'), '-Design', $path)
     if ($chkInstall.Checked) { $buildArgs += '-Install' }
     if ($chkZip.Checked) { $buildArgs += '-Zip' }
     Start-Process powershell.exe -ArgumentList $buildArgs -WorkingDirectory $SS_Root
@@ -3437,7 +3437,7 @@ function Start-LiveWatcher {
     # turns on by itself - a second watcher would only stop at once
     if ((Test-OwnWatcher) -or (LS-WatcherAlive '')) { return }
     $script:LiveProc = Start-Process powershell.exe -PassThru -WorkingDirectory $SS_Root -ArgumentList @(
-        '-NoProfile', '-ExecutionPolicy', 'Bypass',
+        '-NoProfile', '-ExecutionPolicy', 'RemoteSigned',
         '-File', (Join-Path $SS_Root 'live_preview.ps1'), '-WatchDesigns')
 }
 $btnLive.Add_Click({
@@ -3461,7 +3461,7 @@ $btnLive.Add_Click({
         # renders, and takes a second or two; say so before it blocks.
         Set-Status 'Turning live preview off - writing the vanilla textures back...'
         Start-Process powershell.exe -WindowStyle Hidden -Wait -ArgumentList @(
-            '-NoProfile', '-ExecutionPolicy', 'Bypass',
+            '-NoProfile', '-ExecutionPolicy', 'RemoteSigned',
             '-File', (Join-Path $SS_Root 'live_preview.ps1'), '-Clear')
         $btnLive.Text = 'LIVE PREVIEW'
         Set-Status 'Live preview off - press F6 in game once more to go back to vanilla.'

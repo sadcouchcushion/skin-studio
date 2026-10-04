@@ -1385,7 +1385,7 @@ function Pnl-StartBuild {
     # Start-Process joins -ArgumentList with bare spaces in PS 5.1: quote paths
     # -Zip: a shareable zip of each built mod lands in Downloads too (her ask,
     # 2026-09-27: build and get the file without leaving the game)
-    $argv = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', ('"{0}"' -f (Join-Path $SS_Root 'build_skin.ps1')), '-Design', ('"{0}"' -f $st.DocPath), '-Zip')
+    $argv = @('-NoProfile', '-ExecutionPolicy', 'RemoteSigned', '-File', ('"{0}"' -f (Join-Path $SS_Root 'build_skin.ps1')), '-Design', ('"{0}"' -f $st.DocPath), '-Zip')
     $p = Start-Process powershell.exe -ArgumentList $argv -WorkingDirectory $SS_Root -WindowStyle Hidden -RedirectStandardOutput $log -RedirectStandardError $err -PassThru
     $null = $p.Handle      # PS 5.1: without holding the handle, ExitCode reads empty after exit
     $st.Job = @{
