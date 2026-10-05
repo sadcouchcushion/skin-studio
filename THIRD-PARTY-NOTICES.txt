@@ -35,7 +35,8 @@ Notes
     the Python licence text below.
   * Oodle is proprietary software by Epic Games Tools (RAD Game Tools). It is
     included as it comes with repak-rivals, which needs it to read the game's
-    compressed files. No licence is granted for it here.
+    compressed files. No licence is granted for it here. On first use the app
+    copies this same file next to app\tools\retoc.exe, which needs it too.
   * Marvel.usmap holds type mappings generated from the game files and shared
     by the Marvel Rivals modding community. Marvel Rivals is a trademark of its
     owners; Skin Studio is an unofficial fan tool and is not affiliated with or

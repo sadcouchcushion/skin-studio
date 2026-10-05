@@ -149,7 +149,7 @@ function SS-EnsureMesh([string]$skin, [switch]$Lobby, [switch]$Match, [scriptblo
             if ($Progress) { & $Progress "Decoding mesh $leaf (about 10 s)..." | Out-Host }
             $tmp = Join-Path $dir '_out'
             if (Test-Path $tmp) { [IO.Directory]::Delete($tmp, $true) }
-            $log = & $SS_AtelierMesh --paks $paks.dir --aes ('0x' + $SS_GameAes) --usmap $usmap --asset $a --out $tmp 2>&1
+            $log = SS-RunNative $SS_AtelierMesh @('--paks', $paks.dir, '--aes', ('0x' + $SS_GameAes), '--usmap', $usmap, '--asset', $a, '--out', $tmp)
             $made = Join-Path $tmp (($a -replace '/', '\') + '.glb')
             if ($LASTEXITCODE -ne 0 -or -not (Test-Path -LiteralPath $made)) {
                 $why = (@($log) | Select-Object -Last 2) -join ' | '
