@@ -4,7 +4,7 @@
 
 Skin Studio is two downloads, and you need both:
 
-- **[⬇ Skin Studio app 1.0.1 (zip)](https://github.com/sadcouchcushion/skin-studio/releases/download/v1.0.1/SkinStudio-App-1.0.1.zip)**, from this repository · [all releases](https://github.com/sadcouchcushion/skin-studio/releases/latest)
+- **[⬇ Skin Studio app 1.0.3 (zip)](https://github.com/sadcouchcushion/skin-studio/releases/download/v1.0.3/SkinStudio-App-1.0.3.zip)**, from this repository · [all releases](https://github.com/sadcouchcushion/skin-studio/releases/latest)
 - **The in-game mod** (`!!SkinLive`, for the F8 panel), from Nexus Mods. It is also attached to each release here as `SkinStudio-InGame-<version>.zip`.
 
 To install:
