@@ -78,7 +78,7 @@ This stages everything under `work\_nexus\stage` and writes `Skin Studio 1.0.zip
 
 ## 6. Checking a download
 
-To check that a downloaded file matches the release, run `Get-FileHash <file>` in PowerShell and compare it with this table (SHA-256, Skin Studio 1.0.3). Since 1.0.3 the app zip also carries `SkinStudio/SHA256SUMS.txt`, the hash of every file in it.
+To check that a downloaded file matches the release, run `Get-FileHash <file>` in PowerShell and compare it with this table (SHA-256, Skin Studio 1.0.4). Since 1.0.3 the app zip also carries `SkinStudio/SHA256SUMS.txt`, the hash of every file in it.
 
 | File in the zip | SHA-256 |
 | --- | --- |
@@ -86,8 +86,8 @@ To check that a downloaded file matches the release, run `Get-FileHash <file>` i
 | `!!SkinLive_9999999_P.ucas` | `20d2698c06c96af777881da70522dfb83486cc7cdd032f1eb6bb18b1599c30ce` |
 | `!!SkinLive_9999999_P.utoc` | `da9c93b48538e930f61066301f4ec446a0cc1e06ce623883c1ba0940451a526b` |
 | `SkinStudio/app/blender/Marvel.usmap` | `03ff1bb43236d1a38351cba0e4232e25309444de7dd33e7a30a47ed45747e285` |
-| `SkinStudio/app/colortool/bin/Release/net8.0/SkinColorTool.exe` | `a6f910d355030a5e083bdadc0f5b7c765b5159187d475299f7d92729654f0c93` |
-| `SkinStudio/app/colortool/bin/Release/net8.0/SkinColorTool.dll` | `fe2d220b0d84c42f7b81a57c380202648e84b7718d108a44dc0e09929924eb70` |
+| `SkinStudio/app/colortool/bin/Release/net8.0/SkinColorTool.exe` | `d6f6419942cf747232fdd4aed12c4a3020d8ed8d8fa71926ece5df0d88832fdc` |
+| `SkinStudio/app/colortool/bin/Release/net8.0/SkinColorTool.dll` | `c9468069e5839788364f44c472cf3c86e352d442e39404a81ca587a5ea0f1a5f` |
 | `SkinStudio/app/colortool/bin/Release/net8.0/UAssetAPI.dll` | `57d9e0deea6e8fb1cf368cc9f70fbd7ef10d007e5b9931aa83e5db138ada0817` |
 | `SkinStudio/app/colortool/bin/Release/net8.0/Newtonsoft.Json.dll` | `22c649f75fce5be7c7ccda8880473b634ef69ecf33f5d1ab8ad892caf47d5a07` |
 | `SkinStudio/app/colortool/bin/Release/net8.0/ZstdSharp.dll` | `5d597fb07c93f99bcbbcf1265bfc60de1f1f8fc070a3acc36f0371a86c326b16` |

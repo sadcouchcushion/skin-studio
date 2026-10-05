@@ -20,7 +20,7 @@
     <Company>Chicory Design Studio</Company>
     <Authors>Alli / Chicory Design Studio</Authors>
     <Copyright>Alli / Chicory Design Studio</Copyright>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <ApplicationIcon>$(MSBuildThisFileDirectory)..\branding\skin-studio.ico</ApplicationIcon>
     <Deterministic>true</Deterministic>
     <!-- folder holding UAssetAPI.dll, Newtonsoft.Json.dll and ZstdSharp.dll
