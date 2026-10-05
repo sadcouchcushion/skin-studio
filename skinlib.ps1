@@ -1084,17 +1084,58 @@ function SS-EnsureRetocOodle {
     if (Test-Path -LiteralPath $src) { Copy-Item -LiteralPath $src -Destination $dll -Force }
 }
 
+# .utoc files in the top level of Paks that retoc 0.1.5 can't open. It reads
+# every .utoc there, and one flagged Encrypted whose directory index isn't a
+# multiple of 16 bytes makes it PANIC (exit 101, "left: 2 right: 16" from
+# generic-array) - the real game pads that index, so such a file came from a
+# mod tool or a damaged install. Reads only the 0x90-byte TOC header.
+function SS-RetocBadUtocs([string]$paks) {
+    $bad = New-Object System.Collections.Generic.List[string]
+    foreach ($f in @(Get-ChildItem -LiteralPath $paks -Filter *.utoc -File -ErrorAction SilentlyContinue)) {
+        $b = New-Object byte[] 0x90; $n = 0
+        try { $fs = [IO.File]::OpenRead($f.FullName); try { $n = $fs.Read($b, 0, 0x90) } finally { $fs.Dispose() } } catch { $n = 0 }
+        $ok = ($n -eq 0x90) -and ([Text.Encoding]::ASCII.GetString($b, 0, 16) -eq '-==--==--==--==-')
+        if ($ok -and ($b[80] -band 2) -and ([BitConverter]::ToUInt32($b, 48) % 16) -ne 0) { $ok = $false }
+        if (-not $ok) { $bad.Add($f.Name) }
+    }
+    , $bad
+}
+
+# the folder to hand retoc: Paks itself, or - when Paks holds a .utoc retoc
+# would crash on - a sibling folder of hard links to every other container.
+# Hard links cost no space but need the same NTFS drive, so it sits next to
+# Paks (Content\SkinStudioRetocPaks; the game only mounts Paks). Rebuilt each
+# time so a game update or a removed mod is picked up.
+function SS-RetocPaksDir {
+    $bad = SS-RetocBadUtocs $SS_Paks
+    if ($bad.Count -eq 0) { return $SS_Paks }
+    $stage = Join-Path (Split-Path $SS_Paks) 'SkinStudioRetocPaks'
+    try {
+        if (Test-Path -LiteralPath $stage) { Get-ChildItem -LiteralPath $stage -File | Remove-Item -Force }
+        New-Item -ItemType Directory -Force -Path $stage | Out-Null
+        foreach ($f in @(Get-ChildItem -LiteralPath $SS_Paks -File | Where-Object { $_.Extension -in '.utoc', '.ucas' })) {
+            if ($bad.Contains($f.BaseName + '.utoc')) { continue }
+            New-Item -ItemType HardLink -Path (Join-Path $stage $f.Name) -Target $f.FullName -ErrorAction Stop | Out-Null
+        }
+    } catch {
+        throw ("retoc can't read " + ($bad -join ', ') + " in $SS_Paks, and Skin Studio couldn't set up a folder without it (" + $_.Exception.Message + "). " +
+            "If it's a mod, move it into the Paks\~mods folder; if it's a game file, verify the game files in Steam.")
+    }
+    $stage
+}
+
 # extract exact manifest lines with retoc (full Paks dir, top level only)
 function SS-RetocExtract($lines, [string]$destRoot, [scriptblock]$Pump) {
     if (-not (Test-Path $SS_Retoc)) { throw "retoc not found at $SS_Retoc" }
     SS-EnsureRetocOodle
+    $paks = SS-RetocPaksDir
     New-Item -ItemType Directory -Force -Path $destRoot | Out-Null
     $chunk = New-Object System.Collections.Generic.List[string]
     $flush = {
         if ($chunk.Count -eq 0) { return }
         $fArgs = @(); foreach ($ln in $chunk) { $fArgs += '-f'; $fArgs += $ln }
-        $rOut = SS-RunNative $SS_Retoc (@('-a', $SS_GameAes, 'to-legacy', $SS_Paks, $destRoot, '--no-shaders', '--no-script-objects') + $fArgs)
-        if ($LASTEXITCODE -ne 0) { throw ("retoc to-legacy failed (exit $LASTEXITCODE, Paks: $SS_Paks): " + (($rOut | Select-Object -Last 4) -join ' | ')) }
+        $rOut = SS-RunNative $SS_Retoc (@('-a', $SS_GameAes, 'to-legacy', $paks, $destRoot, '--no-shaders', '--no-script-objects') + $fArgs)
+        if ($LASTEXITCODE -ne 0) { throw ("retoc to-legacy failed (exit $LASTEXITCODE, Paks: $paks): " + (($rOut | Select-Object -Last 4) -join ' | ')) }
         $chunk.Clear()
     }
     foreach ($ln in $lines) { $chunk.Add(([string]$ln).Trim([char]0xFEFF).Trim()); if ($chunk.Count -ge 60) { & $flush; if ($Pump) { & $Pump } } }
