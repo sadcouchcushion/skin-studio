@@ -1062,16 +1062,39 @@ function SS-SkinStamp([string]$skin, [string]$kind = 'tex') {
     $s
 }
 
+# Run a native tool and collect stdout+stderr as plain strings. Under
+# ErrorActionPreference Stop a single stderr line from a native exe is a
+# TERMINATING NativeCommandError in PS 5.1 (the player sees "retoc.exe:" and
+# none of the real message), so relax it for this one call; callers check
+# $LASTEXITCODE themselves.
+function SS-RunNative([string]$exe, [string[]]$argv) {
+    $eap = $ErrorActionPreference
+    $ErrorActionPreference = 'Continue'
+    try { @(& $exe @argv 2>&1 | ForEach-Object { [string]$_ }) }
+    finally { $ErrorActionPreference = $eap }
+}
+
+# retoc needs oo2core_9_win64.dll beside it, and when it's missing it tries to
+# DOWNLOAD it on first run - which fails offline / behind a firewall or AV. The
+# app zip ships the identical DLL in tools\rrcli, so put a copy next to retoc.
+function SS-EnsureRetocOodle {
+    $dll = Join-Path (Split-Path $SS_Retoc) 'oo2core_9_win64.dll'
+    if (Test-Path -LiteralPath $dll) { return }
+    $src = Join-Path (Split-Path $SS_Rr) 'oo2core_9_win64.dll'
+    if (Test-Path -LiteralPath $src) { Copy-Item -LiteralPath $src -Destination $dll -Force }
+}
+
 # extract exact manifest lines with retoc (full Paks dir, top level only)
 function SS-RetocExtract($lines, [string]$destRoot, [scriptblock]$Pump) {
     if (-not (Test-Path $SS_Retoc)) { throw "retoc not found at $SS_Retoc" }
+    SS-EnsureRetocOodle
     New-Item -ItemType Directory -Force -Path $destRoot | Out-Null
     $chunk = New-Object System.Collections.Generic.List[string]
     $flush = {
         if ($chunk.Count -eq 0) { return }
         $fArgs = @(); foreach ($ln in $chunk) { $fArgs += '-f'; $fArgs += $ln }
-        $rOut = & $SS_Retoc -a $SS_GameAes to-legacy $SS_Paks $destRoot --no-shaders --no-script-objects @fArgs 2>&1
-        if ($LASTEXITCODE -ne 0) { throw ("retoc to-legacy failed: " + (($rOut | Select-Object -Last 2) -join ' | ')) }
+        $rOut = SS-RunNative $SS_Retoc (@('-a', $SS_GameAes, 'to-legacy', $SS_Paks, $destRoot, '--no-shaders', '--no-script-objects') + $fArgs)
+        if ($LASTEXITCODE -ne 0) { throw ("retoc to-legacy failed (exit $LASTEXITCODE, Paks: $SS_Paks): " + (($rOut | Select-Object -Last 4) -join ' | ')) }
         $chunk.Clear()
     }
     foreach ($ln in $lines) { $chunk.Add(([string]$ln).Trim([char]0xFEFF).Trim()); if ($chunk.Count -ge 60) { & $flush; if ($Pump) { & $Pump } } }
@@ -1310,12 +1333,9 @@ function SS-EnsureSkinCache([string]$skin, $lines, [scriptblock]$Progress, [scri
         if ($chunk.Count -eq 0) { return }
         $fArgs = @()
         foreach ($ln in $chunk) { $fArgs += '-f'; $fArgs += $ln }
-        if ($unpKey) {
-            $unpOut = & $SS_Rr --aes-key $unpKey unpack $unpUtoc -o "$ck\src" @fArgs --game-paks-dir $unpDir 2>&1
-        } else {
-            $unpOut = & $SS_Rr unpack $unpUtoc -o "$ck\src" @fArgs --game-paks-dir $unpDir 2>&1
-        }
-        if ($LASTEXITCODE -ne 0) { throw ("rrcli unpack failed: " + (($unpOut | Select-Object -Last 2) -join ' | ')) }
+        $kArgs = @(); if ($unpKey) { $kArgs = @('--aes-key', $unpKey) }
+        $unpOut = SS-RunNative $SS_Rr ($kArgs + @('unpack', $unpUtoc, '-o', "$ck\src") + $fArgs + @('--game-paks-dir', $unpDir))
+        if ($LASTEXITCODE -ne 0) { throw ("rrcli unpack failed (exit $LASTEXITCODE): " + (($unpOut | Select-Object -Last 4) -join ' | ')) }
         $chunk.Clear()
     }
     if ($viaRetoc) {
@@ -1441,8 +1461,8 @@ function SS-UnpackColorAssets($lines, [string]$destRoot, [scriptblock]$Pump) {
     $flush = {
         if ($chunk.Count -eq 0) { return }
         $fArgs = @(); foreach ($ln in $chunk) { $fArgs += '-f'; $fArgs += $ln }
-        $out = & $SS_Rr unpack $SS_Utoc -o $destRoot @fArgs --game-paks-dir $SS_Paks 2>&1
-        if ($LASTEXITCODE -ne 0) { throw ('rrcli unpack (colors) failed: ' + (($out | Select-Object -Last 2) -join ' | ')) }
+        $out = SS-RunNative $SS_Rr (@('unpack', $SS_Utoc, '-o', $destRoot) + $fArgs + @('--game-paks-dir', $SS_Paks))
+        if ($LASTEXITCODE -ne 0) { throw ("rrcli unpack (colors) failed (exit $LASTEXITCODE): " + (($out | Select-Object -Last 4) -join ' | ')) }
         $chunk.Clear()
     }
     # any line living in a game patch container -> rrcli would abort; use retoc
