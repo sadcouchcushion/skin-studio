@@ -264,6 +264,9 @@ $script:SyncJob = $null
 $script:SyncSig = ''
 $script:SyncNext = [DateTime]::MinValue
 function Test-DesignSync {
+    # the app download ships without the standalone mod's scripts: nothing to
+    # sync (it used to fail every 8 s and fill helper.log, 2026-10-19)
+    if (-not [IO.File]::Exists($script:DesignSync)) { return }
     if ([DateTime]::Now -lt $script:SyncNext) { return }
     $script:SyncNext = [DateTime]::Now.AddSeconds(5)
     $j = $script:SyncJob
@@ -303,11 +306,13 @@ function Test-OpenApp {
         if (-not $key) { continue }
         # the sync, now and to the end (a running one is let finish first)
         if ($script:SyncJob -and -not $script:SyncJob.HasExited) { $null = $script:SyncJob.WaitForExit(60000) }
-        $argv = @('-NoProfile', '-ExecutionPolicy', 'RemoteSigned', '-File', ('"{0}"' -f $script:DesignSync), '-SaveDir', ('"{0}"' -f $SaveDir), '-DesignDir', ('"{0}"' -f $script:DesignDirApp))
-        if ($SyncStateFile) { $argv += @('-StateFile', ('"{0}"' -f $SyncStateFile), '-TrashDir', ('"{0}"' -f (Join-Path $LogDir 'trash'))) }
-        $p = Start-Process powershell.exe -ArgumentList $argv -WindowStyle Hidden -PassThru `
-            -RedirectStandardOutput (Join-Path $LogDir 'designsync.log') -RedirectStandardError (Join-Path $LogDir 'designsync.err')
-        $null = $p.WaitForExit(120000)
+        if ([IO.File]::Exists($script:DesignSync)) {
+            $argv = @('-NoProfile', '-ExecutionPolicy', 'RemoteSigned', '-File', ('"{0}"' -f $script:DesignSync), '-SaveDir', ('"{0}"' -f $SaveDir), '-DesignDir', ('"{0}"' -f $script:DesignDirApp))
+            if ($SyncStateFile) { $argv += @('-StateFile', ('"{0}"' -f $SyncStateFile), '-TrashDir', ('"{0}"' -f (Join-Path $LogDir 'trash'))) }
+            $p = Start-Process powershell.exe -ArgumentList $argv -WindowStyle Hidden -PassThru `
+                -RedirectStandardOutput (Join-Path $LogDir 'designsync.log') -RedirectStandardError (Join-Path $LogDir 'designsync.err')
+            $null = $p.WaitForExit(120000)
+        }
         $script:SyncSig = ''
         $app = @(Get-CimInstance Win32_Process -Filter "Name='powershell.exe'" -ErrorAction SilentlyContinue | Where-Object { $_.CommandLine -match 'SkinStudio\.ps1' })
         if ($app.Count) {
