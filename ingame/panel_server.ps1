@@ -183,6 +183,67 @@ function Pnl-Init([string]$saveDir, [string]$liveDir, [string]$designDir, [strin
     # with live preview off there is nothing to put on a hero, so it goes too.
     if ($st.LiveOn) { Pnl-Flag 'SkinLiveOn' } else { Pnl-Unflag 'SkinLiveOn' }
     Pnl-Log ('serving the in-game editor - commands from {0} (live preview {1})' -f $saveDir, $(if ($st.LiveOn) { 'on' } else { 'off' }))
+    Pnl-DoorStart
+}
+
+# ============================================================== the door
+# F8 while the watcher is busy. The first spawn on a skin the game has patched
+# since its last use re-reads all its materials, and the inbox waits for that:
+# on 2026-10-19 an F8 sat for 1.5 min with no panel at all. The door is a second
+# runspace that only answers that: when the main loop has not come round for a
+# while and an open_ is waiting, it shows a "getting ready" frame. It never
+# takes the open_ - the main loop handles it as usual once it is free, and its
+# first real frame replaces the door's.
+$script:PnlDoor = [hashtable]::Synchronized(@{
+    Beat = [DateTime]::UtcNow.Ticks; Shown = 0; Stop = $false
+    SaveDir = ''; FramePath = ''; FlagBytes = [byte[]]@(); Zoom = 1.25
+    Text = 'Getting your skin ready...'; Size = ''
+})
+function Pnl-DoorBeat { $script:PnlDoor.Beat = [DateTime]::UtcNow.Ticks }
+function Pnl-DoorStart {
+    $st = $script:Pnl; $d = $script:PnlDoor
+    if ($d.Ps) { return }
+    $d.SaveDir = $st.SaveDir; $d.FramePath = $st.FramePath; $d.FlagBytes = $st.FlagBytes
+    $d.Zoom = $st.Zoom; $d.Size = $script:PnlCanvasSize.ToString()
+    Pnl-DoorBeat
+    $ps = [powershell]::Create()
+    [void]$ps.AddScript({
+        param($d)
+        $size = [scriptblock]::Create($d.Size)
+        $seen = @{}
+        while (-not $d.Stop) {
+            Start-Sleep -Milliseconds 150
+            # the main loop polls every 30 ms: a second without it is busy
+            if (([DateTime]::UtcNow.Ticks - $d.Beat) -lt 10000000) { continue }
+            $files = @()
+            try { $files = @([IO.Directory]::GetFiles($d.SaveDir, 'SLC_*_open_*.sav')) } catch { continue }
+            foreach ($f in $files) {
+                $n = [IO.Path]::GetFileNameWithoutExtension($f)
+                if ($seen.ContainsKey($n)) { continue }
+                $seen[$n] = $true
+                try {
+                    $vw = 1920.0; $vh = 1080.0
+                    $m = [regex]::Match($n, '_open_(\d+)_(\d+)')
+                    if ($m.Success) { $vw = [Math]::Max(640, [int]$m.Groups[1].Value); $vh = [Math]::Max(480, [int]$m.Groups[2].Value) }
+                    $w, $h, $s = & $size $vw $vh $d.Zoom
+                    $ui = New-Object SkinPanel -ArgumentList $w, $h, ([single]$s)
+                    try { $ui.Begin($null); $ui.Veil($d.Text); $bmp = $ui.End() } finally { $ui.Dispose() }
+                    $tmp = $d.FramePath + '.door.tmp'
+                    try { $bmp.Save($tmp, [System.Drawing.Imaging.ImageFormat]::Png) } finally { $bmp.Dispose() }
+                    for ($i = 0; $i -lt 40; $i++) {
+                        try {
+                            if ([IO.File]::Exists($d.FramePath)) { [IO.File]::Delete($d.FramePath) }
+                            [IO.File]::Move($tmp, $d.FramePath); break
+                        } catch { Start-Sleep -Milliseconds 10 }
+                    }
+                    [IO.File]::WriteAllBytes((Join-Path $d.SaveDir 'SkinLiveFrame.sav'), $d.FlagBytes)
+                    $d.Shown++
+                } catch { $d.Error = $_.Exception.Message }
+            }
+        }
+    }).AddArgument($d)
+    $d.Ps = $ps
+    $d.Async = $ps.BeginInvoke()
 }
 
 function Pnl-Unflag([string]$name) {
@@ -261,6 +322,15 @@ function Pnl-Rank([string]$verb) {
 
 function Pnl-Poll {
     $st = $script:Pnl
+    Pnl-DoorBeat
+    if ($script:PnlDoor.Shown) {
+        # the door's frame is on screen now: the next real frame must go out
+        # even if it matches the last one this loop sent
+        $script:PnlDoor.Shown = 0
+        $st.LastHash = ''; $st.Dirty = $true
+        Pnl-Log 'F8 came in while busy - showed "getting your skin ready" until now'
+    }
+    if ($script:PnlDoor.Error) { Pnl-Log ('door error: ' + $script:PnlDoor.Error); $script:PnlDoor.Error = $null }
     # the Build mod job runs whether or not the panel is open
     try { Pnl-BuildTick } catch { Pnl-Log ('build ERROR: ' + $_.Exception.Message); if ($st.Job) { Pnl-JobFail ('the watcher hit an error: ' + $_.Exception.Message) } }
     $files = @()
@@ -379,11 +449,17 @@ function Pnl-Handle($c) {
 # canvas was multiplied by it the first in-game frame came out 215x470 with 6 px
 # text. The UI scale is the viewport's height against 1080p times her own text
 # size (Pnl-SetZoom); the height is a fixed share of the screen at every zoom.
+# (a scriptblock, not a function: the door's runspace sizes its frame with it too)
+$script:PnlCanvasSize = {
+    param([double]$vw, [double]$vh, [double]$zoom)
+    $s = [Math]::Max(0.6, [Math]::Min(4.0, $vh / 1080.0)) * $zoom
+    $w = [int][Math]::Round([Math]::Max(300, [Math]::Min(440 * $s, $vw * 0.45)))
+    $h = [int][Math]::Round($vh * 0.88)
+    @($w, $h, $s)
+}
 function Pnl-EnsureCanvas {
     $st = $script:Pnl
-    $s = [Math]::Max(0.6, [Math]::Min(4.0, $st.Vh / 1080.0)) * $st.Zoom
-    $w = [int][Math]::Round([Math]::Max(300, [Math]::Min(440 * $s, $st.Vw * 0.45)))
-    $h = [int][Math]::Round($st.Vh * 0.88)
+    $w, $h, $s = & $script:PnlCanvasSize $st.Vw $st.Vh $st.Zoom
     if ($st.Ui -and $st.PW -eq $w -and $st.PH -eq $h -and $st.PS -eq $s) { return }
     # never mid-draw: the draw is still writing to the old panel's bitmap. Only
     # Pnl-Render calls this, before its Begin(), and 'open' before any draw.
@@ -399,6 +475,7 @@ function Pnl-EnsureCanvas {
 function Pnl-SetZoom([double]$z) {
     $st = $script:Pnl
     $st.Zoom = $z
+    $script:PnlDoor.Zoom = $z
     try { [IO.File]::WriteAllText((Join-Path $st.WorkDir 'panel_zoom.txt'), $z.ToString([Globalization.CultureInfo]::InvariantCulture)) } catch {}
     $st.Dirty = $true
 }
